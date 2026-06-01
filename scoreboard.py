@@ -2,9 +2,18 @@ import cv2
 import numpy as np
 import re
 import json
+import sys
 from tqdm import tqdm
-import subprocess
 import os
+os.environ["OPENCV_LOG_LEVEL"] = "SILENT"  # suppress AV1 / codec warnings
+
+# Inject CUDA/cuDNN libraries into LD_LIBRARY_PATH and restart if needed
+cudnn_lib = os.path.abspath(os.path.join(os.path.dirname(__file__), ".venv/lib/python3.12/site-packages/nvidia/cudnn/lib"))
+cublas_lib = os.path.abspath(os.path.join(os.path.dirname(__file__), ".venv/lib/python3.12/site-packages/nvidia/cublas/lib"))
+current_ld = os.environ.get("LD_LIBRARY_PATH", "")
+if cudnn_lib not in current_ld:
+    os.environ["LD_LIBRARY_PATH"] = f"{cudnn_lib}:{cublas_lib}:{current_ld}".strip(":")
+    os.execv(sys.executable, [sys.executable] + sys.argv)
 from paddleocr import PaddleOCR
 
 # Initialise once globally — loads GPU model into VRAM on first call
@@ -12,8 +21,8 @@ ocr = PaddleOCR(use_angle_cls=False, lang='en', use_gpu=True)
 
 def crop_scoreboard(frame):
     h, w = frame.shape[:2]
-    # bottom bar — starts at 92% height, full width
-    y1 = int(h * 0.91)
+    # bottom bar — starts at 85% height, full width to catch overflowing graphics
+    y1 = int(h * 0.85)
     y2 = int(h * 1.00)
     x1 = 0
     x2 = w
@@ -43,13 +52,13 @@ def parse_ecb_scoreboard(ocr_text):
         result['runs']    = int(score_match.group(1))
         result['wickets'] = int(score_match.group(2))
     
-    # over counter — e.g. "1/50", "34/50" or noisy ones like "1 /50"
-    over_match = re.search(r'\b(\d{1,2})\s*\/\s*50\b', cleaned)
+    # over counter — e.g. "1/50", "48.2/50" or noisy ones like "1 /50"
+    over_match = re.search(r'\b(\d{1,2}(?:\.\d)?)\s*\/\s*50\b', cleaned)
     if over_match:
-        result['overs'] = int(over_match.group(1))
+        result['overs'] = float(over_match.group(1))
     
-    # batsman scores — e.g. "Roy 1(2)", "Roy 12)", "Bairstow 0 (4)"
-    batsmen = re.findall(r'([A-Z][a-z]+)\s+(\d+)\s*[\(\[]?\s*(\d+)\s*[\)\]]', cleaned)
+    # batsman scores — e.g. "Roy 1(2)", "Topley24)", "C Overton 9 (17)"
+    batsmen = re.findall(r'((?:[A-Z]\s+)?[A-Z][a-z]+)\s*(\d+)\s*[\(\[]?\s*(\d+)\s*[\)\]]', cleaned)
     if batsmen:
         result['batsmen'] = [
             {'name': b[0], 'runs': int(b[1]), 'balls': int(b[2])}
@@ -70,8 +79,10 @@ def read_scoreboard(frame):
     lines = []
     if result and result[0]:
         for item in result[0]:
-            rec = item.get('rec_texts', [])
-            lines.extend(rec)
+            # item is [[x, y...], ("text", confidence)]
+            if len(item) == 2 and isinstance(item[1], tuple):
+                text_content = item[1][0]
+                lines.append(text_content)
     text = " ".join(lines)
     return parse_ecb_scoreboard(text), text.strip()
 
@@ -97,26 +108,39 @@ def batch_process_scoreboards(video_path, json_path="segments_rms.json", out_pat
         print(f"Processing OCR for all {len(segments)} segments...")
         print("Warning: This will take several hours to complete.")
     
-    tmp_img = "tmp_frame.jpg"
-    todo    = [s for s in segments if "scoreboard" not in s]
+    todo = [s for s in segments if "scoreboard" not in s]
+    
+    cap = cv2.VideoCapture(video_path)
+    if not cap.isOpened():
+        raise RuntimeError(f"Failed to open video: {video_path}")
+    
+    fps = cap.get(cv2.CAP_PROP_FPS) or 30.0
     
     for i, s in enumerate(tqdm(todo, desc="OCR Scoreboards", initial=start_idx, total=len(segments))):
-        time_sec = s["start"] + 1.0  # grab frame from the middle of the 2s segment
-        subprocess.run([
-            "ffmpeg", "-y", "-ss", str(time_sec), "-i", video_path,
-            "-vframes", "1", "-q:v", "2", tmp_img
-        ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        time_sec = s["start"] + 1.0
+        target_msec = time_sec * 1000.0
         
-        if os.path.exists(tmp_img):
-            frame = cv2.imread(tmp_img)
-            if frame is not None:
-                try:
-                    parsed, raw = read_scoreboard(frame)
-                    s["scoreboard"] = parsed
-                    s["ocr_raw"]    = raw
-                except Exception as e:
-                    s["scoreboard"] = None
-                    s["ocr_raw"]    = f"ERROR: {e}"
+        # Fast grab sequence instead of slow I-Frame set() searches
+        ret = True
+        frame = None
+        while ret:
+            msec = cap.get(cv2.CAP_PROP_POS_MSEC)
+            if msec >= target_msec - (500.0 / fps): # within half a frame
+                ret, frame = cap.read()
+                break
+            ret = cap.grab()
+        
+        if ret and frame is not None:
+            try:
+                parsed, raw = read_scoreboard(frame)
+                s["scoreboard"] = parsed
+                s["ocr_raw"]    = raw
+            except Exception as e:
+                s["scoreboard"] = None
+                s["ocr_raw"]    = f"ERROR: {e}"
+        else:
+            s["scoreboard"] = None
+            s["ocr_raw"]    = "ERROR: frame read failed"
         
         # Save checkpoint every 500 segments
         if (i + 1) % 500 == 0:
@@ -124,8 +148,10 @@ def batch_process_scoreboards(video_path, json_path="segments_rms.json", out_pat
                 json.dump(segments, f)
             print(f"  [checkpoint saved at {start_idx + i + 1}/{len(segments)}]")
     
-    if os.path.exists(tmp_img):
-        os.remove(tmp_img)
-        
+    cap.release()
+    with open(out_path, "w") as f:
+        json.dump(segments, f, indent=4)
+    print(f"\nDone! Saved OCR results to {out_path}")
+
 if __name__ == "__main__":
-    batch_process_scoreboards("match1.mp4.webm")
+    batch_process_scoreboards("match1_h264.mp4")
