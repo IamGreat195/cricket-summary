@@ -1,0 +1,62 @@
+*.wav
+.venv/
+# --- OS & IDE Junk ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Python & ML Checkpoints ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+*.ckpt
+*.h5
+*.safetensors
+*.pt
+*.pth
+wandb/
+
+# --- Images ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+
+# --- Videos ---
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.webm
+
+# --- Archives & Large Files ---
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.pdf
+*.csv
+*.xlsx
