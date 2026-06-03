@@ -1,174 +1,126 @@
-"""
-delivery_detection.py
-─────────────────────
-Scans the OCR scoreboard data (segments_ocr.json) to find the timestamp of
-every delivery by detecting when the scoreboard state changes.
-
-Strategy
-────────
-A delivery "happened" whenever one of these changes between consecutive
-valid scoreboard reads:
-  • runs increase     → run(s) scored  (boundary, single, etc.)
-  • wickets increase  → wicket fell
-  • overs increase    → over completed (catches dot balls at end-of-over too)
-    
-Because OCR is noisy, we use a simple debounce: a new state has to appear
-in at least MIN_CONFIRM consecutive segments before we accept it as real.
-This kills one-frame glitches.
-
-Output: deliveries.json — list of delivery dicts, e.g.
-  {
-    "delivery_id": 42,
-    "timestamp":   1823.0,      ← seconds from video start
-    "hms":         "00:30:23",
-    "event":       "runs",      ← "runs" | "wicket" | "over" | "multi"
-    "before":      {"runs": 88, "wickets": 2, "overs": 14},
-    "after":       {"runs": 92, "wickets": 2, "overs": 14}
-  }
-"""
-
+import cv2
+import numpy as np
 import json
-import os
-from dataclasses import dataclass, field, asdict
-from typing import Optional
+from tqdm import tqdm
 
-# ── tuneable params ───────────────────────────────────────────────────────────
-OCR_JSON    = "segments_ocr.json"
-OUT_JSON    = "deliveries.json"
-MIN_CONFIRM = 2   # how many consecutive segments must agree on new state
-# ─────────────────────────────────────────────────────────────────────────────
+def detect_deliveries_fast(video_path, out_json="deliveries.json",
+                            sample_every=3,
+                            min_gap=18,
+                            motion_threshold=0.015,
+                            green_threshold=0.40):
 
+    cap          = cv2.VideoCapture(video_path)
+    fps          = cap.get(cv2.CAP_PROP_FPS)
+    total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+    duration     = total_frames / fps
 
-@dataclass
-class ScoreState:
-    runs:    int
-    wickets: int
-    overs:   int
+    frame_interval = max(1, int(fps * sample_every))
+    total_samples  = total_frames // frame_interval
 
-    def __eq__(self, other):
-        if other is None:
-            return False
-        return (self.runs == other.runs and
-                self.wickets == other.wickets and
-                self.overs == other.overs)
+    print(f"Duration: {duration/3600:.2f}h  |  Sampling every {sample_every}s  |  ~{total_samples} frames to check")
 
-    def to_dict(self):
-        return asdict(self)
+    deliveries      = []
+    last_delivery_t = -999
+    prev_gray_small = None
+    frame_idx       = 0
 
+    pbar = tqdm(total=total_samples, desc="Detecting deliveries")
 
-def seg_to_state(seg: dict) -> Optional[ScoreState]:
-    """Return a ScoreState from a segment dict, or None if OCR failed."""
-    sb = seg.get("scoreboard")
-    if not sb:
-        return None
-    runs    = sb.get("runs")
-    wickets = sb.get("wickets")
-    overs   = sb.get("overs")
-    if runs is None or wickets is None:
-        return None
-    # overs may be absent on some frames — default 0
-    return ScoreState(runs=runs, wickets=wickets, overs=overs or 0)
+    while True:
+        # ── fast skip: grab without decoding ─────────────────
+        for _ in range(frame_interval - 1):
+            if not cap.grab():
+                cap.release()
+                pbar.close()
+                with open(out_json, "w") as f:
+                    json.dump(deliveries, f, indent=2)
+                print(f"\nDetected {len(deliveries)} deliveries")
+                return deliveries
 
+        ret, frame = cap.read()
+        if not ret:
+            break
 
-def classify_event(before: ScoreState, after: ScoreState) -> str:
-    """Label what kind of delivery event occurred."""
-    tags = []
-    if after.wickets > before.wickets:
-        tags.append("wicket")
-    if after.runs > before.runs:
-        tags.append("runs")
-    if after.overs > before.overs:
-        tags.append("over")
-    if not tags:
-        return "unknown"
-    return tags[0] if len(tags) == 1 else "multi"
+        t = frame_idx / fps
+        frame_idx += frame_interval
+        pbar.update(1)
 
-
-def fmt_hms(seconds: float) -> str:
-    s = int(seconds)
-    return f"{s//3600:02d}:{(s%3600)//60:02d}:{s%60:02d}"
-
-
-def detect_deliveries(ocr_json=OCR_JSON, out_json=OUT_JSON, min_confirm=MIN_CONFIRM):
-    # ── load data ─────────────────────────────────────────────────────────────
-    if not os.path.exists(ocr_json):
-        raise FileNotFoundError(f"{ocr_json} not found — run scoreboard.py first")
-
-    with open(ocr_json) as f:
-        segments = json.load(f)
-
-    print(f"Loaded {len(segments):,} segments from {ocr_json}")
-
-    # ── debounced state machine ───────────────────────────────────────────────
-    deliveries = []
-    confirmed_state: Optional[ScoreState] = None   # last "locked in" state
-    candidate_state: Optional[ScoreState] = None   # state we're evaluating
-    candidate_count  = 0
-    candidate_start_ts = 0.0   # timestamp of first segment showing candidate
-
-    for seg in segments:
-        state = seg_to_state(seg)
-        if state is None:
-            continue  # skip unreadable frames
-
-        if confirmed_state is None:
-            # bootstrap: accept first valid read immediately
-            confirmed_state = state
-            candidate_state = None
-            candidate_count = 0
+        # skip if too close to last delivery
+        if t - last_delivery_t < min_gap:
             continue
 
-        if state == confirmed_state:
-            # steady state — reset any pending candidate
-            candidate_state = None
-            candidate_count = 0
+        h, w = frame.shape[:2]
+
+        # ── green ratio check ─────────────────────────────────
+        # resize to tiny size first — colour check doesnt need full res
+        small  = cv2.resize(frame, (160, 90))
+        hsv    = cv2.cvtColor(small, cv2.COLOR_BGR2HSV)
+        gmask  = cv2.inRange(hsv,
+                     np.array([35, 40, 40]),
+                     np.array([85, 255, 255]))
+
+        sh, sw = small.shape[:2]
+        
+        # structural regions
+        center = gmask[int(sh*0.3):int(sh*0.8), int(sw*0.4):int(sw*0.6)]
+        side_l = gmask[int(sh*0.3):int(sh*0.8), int(sw*0.1):int(sw*0.3)]
+        side_r = gmask[int(sh*0.3):int(sh*0.8), int(sw*0.7):int(sw*0.9)]
+
+        g_overall = np.mean(gmask  > 0)
+        g_center  = np.mean(center > 0)
+        g_side_l  = np.mean(side_l > 0)
+        g_side_r  = np.mean(side_r > 0)
+
+        is_delivery_angle = (
+            g_overall > green_threshold and
+            g_side_l  > 0.75 and
+            g_side_r  > 0.75 and
+            g_center  < 0.70
+        )
+
+        if not is_delivery_angle:
+            # update prev_gray even when skipping
+            gray_small      = cv2.cvtColor(
+                cv2.resize(frame, (160, 90)), cv2.COLOR_BGR2GRAY)
+            prev_gray_small = gray_small
             continue
 
-        # state differs from confirmed
-        if state == candidate_state:
-            candidate_count += 1
-        else:
-            # new candidate
-            candidate_state    = state
-            candidate_count    = 1
-            candidate_start_ts = seg["start"]
+        # ── fast motion: frame difference ────────────────────
+        gray_small = cv2.cvtColor(
+            cv2.resize(frame, (160, 90)), cv2.COLOR_BGR2GRAY)
 
-        if candidate_count >= min_confirm:
-            # ── delivery confirmed ────────────────────────────────────────
-            event = classify_event(confirmed_state, candidate_state)
+        motion_score = 0.0
+        if prev_gray_small is not None:
+            diff         = cv2.absdiff(prev_gray_small, gray_small)
+            motion_score = float(np.mean(diff)) / 255.0
+
+        prev_gray_small = gray_small
+
+        # ── combined vote ─────────────────────────────────────
+        if motion_score >= motion_threshold:
+            h_ = int(t) // 3600
+            m_ = (int(t) % 3600) // 60
+            s_ = int(t) % 60
 
             deliveries.append({
                 "delivery_id": len(deliveries) + 1,
-                "timestamp":   candidate_start_ts,
-                "hms":         fmt_hms(candidate_start_ts),
-                "event":       event,
-                "before":      confirmed_state.to_dict(),
-                "after":       candidate_state.to_dict(),
+                "timestamp":   round(t, 2),
+                "hms":         f"{h_:02d}:{m_:02d}:{s_:02d}",
+                "motion_score": round(motion_score, 4),
+                "green_ratio":  round(g_overall,    3)
             })
+            last_delivery_t = t
 
-            confirmed_state = candidate_state
-            candidate_state = None
-            candidate_count = 0
+    pbar.close()
+    cap.release()
 
-    # ── save ──────────────────────────────────────────────────────────────────
     with open(out_json, "w") as f:
         json.dump(deliveries, f, indent=2)
 
-    print(f"\nDetected {len(deliveries)} deliveries → saved to {out_json}")
-
-    # ── quick summary ─────────────────────────────────────────────────────────
-    from collections import Counter
-    event_counts = Counter(d["event"] for d in deliveries)
-    print("\nEvent breakdown:")
-    for event, count in sorted(event_counts.items(), key=lambda x: -x[1]):
-        print(f"  {event:<10} {count}")
-
-    if deliveries:
-        print(f"\nFirst delivery: {deliveries[0]['hms']}  ({deliveries[0]['event']})")
-        print(f"Last  delivery: {deliveries[-1]['hms']} ({deliveries[-1]['event']})")
-
+    print(f"\nDetected {len(deliveries)} deliveries → {out_json}")
+    print(f"Expected ~300 for full ODI, ~120 for T20")
     return deliveries
 
 
 if __name__ == "__main__":
-    detect_deliveries()
+    detect_deliveries_fast("match1_h264.mp4")

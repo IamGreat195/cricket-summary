@@ -36,37 +36,75 @@ def preprocess_for_ocr(region):
 
 def parse_ecb_scoreboard(ocr_text):
     result = {}
-    
-    # clean common OCR errors
+
     cleaned = ocr_text
     cleaned = cleaned.replace("'", "/")
-    cleaned = cleaned.replace("‘", "/")
-    cleaned = cleaned.replace("’", "/")
+    cleaned = cleaned.replace("'", "/")
     cleaned = cleaned.replace("|", "1")
-    cleaned = cleaned.replace("O", "0")
-    
-    # match score — runs-wickets with DASH e.g. "2-0", "156-3"
-    # this comes BEFORE the over counter
+
+    # ── runs and wickets — e.g. "160-6" ──────────────────────
     score_match = re.search(r'\b(\d{1,3})\s*-\s*(\d{1})\b', cleaned)
     if score_match:
         result['runs']    = int(score_match.group(1))
         result['wickets'] = int(score_match.group(2))
-    
-    # over counter — e.g. "1/50", "48.2/50" or noisy ones like "1 /50"
+
+    # ── overs — e.g. "33.4/50" ───────────────────────────────
     over_match = re.search(r'\b(\d{1,2}(?:\.\d)?)\s*\/\s*50\b', cleaned)
     if over_match:
         result['overs'] = float(over_match.group(1))
-    
-    # batsman scores — e.g. "Roy 1(2)", "Topley24)", "C Overton 9 (17)"
-    batsmen = re.findall(r'((?:[A-Z]\s+)?[A-Z][a-z]+)\s*(\d+)\s*[\(\[]?\s*(\d+)\s*[\)\]]', cleaned)
+
+    # ── innings — P1 or P2 ───────────────────────────────────
+    innings_match = re.search(r'\bP([12])\b', cleaned)
+    if innings_match:
+        result['innings'] = int(innings_match.group(1))
+
+    # ── current run rate — e.g. "Run Rate 4.75" ──────────────
+    crr_match = re.search(
+        r'Run\s+Rate\s+(\d{1,2}\.\d{1,2})', cleaned, re.IGNORECASE)
+    if crr_match:
+        result['run_rate'] = float(crr_match.group(1))
+
+    # ── required run rate — e.g. "Req 8.45" or "RRR 8.45" ───
+    # appears in 2nd innings only
+    rrr_match = re.search(
+        r'(?:Req|RRR|Required)\s*(?:Rate)?\s*(\d{1,2}\.\d{1,2})',
+        cleaned, re.IGNORECASE)
+    if rrr_match:
+        result['required_run_rate'] = float(rrr_match.group(1))
+
+    # ── target — e.g. "Target 245" ───────────────────────────
+    target_match = re.search(r'Target\s+(\d{2,3})', cleaned, re.IGNORECASE)
+    if target_match:
+        result['target'] = int(target_match.group(1))
+
+    # ── batsmen — e.g. "Willey 7(12)" ────────────────────────
+    batsmen = re.findall(
+        r'((?:[A-Z]\s+)?[A-Z][a-z]+)\s+(\d+)\s*\((\d+)\)', cleaned)
+    cricket_keywords = {
+        'Run', 'Rate', 'Req', 'Target', 'Toss', 'Mph', 'Kph', 'Over'
+    }
     if batsmen:
         result['batsmen'] = [
-            {'name': b[0], 'runs': int(b[1]), 'balls': int(b[2])}
+            {'name': b[0].strip(), 'runs': int(b[1]), 'balls': int(b[2])}
             for b in batsmen
+            if b[0].strip() not in cricket_keywords
+            and not re.match(r'^[A-Z][a-z]+$', b[0]) == None
         ]
-    
+
+    # ── bowler figures — e.g. "Jadeja 0-16(4.4)" ─────────────
+    # format: Name wickets-runs(overs)
+    bowler_match = re.search(
+        r'([A-Z][a-z]+)\s+(\d)-(\d{1,3})\s*\((\d{1,2}\.\d)\)', cleaned)
+    if bowler_match:
+        result['bowler'] = {
+            'name':    bowler_match.group(1),
+            'wickets': int(bowler_match.group(2)),
+            'runs':    int(bowler_match.group(3)),
+            'overs':   float(bowler_match.group(4))
+        }
+
     return result if 'runs' in result else None
-    
+        
 def read_scoreboard(frame):
     region    = crop_scoreboard(frame)
     processed = preprocess_for_ocr(region)
