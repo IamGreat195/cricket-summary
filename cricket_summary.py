@@ -12,7 +12,6 @@ from scipy.ndimage import uniform_filter1d
 video_path = "match1.mp4.webm"
 wav_path   = "match1_audio.wav"
 
-# ── Step 1: extract audio to WAV once ──────────────────────────
 if not os.path.exists(wav_path):
     print("Extracting audio with FFmpeg...")
     subprocess.run([
@@ -24,17 +23,14 @@ if not os.path.exists(wav_path):
     ], check=True)
     print("Audio extracted.")
 else:
-    print("WAV already exists, skipping extraction.")
+    print("WAV already exists.")
 
-# ── Step 2: get video duration ──────────────────────────────────
 cap = cv2.VideoCapture(video_path)
 if not cap.isOpened():
     raise RuntimeError(f"Cannot open: {video_path}")
 
 fps          = cap.get(cv2.CAP_PROP_FPS)
 total_frames = cap.get(cv2.CAP_PROP_FRAME_COUNT)
-if fps == 0:
-    raise ValueError("FPS is 0 — unsupported or corrupt file")
 
 duration = total_frames / fps
 cap.release()
@@ -42,7 +38,6 @@ cap.release()
 print(f"FPS:      {fps}")
 print(f"Duration: {duration/3600:.2f} hours")
 
-# ── Step 3: create overlapping segments ────────────────────────
 segments = []
 t = 0.0
 while t + 2.0 <= duration:
@@ -56,12 +51,10 @@ while t + 2.0 <= duration:
 
 print(f"Total segments: {len(segments)}")
 
-# save segments immediately
 with open("segments.json", "w") as f:
     json.dump(segments, f)
 print("Saved segments.json")
 
-# ── Step 4: RMS from WAV in chunks ─────────────────────────────
 def extract_audio_rms(wav_path, segments):
     with wave.open(wav_path, 'rb') as wf:
         sr         = wf.getframerate()
@@ -100,10 +93,8 @@ with open("segments_rms.json", "w") as f:
     json.dump(segments, f)
 print("Saved segments_rms.json")
 
-# ── Step 5: quick sanity check ─────────────────────────────────
 rms_values = np.array([s["rms_norm"] for s in segments])
 
-# smooth over 5 segments = 5 second window
 smoothed = uniform_filter1d(rms_values, size=5)
 
 for i, seg in enumerate(segments):

@@ -27,7 +27,6 @@ def detect_deliveries_fast(video_path, out_json="deliveries.json",
     pbar = tqdm(total=total_samples, desc="Detecting deliveries")
 
     while True:
-        # ── fast skip: grab without decoding ─────────────────
         for _ in range(frame_interval - 1):
             if not cap.grab():
                 cap.release()
@@ -45,14 +44,11 @@ def detect_deliveries_fast(video_path, out_json="deliveries.json",
         frame_idx += frame_interval
         pbar.update(1)
 
-        # skip if too close to last delivery
         if t - last_delivery_t < min_gap:
             continue
 
         h, w = frame.shape[:2]
 
-        # ── green ratio check ─────────────────────────────────
-        # resize to tiny size first — colour check doesnt need full res
         small  = cv2.resize(frame, (160, 90))
         hsv    = cv2.cvtColor(small, cv2.COLOR_BGR2HSV)
         gmask  = cv2.inRange(hsv,
@@ -61,7 +57,6 @@ def detect_deliveries_fast(video_path, out_json="deliveries.json",
 
         sh, sw = small.shape[:2]
         
-        # structural regions
         center = gmask[int(sh*0.3):int(sh*0.8), int(sw*0.4):int(sw*0.6)]
         side_l = gmask[int(sh*0.3):int(sh*0.8), int(sw*0.1):int(sw*0.3)]
         side_r = gmask[int(sh*0.3):int(sh*0.8), int(sw*0.7):int(sw*0.9)]
@@ -79,13 +74,11 @@ def detect_deliveries_fast(video_path, out_json="deliveries.json",
         )
 
         if not is_delivery_angle:
-            # update prev_gray even when skipping
             gray_small      = cv2.cvtColor(
                 cv2.resize(frame, (160, 90)), cv2.COLOR_BGR2GRAY)
             prev_gray_small = gray_small
             continue
 
-        # ── fast motion: frame difference ────────────────────
         gray_small = cv2.cvtColor(
             cv2.resize(frame, (160, 90)), cv2.COLOR_BGR2GRAY)
 
@@ -96,7 +89,6 @@ def detect_deliveries_fast(video_path, out_json="deliveries.json",
 
         prev_gray_small = gray_small
 
-        # ── combined vote ─────────────────────────────────────
         if motion_score >= motion_threshold:
             h_ = int(t) // 3600
             m_ = (int(t) % 3600) // 60
