@@ -16,8 +16,8 @@ import json
 import numpy as np
 from collections import Counter
 
-RMS_PERCENTILE     = 80    # top X% by RMS passes automatically
-CONTEXT_SECS       = 30    # seconds around an event also pass
+RMS_PERCENTILE     = 80    # top X% by RMS passes automatically (stricter audio gate)
+CONTEXT_SECS       = 30    # seconds around an event also pass (reduced from 30)
 CHASE_RUNS_MARGIN  = 40    # runs from target threshold
 CHASE_OVERS_MIN    = 46.0  # overs threshold for chase climax
 TOTAL_OVERS        = 50
@@ -70,8 +70,7 @@ def detect_events(segments):
                         seg["events"].append("six")
                     elif runs_delta >= 4:
                         seg["events"].append("four")
-                    else:
-                        seg["events"].append("runs")
+                    # Ignore normal 1, 2, 3 runs as they aren't usually highlights
 
                 elif runs_delta > 7:
                     seg["events"].append("boundary_approx")

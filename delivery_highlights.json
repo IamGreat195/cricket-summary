@@ -1,0 +1,8411 @@
+[
+  {
+    "delivery_id": 1,
+    "delivery_timestamp": 2.97,
+    "delivery_hms": "00:00:02",
+    "clip_start": 0,
+    "clip_end": 22.0,
+    "clip_start_hms": "00:00:00",
+    "clip_end_hms": "00:00:22",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.429,
+    "scoreboard": {
+      "runs": 1,
+      "wickets": 0,
+      "overs": 0.0,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 2,
+    "delivery_timestamp": 23.76,
+    "delivery_hms": "00:00:23",
+    "clip_start": 18.76,
+    "clip_end": 60.0,
+    "clip_start_hms": "00:00:18",
+    "clip_end_hms": "00:01:00",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.328,
+    "scoreboard": {
+      "runs": 1,
+      "wickets": 0,
+      "overs": 1.0
+    }
+  },
+  {
+    "delivery_id": 3,
+    "delivery_timestamp": 56.42,
+    "delivery_hms": "00:00:56",
+    "clip_start": 51.42,
+    "clip_end": 80.0,
+    "clip_start_hms": "00:00:51",
+    "clip_end_hms": "00:01:20",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.374,
+    "scoreboard": {
+      "runs": 1,
+      "wickets": 0,
+      "overs": 0.1,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 4,
+    "delivery_timestamp": 80.18,
+    "delivery_hms": "00:01:20",
+    "clip_start": 75.18,
+    "clip_end": 132.0,
+    "clip_start_hms": "00:01:15",
+    "clip_end_hms": "00:02:12",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.285,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 0.3,
+      "innings": 1,
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 2,
+        "overs": 0.3
+      }
+    }
+  },
+  {
+    "delivery_id": 5,
+    "delivery_timestamp": 148.48,
+    "delivery_hms": "00:02:28",
+    "clip_start": 143.48,
+    "clip_end": 189.0,
+    "clip_start_hms": "00:02:23",
+    "clip_end_hms": "00:03:09",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.321,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 4.0,
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 2,
+        "overs": 0.4
+      }
+    }
+  },
+  {
+    "delivery_id": 6,
+    "delivery_timestamp": 190.06,
+    "delivery_hms": "00:03:10",
+    "clip_start": 185.06,
+    "clip_end": 223.0,
+    "clip_start_hms": "00:03:05",
+    "clip_end_hms": "00:03:43",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.418,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 5.0,
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 2,
+        "overs": 0.5
+      }
+    }
+  },
+  {
+    "delivery_id": 7,
+    "delivery_timestamp": 219.75,
+    "delivery_hms": "00:03:39",
+    "clip_start": 214.75,
+    "clip_end": 277.0,
+    "clip_start_hms": "00:03:34",
+    "clip_end_hms": "00:04:37",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.416,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 1.0,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 8,
+    "delivery_timestamp": 273.21,
+    "delivery_hms": "00:04:33",
+    "clip_start": 268.21,
+    "clip_end": 297.0,
+    "clip_start_hms": "00:04:28",
+    "clip_end_hms": "00:04:57",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.378,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 1.0,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 9,
+    "delivery_timestamp": 293.99,
+    "delivery_hms": "00:04:53",
+    "clip_start": 288.99,
+    "clip_end": 327.0,
+    "clip_start_hms": "00:04:48",
+    "clip_end_hms": "00:05:27",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.369,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 1.1,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 10,
+    "delivery_timestamp": 332.6,
+    "delivery_hms": "00:05:32",
+    "clip_start": 327.6,
+    "clip_end": 357.0,
+    "clip_start_hms": "00:05:27",
+    "clip_end_hms": "00:05:57",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.397,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 1.2,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 11,
+    "delivery_timestamp": 356.36,
+    "delivery_hms": "00:05:56",
+    "clip_start": 351.36,
+    "clip_end": 420.0,
+    "clip_start_hms": "00:05:51",
+    "clip_end_hms": "00:07:00",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.358,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 1.3,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 12,
+    "delivery_timestamp": 418.72,
+    "delivery_hms": "00:06:58",
+    "clip_start": 413.72,
+    "clip_end": 469.0,
+    "clip_start_hms": "00:06:53",
+    "clip_end_hms": "00:07:49",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.427,
+    "scoreboard": {
+      "runs": 2,
+      "wickets": 0,
+      "overs": 1.5,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 13,
+    "delivery_timestamp": 495.93,
+    "delivery_hms": "00:08:15",
+    "clip_start": 490.93,
+    "clip_end": 553.0,
+    "clip_start_hms": "00:08:10",
+    "clip_end_hms": "00:09:13",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.336,
+    "scoreboard": {
+      "runs": 5,
+      "wickets": 0,
+      "overs": 2.0,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 4,
+          "balls": 8
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 14,
+    "delivery_timestamp": 549.38,
+    "delivery_hms": "00:09:09",
+    "clip_start": 544.38,
+    "clip_end": 574.0,
+    "clip_start_hms": "00:09:04",
+    "clip_end_hms": "00:09:34",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.328,
+    "scoreboard": {
+      "runs": 5,
+      "wickets": 0,
+      "overs": 2.1,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 4,
+          "balls": 9
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 2,
+        "overs": 1.1
+      }
+    }
+  },
+  {
+    "delivery_id": 15,
+    "delivery_timestamp": 570.17,
+    "delivery_hms": "00:09:30",
+    "clip_start": 565.17,
+    "clip_end": 600.0,
+    "clip_start_hms": "00:09:25",
+    "clip_end_hms": "00:10:00",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.399,
+    "scoreboard": {
+      "runs": 5,
+      "wickets": 0,
+      "overs": 2.1,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 4,
+          "balls": 9
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 16,
+    "delivery_timestamp": 596.9,
+    "delivery_hms": "00:09:56",
+    "clip_start": 591.9,
+    "clip_end": 632.0,
+    "clip_start_hms": "00:09:51",
+    "clip_end_hms": "00:10:32",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.436,
+    "scoreboard": {
+      "runs": 9,
+      "wickets": 0,
+      "overs": 2.2,
+      "innings": 1,
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 6,
+        "overs": 1.2
+      }
+    }
+  },
+  {
+    "delivery_id": 17,
+    "delivery_timestamp": 632.53,
+    "delivery_hms": "00:10:32",
+    "clip_start": 627.53,
+    "clip_end": 677.0,
+    "clip_start_hms": "00:10:27",
+    "clip_end_hms": "00:11:17",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.288,
+    "scoreboard": {
+      "runs": 9,
+      "wickets": 0,
+      "overs": 3.0,
+      "batsmen": []
+    }
+  },
+  {
+    "delivery_id": 18,
+    "delivery_timestamp": 685.99,
+    "delivery_hms": "00:11:25",
+    "clip_start": 680.99,
+    "clip_end": 718.0,
+    "clip_start_hms": "00:11:20",
+    "clip_end_hms": "00:11:58",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.272,
+    "scoreboard": {
+      "runs": 9,
+      "wickets": 0,
+      "overs": 2.4,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 8,
+          "balls": 12
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 6,
+        "overs": 1.4
+      }
+    }
+  },
+  {
+    "delivery_id": 19,
+    "delivery_timestamp": 724.59,
+    "delivery_hms": "00:12:04",
+    "clip_start": 719.59,
+    "clip_end": 753.0,
+    "clip_start_hms": "00:11:59",
+    "clip_end_hms": "00:12:33",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.365,
+    "scoreboard": {
+      "runs": 9,
+      "wickets": 0,
+      "overs": 2.5,
+      "innings": 1,
+      "batsmen": [],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 6,
+        "overs": 1.5
+      }
+    }
+  },
+  {
+    "delivery_id": 20,
+    "delivery_timestamp": 754.29,
+    "delivery_hms": "00:12:34",
+    "clip_start": 749.29,
+    "clip_end": 805.0,
+    "clip_start_hms": "00:12:29",
+    "clip_end_hms": "00:13:25",
+    "events": [
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.413,
+    "scoreboard": {
+      "runs": 9,
+      "wickets": 0,
+      "overs": 3.0,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 8,
+          "balls": 14
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 21,
+    "delivery_timestamp": 801.8,
+    "delivery_hms": "00:13:21",
+    "clip_start": 796.8,
+    "clip_end": 863.0,
+    "clip_start_hms": "00:13:16",
+    "clip_end_hms": "00:14:23",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.53,
+    "scoreboard": {
+      "runs": 9,
+      "wickets": 0,
+      "overs": 3.0,
+      "innings": 1,
+      "batsmen": []
+    }
+  },
+  {
+    "delivery_id": 24,
+    "delivery_timestamp": 938.4,
+    "delivery_hms": "00:15:38",
+    "clip_start": 933.4,
+    "clip_end": 993.0,
+    "clip_start_hms": "00:15:33",
+    "clip_end_hms": "00:16:33",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.363,
+    "scoreboard": {
+      "runs": 11,
+      "wickets": 0,
+      "overs": 3.3,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 2,
+          "balls": 7
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 5,
+        "overs": 1.3
+      }
+    }
+  },
+  {
+    "delivery_id": 25,
+    "delivery_timestamp": 994.83,
+    "delivery_hms": "00:16:34",
+    "clip_start": 989.83,
+    "clip_end": 1022.0,
+    "clip_start_hms": "00:16:29",
+    "clip_end_hms": "00:17:02",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.419,
+    "scoreboard": {
+      "runs": 13,
+      "wickets": 0,
+      "overs": 3.4,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 4,
+          "balls": 8
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 7,
+        "overs": 1.4
+      }
+    }
+  },
+  {
+    "delivery_id": 26,
+    "delivery_timestamp": 1018.58,
+    "delivery_hms": "00:16:58",
+    "clip_start": 1013.58,
+    "clip_end": 1046.0,
+    "clip_start_hms": "00:16:53",
+    "clip_end_hms": "00:17:26",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.43,
+    "scoreboard": {
+      "runs": 17,
+      "wickets": 0,
+      "overs": 5.0,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 8,
+          "balls": 9
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 11,
+        "overs": 1.5
+      }
+    }
+  },
+  {
+    "delivery_id": 27,
+    "delivery_timestamp": 1042.34,
+    "delivery_hms": "00:17:22",
+    "clip_start": 1037.34,
+    "clip_end": 1106.0,
+    "clip_start_hms": "00:17:17",
+    "clip_end_hms": "00:18:26",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.358,
+    "scoreboard": {
+      "runs": 17,
+      "wickets": 0,
+      "overs": 4.0,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 28,
+    "delivery_timestamp": 1149.25,
+    "delivery_hms": "00:19:09",
+    "clip_start": 1144.25,
+    "clip_end": 1203.0,
+    "clip_start_hms": "00:19:04",
+    "clip_end_hms": "00:20:03",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.379,
+    "scoreboard": {
+      "runs": 17,
+      "wickets": 0,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 29,
+    "delivery_timestamp": 1199.73,
+    "delivery_hms": "00:19:59",
+    "clip_start": 1194.73,
+    "clip_end": 1224.0,
+    "clip_start_hms": "00:19:54",
+    "clip_end_hms": "00:20:24",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.355,
+    "scoreboard": {
+      "runs": 21,
+      "wickets": 0,
+      "overs": 3.0,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 12,
+          "balls": 17
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 10,
+        "overs": 2.3
+      }
+    }
+  },
+  {
+    "delivery_id": 30,
+    "delivery_timestamp": 1220.52,
+    "delivery_hms": "00:20:20",
+    "clip_start": 1215.52,
+    "clip_end": 1245.0,
+    "clip_start_hms": "00:20:15",
+    "clip_end_hms": "00:20:45",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.332,
+    "scoreboard": {
+      "runs": 21,
+      "wickets": 0,
+      "overs": 4.3,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 12,
+          "balls": 17
+        },
+        {
+          "name": "Bairstow",
+          "runs": 8,
+          "balls": 10
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 10,
+        "overs": 2.3
+      }
+    }
+  },
+  {
+    "delivery_id": 31,
+    "delivery_timestamp": 1247.25,
+    "delivery_hms": "00:20:47",
+    "clip_start": 1242.25,
+    "clip_end": 1274.0,
+    "clip_start_hms": "00:20:42",
+    "clip_end_hms": "00:21:14",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.33,
+    "scoreboard": {
+      "runs": 21,
+      "wickets": 0,
+      "overs": 4.4,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 12,
+          "balls": 18
+        },
+        {
+          "name": "Bairstow",
+          "runs": 8,
+          "balls": 10
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 32,
+    "delivery_timestamp": 1271.0,
+    "delivery_hms": "00:21:11",
+    "clip_start": 1266.0,
+    "clip_end": 1334.0,
+    "clip_start_hms": "00:21:06",
+    "clip_end_hms": "00:22:14",
+    "events": [
+      "six"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.467,
+    "scoreboard": {
+      "runs": 27,
+      "wickets": 0,
+      "overs": 4.5,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 33,
+    "delivery_timestamp": 1339.3,
+    "delivery_hms": "00:22:19",
+    "clip_start": 1334.3,
+    "clip_end": 1377.0,
+    "clip_start_hms": "00:22:14",
+    "clip_end_hms": "00:22:57",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.353,
+    "scoreboard": {
+      "runs": 30,
+      "wickets": 0,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 21,
+          "balls": 20
+        },
+        {
+          "name": "Bairstow",
+          "runs": 8,
+          "balls": 10
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 34,
+    "delivery_timestamp": 1383.85,
+    "delivery_hms": "00:23:03",
+    "clip_start": 1378.85,
+    "clip_end": 1415.0,
+    "clip_start_hms": "00:22:58",
+    "clip_end_hms": "00:23:35",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.388,
+    "scoreboard": {
+      "runs": 30,
+      "wickets": 0,
+      "overs": 5.0,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 21,
+          "balls": 20
+        },
+        {
+          "name": "Bairstow",
+          "runs": 8,
+          "balls": 10
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 35,
+    "delivery_timestamp": 1437.3,
+    "delivery_hms": "00:23:57",
+    "clip_start": 1432.3,
+    "clip_end": 1464.0,
+    "clip_start_hms": "00:23:52",
+    "clip_end_hms": "00:24:24",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.28,
+    "scoreboard": {
+      "runs": 31,
+      "wickets": 0,
+      "overs": 2.0,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 8,
+          "balls": 10
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 12,
+        "overs": 2.2
+      }
+    }
+  },
+  {
+    "delivery_id": 36,
+    "delivery_timestamp": 1478.88,
+    "delivery_hms": "00:24:38",
+    "clip_start": 1473.88,
+    "clip_end": 1503.0,
+    "clip_start_hms": "00:24:33",
+    "clip_end_hms": "00:25:03",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.323,
+    "scoreboard": {
+      "runs": 31,
+      "wickets": 0,
+      "overs": 5.3,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 8,
+          "balls": 11
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 12,
+        "overs": 2.3
+      }
+    }
+  },
+  {
+    "delivery_id": 37,
+    "delivery_timestamp": 1499.66,
+    "delivery_hms": "00:24:59",
+    "clip_start": 1494.66,
+    "clip_end": 1542.0,
+    "clip_start_hms": "00:24:54",
+    "clip_end_hms": "00:25:42",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.424,
+    "scoreboard": {
+      "runs": 35,
+      "wickets": 0,
+      "overs": 5.4,
+      "innings": 1,
+      "batsmen": [],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 16,
+        "overs": 2.4
+      }
+    }
+  },
+  {
+    "delivery_id": 38,
+    "delivery_timestamp": 1538.27,
+    "delivery_hms": "00:25:38",
+    "clip_start": 1533.27,
+    "clip_end": 1598.0,
+    "clip_start_hms": "00:25:33",
+    "clip_end_hms": "00:26:38",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.382,
+    "scoreboard": {
+      "runs": 35,
+      "wickets": 0,
+      "overs": 5.5,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 12,
+          "balls": 13
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 16,
+        "overs": 2.5
+      }
+    }
+  },
+  {
+    "delivery_id": 39,
+    "delivery_timestamp": 1606.57,
+    "delivery_hms": "00:26:46",
+    "clip_start": 1601.57,
+    "clip_end": 1661.0,
+    "clip_start_hms": "00:26:41",
+    "clip_end_hms": "00:27:41",
+    "events": [
+      "wicket",
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.529,
+    "scoreboard": {
+      "runs": 287,
+      "wickets": 2
+    }
+  },
+  {
+    "delivery_id": 40,
+    "delivery_timestamp": 1657.06,
+    "delivery_hms": "00:27:37",
+    "clip_start": 1652.06,
+    "clip_end": 1702.0,
+    "clip_start_hms": "00:27:32",
+    "clip_end_hms": "00:28:22",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.421,
+    "scoreboard": {
+      "runs": 35,
+      "wickets": 0,
+      "overs": 6.1,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 22,
+          "balls": 23
+        },
+        {
+          "name": "Bairstow",
+          "runs": 12,
+          "balls": 14
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 19,
+        "overs": 3.1
+      }
+    }
+  },
+  {
+    "delivery_id": 41,
+    "delivery_timestamp": 1698.63,
+    "delivery_hms": "00:28:18",
+    "clip_start": 1693.63,
+    "clip_end": 1762.0,
+    "clip_start_hms": "00:28:13",
+    "clip_end_hms": "00:29:22",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.388,
+    "scoreboard": {
+      "runs": 35,
+      "wickets": 0,
+      "overs": 6.2,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 12,
+          "balls": 14
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 42,
+    "delivery_timestamp": 1760.99,
+    "delivery_hms": "00:29:20",
+    "clip_start": 1755.99,
+    "clip_end": 1818.0,
+    "clip_start_hms": "00:29:15",
+    "clip_end_hms": "00:30:18",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.394,
+    "scoreboard": {
+      "runs": 36,
+      "wickets": 0,
+      "overs": 6.3,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 12,
+          "balls": 14
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 43,
+    "delivery_timestamp": 1814.45,
+    "delivery_hms": "00:30:14",
+    "clip_start": 1809.45,
+    "clip_end": 1851.0,
+    "clip_start_hms": "00:30:09",
+    "clip_end_hms": "00:30:51",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.395,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 6.4,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 16,
+          "balls": 15
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 24,
+        "overs": 3.4
+      }
+    }
+  },
+  {
+    "delivery_id": 44,
+    "delivery_timestamp": 1847.11,
+    "delivery_hms": "00:30:47",
+    "clip_start": 1842.11,
+    "clip_end": 1911.0,
+    "clip_start_hms": "00:30:42",
+    "clip_end_hms": "00:31:51",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.407,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 7.0,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 16,
+          "balls": 17
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 45,
+    "delivery_timestamp": 1974.81,
+    "delivery_hms": "00:32:54",
+    "clip_start": 1969.81,
+    "clip_end": 1989.81,
+    "clip_start_hms": "00:32:49",
+    "clip_end_hms": "00:33:09",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.32,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 7.1,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 23,
+          "balls": 26
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 16,
+        "overs": 3.1
+      }
+    }
+  },
+  {
+    "delivery_id": 46,
+    "delivery_timestamp": 1995.59,
+    "delivery_hms": "00:33:15",
+    "clip_start": 1990.59,
+    "clip_end": 2021.0,
+    "clip_start_hms": "00:33:10",
+    "clip_end_hms": "00:33:41",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.292,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 7.2,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Roy",
+          "runs": 23,
+          "balls": 27
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 47,
+    "delivery_timestamp": 2022.32,
+    "delivery_hms": "00:33:42",
+    "clip_start": 2017.32,
+    "clip_end": 2049.0,
+    "clip_start_hms": "00:33:37",
+    "clip_end_hms": "00:34:09",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.357,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 7.3,
+      "innings": 1,
+      "batsmen": [],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 16,
+        "overs": 3.3
+      }
+    }
+  },
+  {
+    "delivery_id": 48,
+    "delivery_timestamp": 2046.08,
+    "delivery_hms": "00:34:06",
+    "clip_start": 2041.08,
+    "clip_end": 2061.08,
+    "clip_start_hms": "00:34:01",
+    "clip_end_hms": "00:34:21",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.38,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 49,
+    "delivery_timestamp": 2066.86,
+    "delivery_hms": "00:34:26",
+    "clip_start": 2061.86,
+    "clip_end": 2092.0,
+    "clip_start_hms": "00:34:21",
+    "clip_end_hms": "00:34:52",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.299,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 7.4,
+      "innings": 1,
+      "batsmen": [],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 16,
+        "overs": 3.4
+      }
+    }
+  },
+  {
+    "delivery_id": 52,
+    "delivery_timestamp": 2138.14,
+    "delivery_hms": "00:35:38",
+    "clip_start": 2133.14,
+    "clip_end": 2202.0,
+    "clip_start_hms": "00:35:33",
+    "clip_end_hms": "00:36:42",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.33,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 8.0,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 16,
+          "balls": 17
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 53,
+    "delivery_timestamp": 2203.47,
+    "delivery_hms": "00:36:43",
+    "clip_start": 2198.47,
+    "clip_end": 2218.47,
+    "clip_start_hms": "00:36:38",
+    "clip_end_hms": "00:36:58",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.288,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 8.0,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 16,
+          "balls": 17
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 54,
+    "delivery_timestamp": 2242.07,
+    "delivery_hms": "00:37:22",
+    "clip_start": 2237.07,
+    "clip_end": 2281.0,
+    "clip_start_hms": "00:37:17",
+    "clip_end_hms": "00:38:01",
+    "events": [
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.324,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 8.1,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 16,
+          "balls": 18
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 55,
+    "delivery_timestamp": 2277.71,
+    "delivery_hms": "00:37:57",
+    "clip_start": 2272.71,
+    "clip_end": 2320.0,
+    "clip_start_hms": "00:37:52",
+    "clip_end_hms": "00:38:40",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.266,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 8.2,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 16,
+          "balls": 19
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 56,
+    "delivery_timestamp": 2363.83,
+    "delivery_hms": "00:39:23",
+    "clip_start": 2358.83,
+    "clip_end": 2423.0,
+    "clip_start_hms": "00:39:18",
+    "clip_end_hms": "00:40:23",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.344,
+    "scoreboard": {
+      "runs": 40,
+      "wickets": 0,
+      "overs": 2.0,
+      "batsmen": []
+    }
+  },
+  {
+    "delivery_id": 57,
+    "delivery_timestamp": 2432.13,
+    "delivery_hms": "00:40:32",
+    "clip_start": 2427.13,
+    "clip_end": 2447.13,
+    "clip_start_hms": "00:40:27",
+    "clip_end_hms": "00:40:47",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.264,
+    "scoreboard": {
+      "runs": 41,
+      "wickets": 0,
+      "overs": 3.0,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 16,
+          "balls": 19
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 58,
+    "delivery_timestamp": 2452.92,
+    "delivery_hms": "00:40:52",
+    "clip_start": 2447.92,
+    "clip_end": 2516.0,
+    "clip_start_hms": "00:40:47",
+    "clip_end_hms": "00:41:56",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.288,
+    "scoreboard": {
+      "runs": 41,
+      "wickets": 0,
+      "overs": 8.4,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 17,
+          "balls": 20
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 0,
+        "runs": 1,
+        "overs": 0.4
+      }
+    }
+  },
+  {
+    "delivery_id": 59,
+    "delivery_timestamp": 2521.22,
+    "delivery_hms": "00:42:01",
+    "clip_start": 2516.22,
+    "clip_end": 2560.0,
+    "clip_start_hms": "00:41:56",
+    "clip_end_hms": "00:42:40",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.444,
+    "scoreboard": {
+      "runs": 41,
+      "wickets": 1,
+      "overs": 8.5,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 60,
+    "delivery_timestamp": 2642.97,
+    "delivery_hms": "00:44:02",
+    "clip_start": 2637.97,
+    "clip_end": 2702.0,
+    "clip_start_hms": "00:43:57",
+    "clip_end_hms": "00:45:02",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.338,
+    "scoreboard": {
+      "runs": 41,
+      "wickets": 1,
+      "overs": 9.0,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 17,
+          "balls": 20
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 61,
+    "delivery_timestamp": 2699.4,
+    "delivery_hms": "00:44:59",
+    "clip_start": 2694.4,
+    "clip_end": 2714.4,
+    "clip_start_hms": "00:44:54",
+    "clip_end_hms": "00:45:14",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.316,
+    "scoreboard": {
+      "runs": 41,
+      "wickets": 1,
+      "overs": 9.0,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 17,
+          "balls": 20
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 62,
+    "delivery_timestamp": 2844.91,
+    "delivery_hms": "00:47:24",
+    "clip_start": 2839.91,
+    "clip_end": 2859.91,
+    "clip_start_hms": "00:47:19",
+    "clip_end_hms": "00:47:39",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.281,
+    "scoreboard": {
+      "runs": 42,
+      "wickets": 1,
+      "overs": 9.3,
+      "innings": 1,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 18,
+          "balls": 21
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 1,
+        "overs": 0.3
+      }
+    }
+  },
+  {
+    "delivery_id": 64,
+    "delivery_timestamp": 2948.85,
+    "delivery_hms": "00:49:08",
+    "clip_start": 2943.85,
+    "clip_end": 2977.0,
+    "clip_start_hms": "00:49:03",
+    "clip_end_hms": "00:49:37",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.4,
+    "scoreboard": {
+      "runs": 46,
+      "wickets": 1
+    }
+  },
+  {
+    "delivery_id": 65,
+    "delivery_timestamp": 2975.57,
+    "delivery_hms": "00:49:35",
+    "clip_start": 2970.57,
+    "clip_end": 3038.0,
+    "clip_start_hms": "00:49:30",
+    "clip_end_hms": "00:50:38",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.302,
+    "scoreboard": {
+      "runs": 47,
+      "wickets": 1,
+      "overs": 10.1,
+      "innings": 2,
+      "run_rate": 4.62,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 3,
+          "balls": 4
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 2,
+        "overs": 1.1
+      },
+      "target": 48
+    }
+  },
+  {
+    "delivery_id": 66,
+    "delivery_timestamp": 3118.12,
+    "delivery_hms": "00:51:58",
+    "clip_start": 3113.12,
+    "clip_end": 3169.0,
+    "clip_start_hms": "00:51:53",
+    "clip_end_hms": "00:52:49",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.329,
+    "scoreboard": {
+      "runs": 49,
+      "wickets": 1,
+      "overs": 10.4,
+      "innings": 2,
+      "run_rate": 4.59,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 4,
+          "balls": 6
+        },
+        {
+          "name": "Bairstow",
+          "runs": 21,
+          "balls": 25
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 4,
+        "overs": 1.4
+      },
+      "target": 49
+    }
+  },
+  {
+    "delivery_id": 67,
+    "delivery_timestamp": 3216.11,
+    "delivery_hms": "00:53:36",
+    "clip_start": 3211.11,
+    "clip_end": 3279.0,
+    "clip_start_hms": "00:53:31",
+    "clip_end_hms": "00:54:39",
+    "events": [],
+    "reasons": [
+      "context"
+    ],
+    "max_rms": 0.041,
+    "scoreboard": {
+      "runs": 50,
+      "wickets": 1,
+      "overs": 11.0,
+      "innings": 2,
+      "run_rate": 4.55,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 21,
+          "balls": 25
+        }
+      ],
+      "target": 51
+    }
+  },
+  {
+    "delivery_id": 68,
+    "delivery_timestamp": 3275.51,
+    "delivery_hms": "00:54:35",
+    "clip_start": 3270.51,
+    "clip_end": 3312.0,
+    "clip_start_hms": "00:54:30",
+    "clip_end_hms": "00:55:12",
+    "events": [
+      "boundary_approx"
+    ],
+    "reasons": [
+      "event",
+      "context"
+    ],
+    "max_rms": 0.218,
+    "scoreboard": {
+      "runs": 50,
+      "wickets": 1,
+      "overs": 11.1,
+      "innings": 2,
+      "run_rate": 4.48,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 21,
+          "balls": 25
+        }
+      ],
+      "target": 51
+    }
+  },
+  {
+    "delivery_id": 69,
+    "delivery_timestamp": 3308.17,
+    "delivery_hms": "00:55:08",
+    "clip_start": 3303.17,
+    "clip_end": 3362.0,
+    "clip_start_hms": "00:55:03",
+    "clip_end_hms": "00:56:02",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.344,
+    "scoreboard": {
+      "runs": 50,
+      "wickets": 1,
+      "overs": 11.2,
+      "innings": 2,
+      "run_rate": 4.41,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 21,
+          "balls": 25
+        }
+      ],
+      "target": 51
+    }
+  },
+  {
+    "delivery_id": 70,
+    "delivery_timestamp": 3358.66,
+    "delivery_hms": "00:55:58",
+    "clip_start": 3353.66,
+    "clip_end": 3383.0,
+    "clip_start_hms": "00:55:53",
+    "clip_end_hms": "00:56:23",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.371,
+    "scoreboard": {
+      "runs": 50,
+      "wickets": 1,
+      "overs": 11.3,
+      "innings": 2,
+      "run_rate": 4.35,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 21,
+          "balls": 25
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 5,
+        "overs": 1.3
+      },
+      "target": 51
+    }
+  },
+  {
+    "delivery_id": 71,
+    "delivery_timestamp": 3382.41,
+    "delivery_hms": "00:56:22",
+    "clip_start": 3377.41,
+    "clip_end": 3423.0,
+    "clip_start_hms": "00:56:17",
+    "clip_end_hms": "00:57:03",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.358,
+    "scoreboard": {
+      "runs": 50,
+      "wickets": 1,
+      "overs": 11.3,
+      "innings": 2,
+      "run_rate": 4.35,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 5,
+          "balls": 11
+        },
+        {
+          "name": "Bairstow",
+          "runs": 21,
+          "balls": 25
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 72,
+    "delivery_timestamp": 3501.2,
+    "delivery_hms": "00:58:21",
+    "clip_start": 3496.2,
+    "clip_end": 3521.0,
+    "clip_start_hms": "00:58:16",
+    "clip_end_hms": "00:58:41",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.34,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 75,
+    "delivery_timestamp": 3605.13,
+    "delivery_hms": "01:00:05",
+    "clip_start": 3600.13,
+    "clip_end": 3629.0,
+    "clip_start_hms": "01:00:00",
+    "clip_end_hms": "01:00:29",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.347,
+    "scoreboard": {
+      "runs": 53,
+      "wickets": 1,
+      "overs": 12.1,
+      "innings": 2,
+      "run_rate": 4.36,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 22,
+          "balls": 26
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 0,
+        "runs": 1,
+        "overs": 0.1
+      },
+      "target": 54
+    }
+  },
+  {
+    "delivery_id": 76,
+    "delivery_timestamp": 3628.89,
+    "delivery_hms": "01:00:28",
+    "clip_start": 3623.89,
+    "clip_end": 3668.0,
+    "clip_start_hms": "01:00:23",
+    "clip_end_hms": "01:01:08",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.33,
+    "scoreboard": {
+      "runs": 54,
+      "wickets": 1,
+      "overs": 12.2,
+      "innings": 2,
+      "run_rate": 4.38,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 8,
+          "balls": 15
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 0,
+        "runs": 2,
+        "overs": 0.2
+      },
+      "target": 55
+    }
+  },
+  {
+    "delivery_id": 77,
+    "delivery_timestamp": 3664.53,
+    "delivery_hms": "01:01:04",
+    "clip_start": 3659.53,
+    "clip_end": 3721.0,
+    "clip_start_hms": "01:00:59",
+    "clip_end_hms": "01:02:01",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.36,
+    "scoreboard": {
+      "runs": 54,
+      "wickets": 1,
+      "overs": 12.4,
+      "innings": 2,
+      "run_rate": 4.26,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 22,
+          "balls": 28
+        },
+        {
+          "name": "Root",
+          "runs": 8,
+          "balls": 15
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 0,
+        "runs": 2,
+        "overs": 0.4
+      },
+      "target": 55
+    }
+  },
+  {
+    "delivery_id": 78,
+    "delivery_timestamp": 3726.89,
+    "delivery_hms": "01:02:06",
+    "clip_start": 3721.89,
+    "clip_end": 3790.0,
+    "clip_start_hms": "01:02:01",
+    "clip_end_hms": "01:03:10",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.554,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 79,
+    "delivery_timestamp": 3804.1,
+    "delivery_hms": "01:03:24",
+    "clip_start": 3799.1,
+    "clip_end": 3831.0,
+    "clip_start_hms": "01:03:19",
+    "clip_end_hms": "01:03:51",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.362,
+    "scoreboard": {
+      "runs": 63,
+      "wickets": 1,
+      "overs": 13.1,
+      "innings": 2,
+      "run_rate": 4.78,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 8,
+          "balls": 15
+        },
+        {
+          "name": "Bairstow",
+          "runs": 31,
+          "balls": 31
+        }
+      ],
+      "target": 64
+    }
+  },
+  {
+    "delivery_id": 80,
+    "delivery_timestamp": 3827.86,
+    "delivery_hms": "01:03:47",
+    "clip_start": 3822.86,
+    "clip_end": 3855.0,
+    "clip_start_hms": "01:03:42",
+    "clip_end_hms": "01:04:15",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.293,
+    "scoreboard": {
+      "runs": 63,
+      "wickets": 1,
+      "overs": 13.1,
+      "innings": 2,
+      "run_rate": 4.78,
+      "batsmen": [
+        {
+          "name": "Bairstow",
+          "runs": 31,
+          "balls": 31
+        },
+        {
+          "name": "Root",
+          "runs": 8,
+          "balls": 15
+        }
+      ],
+      "target": 64
+    }
+  },
+  {
+    "delivery_id": 83,
+    "delivery_timestamp": 3893.19,
+    "delivery_hms": "01:04:53",
+    "clip_start": 3888.19,
+    "clip_end": 3928.0,
+    "clip_start_hms": "01:04:48",
+    "clip_end_hms": "01:05:28",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.304,
+    "scoreboard": {
+      "runs": 64,
+      "wickets": 1,
+      "overs": 13.3,
+      "innings": 2,
+      "run_rate": 4.74,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 8,
+          "balls": 15
+        },
+        {
+          "name": "Bairstow",
+          "runs": 32,
+          "balls": 33
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 12,
+        "overs": 2.3
+      },
+      "target": 64
+    }
+  },
+  {
+    "delivery_id": 84,
+    "delivery_timestamp": 3940.7,
+    "delivery_hms": "01:05:40",
+    "clip_start": 3935.7,
+    "clip_end": 3974.0,
+    "clip_start_hms": "01:05:35",
+    "clip_end_hms": "01:06:14",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.307,
+    "scoreboard": {
+      "runs": 65,
+      "wickets": 1,
+      "overs": 13.4,
+      "innings": 2,
+      "run_rate": 4.76,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 9,
+          "balls": 16
+        },
+        {
+          "name": "Bairstow",
+          "runs": 32,
+          "balls": 33
+        }
+      ],
+      "target": 66
+    }
+  },
+  {
+    "delivery_id": 85,
+    "delivery_timestamp": 3970.4,
+    "delivery_hms": "01:06:10",
+    "clip_start": 3965.4,
+    "clip_end": 3995.0,
+    "clip_start_hms": "01:06:05",
+    "clip_end_hms": "01:06:35",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.374,
+    "scoreboard": {
+      "runs": 69,
+      "wickets": 1,
+      "overs": 13.5,
+      "innings": 2,
+      "run_rate": 4.99,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 9,
+          "balls": 16
+        },
+        {
+          "name": "Bairstow",
+          "runs": 36,
+          "balls": 34
+        }
+      ],
+      "target": 70
+    }
+  },
+  {
+    "delivery_id": 86,
+    "delivery_timestamp": 3991.19,
+    "delivery_hms": "01:06:31",
+    "clip_start": 3986.19,
+    "clip_end": 4023.0,
+    "clip_start_hms": "01:06:26",
+    "clip_end_hms": "01:07:03",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.502,
+    "scoreboard": {
+      "runs": 69,
+      "wickets": 1,
+      "overs": 13.5,
+      "innings": 2,
+      "run_rate": 4.99,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 9,
+          "balls": 16
+        },
+        {
+          "name": "Bairstow",
+          "runs": 36,
+          "balls": 34
+        }
+      ],
+      "target": 70
+    }
+  },
+  {
+    "delivery_id": 87,
+    "delivery_timestamp": 4023.85,
+    "delivery_hms": "01:07:03",
+    "clip_start": 4018.85,
+    "clip_end": 4078.0,
+    "clip_start_hms": "01:06:58",
+    "clip_end_hms": "01:07:58",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.278,
+    "scoreboard": {
+      "runs": 70,
+      "wickets": 1,
+      "overs": 14.0,
+      "innings": 2,
+      "run_rate": 5.0,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 9,
+          "balls": 16
+        },
+        {
+          "name": "Bairstow",
+          "runs": 37,
+          "balls": 35
+        }
+      ],
+      "target": 71
+    }
+  },
+  {
+    "delivery_id": 89,
+    "delivery_timestamp": 4112.94,
+    "delivery_hms": "01:08:32",
+    "clip_start": 4107.94,
+    "clip_end": 4137.0,
+    "clip_start_hms": "01:08:27",
+    "clip_end_hms": "01:08:57",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.29,
+    "scoreboard": {
+      "runs": 72,
+      "wickets": 1,
+      "overs": 14.3,
+      "innings": 2,
+      "run_rate": 4.95,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 9,
+          "balls": 16
+        },
+        {
+          "name": "Bairstow",
+          "runs": 38,
+          "balls": 37
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 0,
+        "runs": 8,
+        "overs": 1.2
+      },
+      "target": 72
+    }
+  },
+  {
+    "delivery_id": 90,
+    "delivery_timestamp": 4133.73,
+    "delivery_hms": "01:08:53",
+    "clip_start": 4128.73,
+    "clip_end": 4194.0,
+    "clip_start_hms": "01:08:48",
+    "clip_end_hms": "01:09:54",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.583,
+    "scoreboard": {
+      "runs": 72,
+      "wickets": 2,
+      "overs": 14.4,
+      "innings": 2,
+      "run_rate": 4.91,
+      "target": 73
+    }
+  },
+  {
+    "delivery_id": 91,
+    "delivery_timestamp": 4202.03,
+    "delivery_hms": "01:10:02",
+    "clip_start": 4197.03,
+    "clip_end": 4259.0,
+    "clip_start_hms": "01:09:57",
+    "clip_end_hms": "01:10:59",
+    "events": [
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.334,
+    "scoreboard": {
+      "runs": 72,
+      "wickets": 2,
+      "overs": 15.0,
+      "innings": 2,
+      "run_rate": 4.8,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 0,
+          "balls": 2
+        }
+      ],
+      "target": 73
+    }
+  },
+  {
+    "delivery_id": 92,
+    "delivery_timestamp": 4255.48,
+    "delivery_hms": "01:10:55",
+    "clip_start": 4250.48,
+    "clip_end": 4272.0,
+    "clip_start_hms": "01:10:50",
+    "clip_end_hms": "01:11:12",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.29,
+    "scoreboard": {
+      "runs": 72,
+      "wickets": 2,
+      "overs": 15.0,
+      "innings": 2,
+      "run_rate": 4.8,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 0,
+          "balls": 2
+        }
+      ],
+      "target": 73
+    }
+  },
+  {
+    "delivery_id": 93,
+    "delivery_timestamp": 4279.24,
+    "delivery_hms": "01:11:19",
+    "clip_start": 4274.24,
+    "clip_end": 4327.0,
+    "clip_start_hms": "01:11:14",
+    "clip_end_hms": "01:12:07",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.356,
+    "scoreboard": {
+      "runs": 73,
+      "wickets": 2,
+      "overs": 15.1,
+      "innings": 2,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 11,
+          "balls": 18
+        },
+        {
+          "name": "Stokes",
+          "runs": 0,
+          "balls": 2
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 19,
+        "overs": 3.1
+      },
+      "target": 74
+    }
+  },
+  {
+    "delivery_id": 94,
+    "delivery_timestamp": 4323.79,
+    "delivery_hms": "01:12:03",
+    "clip_start": 4318.79,
+    "clip_end": 4365.0,
+    "clip_start_hms": "01:11:58",
+    "clip_end_hms": "01:12:45",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.347,
+    "scoreboard": {
+      "runs": 73,
+      "wickets": 2,
+      "overs": 2.0,
+      "run_rate": 4.76,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 11,
+          "balls": 18
+        },
+        {
+          "name": "Stokes",
+          "runs": 0,
+          "balls": 3
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 19,
+        "overs": 3.2
+      }
+    }
+  },
+  {
+    "delivery_id": 95,
+    "delivery_timestamp": 4362.39,
+    "delivery_hms": "01:12:42",
+    "clip_start": 4357.39,
+    "clip_end": 4398.0,
+    "clip_start_hms": "01:12:37",
+    "clip_end_hms": "01:13:18",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.34,
+    "scoreboard": {
+      "runs": 77,
+      "wickets": 2,
+      "overs": 15.3,
+      "innings": 2,
+      "run_rate": 4.97,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 4,
+          "balls": 4
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 23,
+        "overs": 3.3
+      },
+      "target": 78
+    }
+  },
+  {
+    "delivery_id": 96,
+    "delivery_timestamp": 4403.97,
+    "delivery_hms": "01:13:23",
+    "clip_start": 4398.97,
+    "clip_end": 4418.97,
+    "clip_start_hms": "01:13:18",
+    "clip_end_hms": "01:13:38",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.277,
+    "scoreboard": {
+      "runs": 77,
+      "wickets": 2,
+      "overs": 15.4,
+      "innings": 2,
+      "run_rate": 4.91,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 11,
+          "balls": 18
+        },
+        {
+          "name": "Stokes",
+          "runs": 4,
+          "balls": 5
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 23,
+        "overs": 3.4
+      },
+      "target": 78
+    }
+  },
+  {
+    "delivery_id": 98,
+    "delivery_timestamp": 4451.48,
+    "delivery_hms": "01:14:11",
+    "clip_start": 4446.48,
+    "clip_end": 4509.0,
+    "clip_start_hms": "01:14:06",
+    "clip_end_hms": "01:15:09",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.285,
+    "scoreboard": {
+      "runs": 78,
+      "wickets": 2,
+      "overs": 16.0,
+      "innings": 2,
+      "run_rate": 4.88,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 11,
+          "balls": 18
+        },
+        {
+          "name": "Stokes",
+          "runs": 5,
+          "balls": 7
+        }
+      ],
+      "target": 79
+    }
+  },
+  {
+    "delivery_id": 99,
+    "delivery_timestamp": 4525.72,
+    "delivery_hms": "01:15:25",
+    "clip_start": 4520.72,
+    "clip_end": 4559.0,
+    "clip_start_hms": "01:15:20",
+    "clip_end_hms": "01:15:59",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.349,
+    "scoreboard": {
+      "runs": 78,
+      "wickets": 2,
+      "overs": 16.0,
+      "innings": 2,
+      "run_rate": 4.88,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 11,
+          "balls": 18
+        },
+        {
+          "name": "Stokes",
+          "runs": 5,
+          "balls": 7
+        }
+      ],
+      "target": 79
+    }
+  },
+  {
+    "delivery_id": 100,
+    "delivery_timestamp": 4573.24,
+    "delivery_hms": "01:16:13",
+    "clip_start": 4568.24,
+    "clip_end": 4637.0,
+    "clip_start_hms": "01:16:08",
+    "clip_end_hms": "01:17:17",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.317,
+    "scoreboard": {
+      "runs": 78,
+      "wickets": 2,
+      "overs": 3.0,
+      "run_rate": 4.73,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 5,
+          "balls": 10
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 101,
+    "delivery_timestamp": 4659.35,
+    "delivery_hms": "01:17:39",
+    "clip_start": 4654.35,
+    "clip_end": 4688.0,
+    "clip_start_hms": "01:17:34",
+    "clip_end_hms": "01:18:08",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.415,
+    "scoreboard": {
+      "runs": 80,
+      "wickets": 2,
+      "overs": 16.4,
+      "innings": 2,
+      "run_rate": 4.8,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 11,
+          "balls": 18
+        },
+        {
+          "name": "Stokes",
+          "runs": 7,
+          "balls": 11
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 26,
+        "overs": 4.4
+      },
+      "target": 81
+    }
+  },
+  {
+    "delivery_id": 102,
+    "delivery_timestamp": 4703.9,
+    "delivery_hms": "01:18:23",
+    "clip_start": 4698.9,
+    "clip_end": 4732.0,
+    "clip_start_hms": "01:18:18",
+    "clip_end_hms": "01:18:52",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.373,
+    "scoreboard": {
+      "runs": 81,
+      "wickets": 2,
+      "overs": 16.5,
+      "innings": 2,
+      "batsmen": [
+        {
+          "name": "Root",
+          "runs": 11,
+          "balls": 18
+        },
+        {
+          "name": "Stokes",
+          "runs": 8,
+          "balls": 12
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 27,
+        "overs": 4.5
+      },
+      "target": 81
+    }
+  },
+  {
+    "delivery_id": 103,
+    "delivery_timestamp": 4730.63,
+    "delivery_hms": "01:18:50",
+    "clip_start": 4725.63,
+    "clip_end": 4792.0,
+    "clip_start_hms": "01:18:45",
+    "clip_end_hms": "01:19:52",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.337,
+    "scoreboard": {
+      "runs": 81,
+      "wickets": 2,
+      "overs": 16.5,
+      "innings": 2,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 8,
+          "balls": 12
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 27,
+        "overs": 4.5
+      },
+      "target": 82
+    }
+  },
+  {
+    "delivery_id": 104,
+    "delivery_timestamp": 4825.65,
+    "delivery_hms": "01:20:25",
+    "clip_start": 4820.65,
+    "clip_end": 4871.0,
+    "clip_start_hms": "01:20:20",
+    "clip_end_hms": "01:21:11",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.308,
+    "scoreboard": {
+      "runs": 82,
+      "wickets": 2,
+      "overs": 17.2,
+      "innings": 2,
+      "run_rate": 4.73,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 9,
+          "balls": 14
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 1,
+        "runs": 10,
+        "overs": 2.2
+      },
+      "target": 82
+    }
+  },
+  {
+    "delivery_id": 105,
+    "delivery_timestamp": 4867.23,
+    "delivery_hms": "01:21:07",
+    "clip_start": 4862.23,
+    "clip_end": 4892.0,
+    "clip_start_hms": "01:21:02",
+    "clip_end_hms": "01:21:32",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.306,
+    "scoreboard": {
+      "runs": 82,
+      "wickets": 2,
+      "overs": 17.3,
+      "innings": 2,
+      "run_rate": 4.69,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 9,
+          "balls": 14
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 1,
+        "runs": 10,
+        "overs": 2.3
+      },
+      "target": 83
+    }
+  },
+  {
+    "delivery_id": 106,
+    "delivery_timestamp": 4888.02,
+    "delivery_hms": "01:21:28",
+    "clip_start": 4883.02,
+    "clip_end": 4929.0,
+    "clip_start_hms": "01:21:23",
+    "clip_end_hms": "01:22:09",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 1.0,
+    "scoreboard": {
+      "runs": 82,
+      "wickets": 3,
+      "overs": 4.0,
+      "run_rate": 4.64
+    }
+  },
+  {
+    "delivery_id": 108,
+    "delivery_timestamp": 4956.32,
+    "delivery_hms": "01:22:36",
+    "clip_start": 4951.32,
+    "clip_end": 4990.0,
+    "clip_start_hms": "01:22:31",
+    "clip_end_hms": "01:23:10",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.357,
+    "scoreboard": {
+      "runs": 82,
+      "wickets": 3,
+      "overs": 17.4,
+      "innings": 2,
+      "run_rate": 4.64,
+      "target": 83
+    }
+  },
+  {
+    "delivery_id": 109,
+    "delivery_timestamp": 5069.16,
+    "delivery_hms": "01:24:29",
+    "clip_start": 5064.16,
+    "clip_end": 5124.0,
+    "clip_start_hms": "01:24:24",
+    "clip_end_hms": "01:25:24",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.427,
+    "scoreboard": {
+      "runs": 82,
+      "wickets": 3,
+      "overs": 17.5,
+      "innings": 2,
+      "run_rate": 4.6,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 9,
+          "balls": 14
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 2,
+        "runs": 10,
+        "overs": 2.5
+      },
+      "target": 83
+    }
+  },
+  {
+    "delivery_id": 110,
+    "delivery_timestamp": 5155.28,
+    "delivery_hms": "01:25:55",
+    "clip_start": 5150.28,
+    "clip_end": 5219.0,
+    "clip_start_hms": "01:25:50",
+    "clip_end_hms": "01:26:59",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.454,
+    "scoreboard": {
+      "runs": 85,
+      "wickets": 3,
+      "overs": 1.0,
+      "run_rate": 4.68,
+      "batsmen": [
+        {
+          "name": "Buttler",
+          "runs": 2,
+          "balls": 2
+        },
+        {
+          "name": "Stokes",
+          "runs": 10,
+          "balls": 15
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 0,
+        "runs": 28,
+        "overs": 5.1
+      }
+    }
+  },
+  {
+    "delivery_id": 111,
+    "delivery_timestamp": 5259.22,
+    "delivery_hms": "01:27:39",
+    "clip_start": 5254.22,
+    "clip_end": 5323.0,
+    "clip_start_hms": "01:27:34",
+    "clip_end_hms": "01:28:43",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.454,
+    "scoreboard": {
+      "runs": 87,
+      "wickets": 4,
+      "overs": 4.0,
+      "run_rate": 4.66,
+      "bowler": {
+        "name": "Shami",
+        "wickets": 1,
+        "runs": 30,
+        "overs": 5.4
+      }
+    }
+  },
+  {
+    "delivery_id": 112,
+    "delivery_timestamp": 5443.34,
+    "delivery_hms": "01:30:43",
+    "clip_start": 5438.34,
+    "clip_end": 5504.0,
+    "clip_start_hms": "01:30:38",
+    "clip_end_hms": "01:31:44",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.381,
+    "scoreboard": {
+      "runs": 87,
+      "wickets": 4,
+      "overs": 18.5,
+      "innings": 2,
+      "run_rate": 4.62,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 10,
+          "balls": 15
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 1,
+        "runs": 30,
+        "overs": 5.5
+      },
+      "target": 88
+    }
+  },
+  {
+    "delivery_id": 113,
+    "delivery_timestamp": 5535.4,
+    "delivery_hms": "01:32:15",
+    "clip_start": 5530.4,
+    "clip_end": 5599.0,
+    "clip_start_hms": "01:32:10",
+    "clip_end_hms": "01:33:19",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.349,
+    "scoreboard": {
+      "runs": 87,
+      "wickets": 4,
+      "run_rate": 4.58,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 10,
+          "balls": 15
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 114,
+    "delivery_timestamp": 5713.57,
+    "delivery_hms": "01:35:13",
+    "clip_start": 5708.57,
+    "clip_end": 5776.0,
+    "clip_start_hms": "01:35:08",
+    "clip_end_hms": "01:36:16",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.344,
+    "scoreboard": {
+      "runs": 97,
+      "wickets": 4,
+      "overs": 19.4,
+      "innings": 2,
+      "run_rate": 4.93,
+      "batsmen": [
+        {
+          "name": "Stokes",
+          "runs": 20,
+          "balls": 19
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 2,
+        "runs": 22,
+        "overs": 3.4
+      },
+      "target": 98
+    }
+  },
+  {
+    "delivery_id": 116,
+    "delivery_timestamp": 6019.45,
+    "delivery_hms": "01:40:19",
+    "clip_start": 6014.45,
+    "clip_end": 6073.0,
+    "clip_start_hms": "01:40:14",
+    "clip_end_hms": "01:41:13",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.301,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 118,
+    "delivery_timestamp": 6105.57,
+    "delivery_hms": "01:41:45",
+    "clip_start": 6100.57,
+    "clip_end": 6169.0,
+    "clip_start_hms": "01:41:40",
+    "clip_end_hms": "01:42:49",
+    "events": [
+      "wicket",
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.311,
+    "scoreboard": {
+      "runs": 101,
+      "wickets": 4,
+      "overs": 21.0,
+      "innings": 2,
+      "run_rate": 4.81,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 2,
+          "balls": 8
+        },
+        {
+          "name": "Stokes",
+          "runs": 21,
+          "balls": 21
+        }
+      ],
+      "target": 102
+    }
+  },
+  {
+    "delivery_id": 119,
+    "delivery_timestamp": 6322.35,
+    "delivery_hms": "01:45:22",
+    "clip_start": 6317.35,
+    "clip_end": 6353.0,
+    "clip_start_hms": "01:45:17",
+    "clip_end_hms": "01:45:53",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.389,
+    "scoreboard": {
+      "runs": 102,
+      "wickets": 5,
+      "overs": 3.0,
+      "run_rate": 4.74
+    }
+  },
+  {
+    "delivery_id": 120,
+    "delivery_timestamp": 6349.08,
+    "delivery_hms": "01:45:49",
+    "clip_start": 6344.08,
+    "clip_end": 6365.0,
+    "clip_start_hms": "01:45:44",
+    "clip_end_hms": "01:46:05",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.401,
+    "scoreboard": {
+      "runs": 102,
+      "wickets": 5,
+      "overs": 21.3,
+      "innings": 2,
+      "run_rate": 4.74,
+      "target": 103
+    }
+  },
+  {
+    "delivery_id": 121,
+    "delivery_timestamp": 6408.47,
+    "delivery_hms": "01:46:48",
+    "clip_start": 6403.47,
+    "clip_end": 6460.0,
+    "clip_start_hms": "01:46:43",
+    "clip_end_hms": "01:47:40",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.395,
+    "scoreboard": {
+      "runs": 102,
+      "wickets": 5,
+      "overs": 21.3,
+      "innings": 2,
+      "run_rate": 4.74,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 3,
+          "balls": 9
+        },
+        {
+          "name": "Ali",
+          "runs": 0,
+          "balls": 0
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 3,
+        "runs": 25,
+        "overs": 4.3
+      },
+      "target": 103
+    }
+  },
+  {
+    "delivery_id": 122,
+    "delivery_timestamp": 6461.92,
+    "delivery_hms": "01:47:41",
+    "clip_start": 6456.92,
+    "clip_end": 6498.0,
+    "clip_start_hms": "01:47:36",
+    "clip_end_hms": "01:48:18",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.32,
+    "scoreboard": {
+      "runs": 103,
+      "wickets": 5,
+      "overs": 21.5,
+      "innings": 2,
+      "run_rate": 4.71,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 3,
+          "balls": 9
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 3,
+        "runs": 25,
+        "overs": 4.4
+      },
+      "target": 103
+    }
+  },
+  {
+    "delivery_id": 123,
+    "delivery_timestamp": 6494.59,
+    "delivery_hms": "01:48:14",
+    "clip_start": 6489.59,
+    "clip_end": 6541.0,
+    "clip_start_hms": "01:48:09",
+    "clip_end_hms": "01:49:01",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.358,
+    "scoreboard": {
+      "runs": 103,
+      "wickets": 5,
+      "overs": 22.0,
+      "innings": 2,
+      "run_rate": 4.68,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 3,
+          "balls": 10
+        }
+      ],
+      "target": 104
+    }
+  },
+  {
+    "delivery_id": 124,
+    "delivery_timestamp": 6556.95,
+    "delivery_hms": "01:49:16",
+    "clip_start": 6551.95,
+    "clip_end": 6584.0,
+    "clip_start_hms": "01:49:11",
+    "clip_end_hms": "01:49:44",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.299,
+    "scoreboard": {
+      "runs": 103,
+      "wickets": 5,
+      "overs": 22.0,
+      "innings": 2,
+      "run_rate": 4.68,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 3,
+          "balls": 10
+        }
+      ],
+      "target": 104
+    }
+  },
+  {
+    "delivery_id": 125,
+    "delivery_timestamp": 6586.65,
+    "delivery_hms": "01:49:46",
+    "clip_start": 6581.65,
+    "clip_end": 6650.0,
+    "clip_start_hms": "01:49:41",
+    "clip_end_hms": "01:50:50",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.5,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 126,
+    "delivery_timestamp": 6990.52,
+    "delivery_hms": "01:56:30",
+    "clip_start": 6985.52,
+    "clip_end": 7012.0,
+    "clip_start_hms": "01:56:25",
+    "clip_end_hms": "01:56:52",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.366,
+    "scoreboard": {
+      "runs": 116,
+      "wickets": 5,
+      "overs": 24.0,
+      "innings": 2,
+      "run_rate": 4.83,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 12,
+          "balls": 19
+        },
+        {
+          "name": "Ali",
+          "runs": 4,
+          "balls": 5
+        }
+      ],
+      "target": 117
+    }
+  },
+  {
+    "delivery_id": 127,
+    "delivery_timestamp": 7064.76,
+    "delivery_hms": "01:57:44",
+    "clip_start": 7059.76,
+    "clip_end": 7081.0,
+    "clip_start_hms": "01:57:39",
+    "clip_end_hms": "01:58:01",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.275,
+    "scoreboard": {
+      "runs": 116,
+      "wickets": 5,
+      "overs": 24.1,
+      "innings": 2,
+      "run_rate": 4.8,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 12,
+          "balls": 19
+        }
+      ],
+      "target": 117
+    }
+  },
+  {
+    "delivery_id": 128,
+    "delivery_timestamp": 7085.55,
+    "delivery_hms": "01:58:05",
+    "clip_start": 7080.55,
+    "clip_end": 7112.0,
+    "clip_start_hms": "01:58:00",
+    "clip_end_hms": "01:58:32",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.276,
+    "scoreboard": {
+      "runs": 116,
+      "wickets": 5,
+      "overs": 24.1,
+      "innings": 2,
+      "run_rate": 4.8,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 12,
+          "balls": 19
+        },
+        {
+          "name": "Ali",
+          "runs": 4,
+          "balls": 6
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 18,
+        "overs": 5.1
+      },
+      "target": 117
+    }
+  },
+  {
+    "delivery_id": 129,
+    "delivery_timestamp": 7136.03,
+    "delivery_hms": "01:58:56",
+    "clip_start": 7131.03,
+    "clip_end": 7187.0,
+    "clip_start_hms": "01:58:51",
+    "clip_end_hms": "01:59:47",
+    "events": [],
+    "reasons": [
+      "context"
+    ],
+    "max_rms": 0.242,
+    "scoreboard": {
+      "runs": 117,
+      "wickets": 5,
+      "overs": 24.2,
+      "innings": 2,
+      "run_rate": 4.81,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 12,
+          "balls": 19
+        },
+        {
+          "name": "Ali",
+          "runs": 5,
+          "balls": 7
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 19,
+        "overs": 5.2
+      },
+      "target": 118
+    }
+  },
+  {
+    "delivery_id": 130,
+    "delivery_timestamp": 7183.54,
+    "delivery_hms": "01:59:43",
+    "clip_start": 7178.54,
+    "clip_end": 7226.0,
+    "clip_start_hms": "01:59:38",
+    "clip_end_hms": "02:00:26",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.37,
+    "scoreboard": {
+      "runs": 121,
+      "wickets": 5,
+      "overs": 24.3,
+      "innings": 2,
+      "run_rate": 4.94,
+      "target": 122
+    }
+  },
+  {
+    "delivery_id": 131,
+    "delivery_timestamp": 7222.15,
+    "delivery_hms": "02:00:22",
+    "clip_start": 7217.15,
+    "clip_end": 7255.0,
+    "clip_start_hms": "02:00:17",
+    "clip_end_hms": "02:00:55",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.303,
+    "scoreboard": {
+      "runs": 121,
+      "wickets": 5,
+      "overs": 24.4,
+      "innings": 2,
+      "run_rate": 4.91,
+      "target": 122
+    }
+  },
+  {
+    "delivery_id": 132,
+    "delivery_timestamp": 7254.81,
+    "delivery_hms": "02:00:54",
+    "clip_start": 7249.81,
+    "clip_end": 7275.0,
+    "clip_start_hms": "02:00:49",
+    "clip_end_hms": "02:01:15",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.299,
+    "scoreboard": {
+      "runs": 121,
+      "wickets": 5,
+      "overs": 24.5,
+      "innings": 2,
+      "run_rate": 4.87,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 16,
+          "balls": 22
+        },
+        {
+          "name": "Ali",
+          "runs": 5,
+          "balls": 7
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 23,
+        "overs": 5.5
+      },
+      "target": 122
+    }
+  },
+  {
+    "delivery_id": 133,
+    "delivery_timestamp": 7281.54,
+    "delivery_hms": "02:01:21",
+    "clip_start": 7276.54,
+    "clip_end": 7303.0,
+    "clip_start_hms": "02:01:16",
+    "clip_end_hms": "02:01:43",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.337,
+    "scoreboard": {
+      "runs": 121,
+      "wickets": 5,
+      "overs": 24.5,
+      "innings": 2,
+      "run_rate": 4.87,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 16,
+          "balls": 22
+        },
+        {
+          "name": "Ali",
+          "runs": 5,
+          "balls": 7
+        }
+      ],
+      "target": 122
+    }
+  },
+  {
+    "delivery_id": 134,
+    "delivery_timestamp": 7302.33,
+    "delivery_hms": "02:01:42",
+    "clip_start": 7297.33,
+    "clip_end": 7353.0,
+    "clip_start_hms": "02:01:37",
+    "clip_end_hms": "02:02:33",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.347,
+    "scoreboard": {
+      "runs": 121,
+      "wickets": 5,
+      "overs": 25.0,
+      "innings": 2,
+      "run_rate": 4.84,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 16,
+          "balls": 23
+        },
+        {
+          "name": "Ali",
+          "runs": 5,
+          "balls": 7
+        }
+      ],
+      "target": 122
+    }
+  },
+  {
+    "delivery_id": 135,
+    "delivery_timestamp": 7349.84,
+    "delivery_hms": "02:02:29",
+    "clip_start": 7344.84,
+    "clip_end": 7377.0,
+    "clip_start_hms": "02:02:24",
+    "clip_end_hms": "02:02:57",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.345,
+    "scoreboard": {
+      "runs": 121,
+      "wickets": 5,
+      "overs": 25.0,
+      "innings": 2,
+      "run_rate": 4.84,
+      "batsmen": [
+        {
+          "name": "Ali",
+          "runs": 5,
+          "balls": 7
+        },
+        {
+          "name": "Livingstone",
+          "runs": 16,
+          "balls": 23
+        }
+      ],
+      "target": 122
+    }
+  },
+  {
+    "delivery_id": 136,
+    "delivery_timestamp": 7373.6,
+    "delivery_hms": "02:02:53",
+    "clip_start": 7368.6,
+    "clip_end": 7397.0,
+    "clip_start_hms": "02:02:48",
+    "clip_end_hms": "02:03:17",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.399,
+    "scoreboard": {
+      "runs": 121,
+      "wickets": 5,
+      "overs": 25.1,
+      "innings": 2,
+      "run_rate": 4.81,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 16,
+          "balls": 23
+        },
+        {
+          "name": "Ali",
+          "runs": 5,
+          "balls": 8
+        }
+      ],
+      "target": 122
+    }
+  },
+  {
+    "delivery_id": 137,
+    "delivery_timestamp": 7394.39,
+    "delivery_hms": "02:03:14",
+    "clip_start": 7389.39,
+    "clip_end": 7415.0,
+    "clip_start_hms": "02:03:09",
+    "clip_end_hms": "02:03:35",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.303,
+    "scoreboard": {
+      "runs": 123,
+      "wickets": 5,
+      "overs": 25.2,
+      "innings": 2,
+      "run_rate": 4.86,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 16,
+          "balls": 23
+        },
+        {
+          "name": "Ali",
+          "runs": 7,
+          "balls": 9
+        }
+      ],
+      "bowler": {
+        "name": "Jadeja",
+        "wickets": 0,
+        "runs": 2,
+        "overs": 0.2
+      },
+      "target": 122
+    }
+  },
+  {
+    "delivery_id": 138,
+    "delivery_timestamp": 7418.14,
+    "delivery_hms": "02:03:38",
+    "clip_start": 7413.14,
+    "clip_end": 7452.0,
+    "clip_start_hms": "02:03:33",
+    "clip_end_hms": "02:04:12",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.337,
+    "scoreboard": {
+      "runs": 124,
+      "wickets": 5,
+      "overs": 25.3,
+      "innings": 2,
+      "run_rate": 4.86,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 16,
+          "balls": 23
+        },
+        {
+          "name": "Ali",
+          "runs": 8,
+          "balls": 10
+        }
+      ],
+      "bowler": {
+        "name": "Jadeja",
+        "wickets": 0,
+        "runs": 3,
+        "overs": 0.3
+      }
+    }
+  },
+  {
+    "delivery_id": 140,
+    "delivery_timestamp": 7495.35,
+    "delivery_hms": "02:04:55",
+    "clip_start": 7490.35,
+    "clip_end": 7559.0,
+    "clip_start_hms": "02:04:50",
+    "clip_end_hms": "02:05:59",
+    "events": [
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.354,
+    "scoreboard": {
+      "runs": 1,
+      "wickets": 5,
+      "overs": 26.0,
+      "run_rate": 4.85,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 17,
+          "balls": 24
+        },
+        {
+          "name": "Ali",
+          "runs": 9,
+          "balls": 12
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 141,
+    "delivery_timestamp": 7614.14,
+    "delivery_hms": "02:06:54",
+    "clip_start": 7609.14,
+    "clip_end": 7660.0,
+    "clip_start_hms": "02:06:49",
+    "clip_end_hms": "02:07:40",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.295,
+    "scoreboard": {
+      "runs": 126,
+      "wickets": 5,
+      "overs": 26.2,
+      "innings": 2,
+      "run_rate": 4.78,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 17,
+          "balls": 24
+        },
+        {
+          "name": "Ali",
+          "runs": 9,
+          "balls": 14
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 5,
+        "overs": 2.2
+      },
+      "target": 2
+    }
+  },
+  {
+    "delivery_id": 142,
+    "delivery_timestamp": 7658.68,
+    "delivery_hms": "02:07:38",
+    "clip_start": 7653.68,
+    "clip_end": 7678.0,
+    "clip_start_hms": "02:07:33",
+    "clip_end_hms": "02:07:58",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.294,
+    "scoreboard": {
+      "runs": 126,
+      "wickets": 5,
+      "overs": 26.3,
+      "innings": 2,
+      "run_rate": 4.75,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 17,
+          "balls": 24
+        },
+        {
+          "name": "Ali",
+          "runs": 9,
+          "balls": 15
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 5,
+        "overs": 2.3
+      },
+      "target": 2
+    }
+  },
+  {
+    "delivery_id": 143,
+    "delivery_timestamp": 7694.32,
+    "delivery_hms": "02:08:14",
+    "clip_start": 7689.32,
+    "clip_end": 7722.0,
+    "clip_start_hms": "02:08:09",
+    "clip_end_hms": "02:08:42",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.308,
+    "scoreboard": {
+      "runs": 126,
+      "wickets": 5,
+      "overs": 26.4,
+      "innings": 2,
+      "run_rate": 4.73,
+      "batsmen": [
+        {
+          "name": "Ali",
+          "runs": 9,
+          "balls": 16
+        },
+        {
+          "name": "Livingstone",
+          "runs": 17,
+          "balls": 24
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 5,
+        "overs": 2.4
+      },
+      "target": 2
+    }
+  },
+  {
+    "delivery_id": 146,
+    "delivery_timestamp": 7789.35,
+    "delivery_hms": "02:09:49",
+    "clip_start": 7784.35,
+    "clip_end": 7804.35,
+    "clip_start_hms": "02:09:44",
+    "clip_end_hms": "02:10:04",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.293,
+    "scoreboard": {
+      "runs": 128,
+      "wickets": 5,
+      "overs": 26.5,
+      "innings": 2,
+      "run_rate": 4.77,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 17,
+          "balls": 24
+        },
+        {
+          "name": "Ali",
+          "runs": 10,
+          "balls": 17
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 7,
+        "overs": 2.5
+      },
+      "target": 2
+    }
+  },
+  {
+    "delivery_id": 147,
+    "delivery_timestamp": 7816.07,
+    "delivery_hms": "02:10:16",
+    "clip_start": 7811.07,
+    "clip_end": 7876.0,
+    "clip_start_hms": "02:10:11",
+    "clip_end_hms": "02:11:16",
+    "events": [
+      "wicket",
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.339,
+    "scoreboard": {
+      "runs": 129,
+      "wickets": 5,
+      "run_rate": 4.78,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 18,
+          "balls": 25
+        },
+        {
+          "name": "Ali",
+          "runs": 10,
+          "balls": 17
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 148,
+    "delivery_timestamp": 7872.5,
+    "delivery_hms": "02:11:12",
+    "clip_start": 7867.5,
+    "clip_end": 7935.0,
+    "clip_start_hms": "02:11:07",
+    "clip_end_hms": "02:12:15",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.462,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 8,
+      "overs": 27.2,
+      "run_rate": 4.83,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 21,
+          "balls": 27
+        },
+        {
+          "name": "Ali",
+          "runs": 10,
+          "balls": 17
+        }
+      ],
+      "bowler": {
+        "name": "Jadeja",
+        "wickets": 0,
+        "runs": 8,
+        "overs": 1.2
+      }
+    }
+  },
+  {
+    "delivery_id": 149,
+    "delivery_timestamp": 7931.89,
+    "delivery_hms": "02:12:11",
+    "clip_start": 7926.89,
+    "clip_end": 7978.0,
+    "clip_start_hms": "02:12:06",
+    "clip_end_hms": "02:12:58",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.289,
+    "scoreboard": {
+      "runs": 133,
+      "wickets": 5,
+      "overs": 27.4,
+      "innings": 2,
+      "run_rate": 4.81,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 21,
+          "balls": 27
+        },
+        {
+          "name": "Ali",
+          "runs": 11,
+          "balls": 19
+        }
+      ],
+      "bowler": {
+        "name": "Jadeja",
+        "wickets": 0,
+        "runs": 9,
+        "overs": 1.4
+      }
+    }
+  },
+  {
+    "delivery_id": 150,
+    "delivery_timestamp": 7991.28,
+    "delivery_hms": "02:13:11",
+    "clip_start": 7986.28,
+    "clip_end": 8006.28,
+    "clip_start_hms": "02:13:06",
+    "clip_end_hms": "02:13:26",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.267,
+    "scoreboard": {
+      "runs": 133,
+      "wickets": 5,
+      "overs": 28.0,
+      "innings": 2,
+      "run_rate": 4.78,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 21,
+          "balls": 28
+        },
+        {
+          "name": "Ali",
+          "runs": 11,
+          "balls": 19
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 152,
+    "delivery_timestamp": 8032.86,
+    "delivery_hms": "02:13:52",
+    "clip_start": 8027.86,
+    "clip_end": 8084.0,
+    "clip_start_hms": "02:13:47",
+    "clip_end_hms": "02:14:44",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.318,
+    "scoreboard": {
+      "runs": 133,
+      "wickets": 5,
+      "overs": 28.1,
+      "innings": 2,
+      "run_rate": 4.72,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 21,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 11,
+          "balls": 20
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 8,
+        "overs": 3.1
+      }
+    }
+  },
+  {
+    "delivery_id": 153,
+    "delivery_timestamp": 8104.13,
+    "delivery_hms": "02:15:04",
+    "clip_start": 8099.13,
+    "clip_end": 8136.0,
+    "clip_start_hms": "02:14:59",
+    "clip_end_hms": "02:15:36",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.34,
+    "scoreboard": {
+      "runs": 134,
+      "wickets": 5,
+      "overs": 28.2,
+      "innings": 2,
+      "run_rate": 4.73,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 21,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 12,
+          "balls": 21
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 9,
+        "overs": 3.2
+      },
+      "target": 2
+    }
+  },
+  {
+    "delivery_id": 154,
+    "delivery_timestamp": 8133.83,
+    "delivery_hms": "02:15:33",
+    "clip_start": 8128.83,
+    "clip_end": 8148.83,
+    "clip_start_hms": "02:15:28",
+    "clip_end_hms": "02:15:48",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.309,
+    "scoreboard": {
+      "runs": 135,
+      "wickets": 5,
+      "overs": 28.2,
+      "innings": 2,
+      "run_rate": 4.76,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 21,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 12,
+          "balls": 21
+        }
+      ],
+      "target": 2
+    }
+  },
+  {
+    "delivery_id": 156,
+    "delivery_timestamp": 8178.37,
+    "delivery_hms": "02:16:18",
+    "clip_start": 8173.37,
+    "clip_end": 8209.0,
+    "clip_start_hms": "02:16:13",
+    "clip_end_hms": "02:16:49",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.366,
+    "scoreboard": {
+      "runs": 136,
+      "wickets": 5,
+      "overs": 28.2,
+      "innings": 2,
+      "run_rate": 4.8,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 21,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 12,
+          "balls": 21
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 11,
+        "overs": 3.2
+      },
+      "target": 137
+    }
+  },
+  {
+    "delivery_id": 157,
+    "delivery_timestamp": 8205.1,
+    "delivery_hms": "02:16:45",
+    "clip_start": 8200.1,
+    "clip_end": 8220.1,
+    "clip_start_hms": "02:16:40",
+    "clip_end_hms": "02:17:00",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.33,
+    "scoreboard": {
+      "runs": 136,
+      "wickets": 5,
+      "overs": 28.2,
+      "innings": 2,
+      "run_rate": 4.8,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 21,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 12,
+          "balls": 21
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 11,
+        "overs": 3.2
+      },
+      "target": 137
+    }
+  },
+  {
+    "delivery_id": 158,
+    "delivery_timestamp": 8237.76,
+    "delivery_hms": "02:17:17",
+    "clip_start": 8232.76,
+    "clip_end": 8262.0,
+    "clip_start_hms": "02:17:12",
+    "clip_end_hms": "02:17:42",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.35,
+    "scoreboard": {
+      "runs": 138,
+      "wickets": 5,
+      "overs": 28.3,
+      "innings": 2,
+      "run_rate": 4.84,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 23,
+          "balls": 30
+        },
+        {
+          "name": "Ali",
+          "runs": 12,
+          "balls": 21
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 13,
+        "overs": 3.3
+      },
+      "target": 137
+    }
+  },
+  {
+    "delivery_id": 159,
+    "delivery_timestamp": 8258.55,
+    "delivery_hms": "02:17:38",
+    "clip_start": 8253.55,
+    "clip_end": 8307.0,
+    "clip_start_hms": "02:17:33",
+    "clip_end_hms": "02:18:27",
+    "events": [
+      "six"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.46,
+    "scoreboard": {
+      "runs": 144,
+      "wickets": 5,
+      "overs": 28.4,
+      "innings": 2,
+      "run_rate": 5.02,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 29,
+          "balls": 31
+        },
+        {
+          "name": "Ali",
+          "runs": 12,
+          "balls": 21
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 19,
+        "overs": 3.4
+      },
+      "target": 145
+    }
+  },
+  {
+    "delivery_id": 160,
+    "delivery_timestamp": 8303.09,
+    "delivery_hms": "02:18:23",
+    "clip_start": 8298.09,
+    "clip_end": 8330.0,
+    "clip_start_hms": "02:18:18",
+    "clip_end_hms": "02:18:50",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.382,
+    "scoreboard": {
+      "runs": 148,
+      "wickets": 5,
+      "overs": 28.5,
+      "innings": 2,
+      "run_rate": 5.13,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 33,
+          "balls": 32
+        },
+        {
+          "name": "Ali",
+          "runs": 12,
+          "balls": 21
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 1,
+        "runs": 23,
+        "overs": 3.5
+      },
+      "target": 145
+    }
+  },
+  {
+    "delivery_id": 161,
+    "delivery_timestamp": 8326.85,
+    "delivery_hms": "02:18:46",
+    "clip_start": 8321.85,
+    "clip_end": 8372.0,
+    "clip_start_hms": "02:18:41",
+    "clip_end_hms": "02:19:32",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.685,
+    "scoreboard": {
+      "runs": 148,
+      "wickets": 6,
+      "overs": 29.0,
+      "innings": 2,
+      "run_rate": 5.1,
+      "target": 149
+    }
+  },
+  {
+    "delivery_id": 162,
+    "delivery_timestamp": 8368.43,
+    "delivery_hms": "02:19:28",
+    "clip_start": 8363.43,
+    "clip_end": 8425.0,
+    "clip_start_hms": "02:19:23",
+    "clip_end_hms": "02:20:25",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.441,
+    "scoreboard": {
+      "runs": 148,
+      "wickets": 6,
+      "run_rate": 5.1
+    }
+  },
+  {
+    "delivery_id": 163,
+    "delivery_timestamp": 8424.85,
+    "delivery_hms": "02:20:24",
+    "clip_start": 8419.85,
+    "clip_end": 8439.85,
+    "clip_start_hms": "02:20:19",
+    "clip_end_hms": "02:20:39",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.281,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 164,
+    "delivery_timestamp": 8457.52,
+    "delivery_hms": "02:20:57",
+    "clip_start": 8452.52,
+    "clip_end": 8478.0,
+    "clip_start_hms": "02:20:52",
+    "clip_end_hms": "02:21:18",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.333,
+    "scoreboard": {
+      "runs": 148,
+      "wickets": 6,
+      "overs": 29.1,
+      "innings": 2,
+      "run_rate": 5.07,
+      "batsmen": [
+        {
+          "name": "Livingstone",
+          "runs": 33,
+          "balls": 33
+        }
+      ],
+      "target": 149
+    }
+  },
+  {
+    "delivery_id": 165,
+    "delivery_timestamp": 8484.24,
+    "delivery_hms": "02:21:24",
+    "clip_start": 8479.24,
+    "clip_end": 8517.0,
+    "clip_start_hms": "02:21:19",
+    "clip_end_hms": "02:21:57",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.329,
+    "scoreboard": {
+      "runs": 149,
+      "wickets": 6,
+      "overs": 29.3,
+      "innings": 2,
+      "run_rate": 5.05,
+      "batsmen": [
+        {
+          "name": "Ali",
+          "runs": 13,
+          "balls": 24
+        }
+      ],
+      "bowler": {
+        "name": "Jadeja",
+        "wickets": 0,
+        "runs": 10,
+        "overs": 2.3
+      },
+      "target": 150
+    }
+  },
+  {
+    "delivery_id": 166,
+    "delivery_timestamp": 8724.78,
+    "delivery_hms": "02:25:24",
+    "clip_start": 8719.78,
+    "clip_end": 8784.0,
+    "clip_start_hms": "02:25:19",
+    "clip_end_hms": "02:26:24",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.445,
+    "scoreboard": {
+      "runs": 153,
+      "wickets": 6,
+      "overs": 30.5,
+      "innings": 2,
+      "run_rate": 4.96,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 2,
+          "balls": 5
+        },
+        {
+          "name": "Ali",
+          "runs": 15,
+          "balls": 27
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 2,
+        "runs": 25,
+        "overs": 4.5
+      },
+      "target": 153
+    }
+  },
+  {
+    "delivery_id": 167,
+    "delivery_timestamp": 8810.9,
+    "delivery_hms": "02:26:50",
+    "clip_start": 8805.9,
+    "clip_end": 8834.0,
+    "clip_start_hms": "02:26:45",
+    "clip_end_hms": "02:27:14",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.336,
+    "scoreboard": {
+      "runs": 153,
+      "wickets": 6,
+      "overs": 31.0,
+      "innings": 2,
+      "run_rate": 4.94,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 2,
+          "balls": 5
+        },
+        {
+          "name": "Ali",
+          "runs": 15,
+          "balls": 28
+        }
+      ],
+      "target": 154
+    }
+  },
+  {
+    "delivery_id": 168,
+    "delivery_timestamp": 8840.6,
+    "delivery_hms": "02:27:20",
+    "clip_start": 8835.6,
+    "clip_end": 8884.0,
+    "clip_start_hms": "02:27:15",
+    "clip_end_hms": "02:28:04",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.338,
+    "scoreboard": {
+      "runs": 154,
+      "wickets": 6,
+      "overs": 31.1,
+      "innings": 2,
+      "run_rate": 4.94,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 3,
+          "balls": 6
+        },
+        {
+          "name": "Ali",
+          "runs": 15,
+          "balls": 28
+        }
+      ],
+      "bowler": {
+        "name": "Jadeja",
+        "wickets": 0,
+        "runs": 13,
+        "overs": 3.1
+      },
+      "target": 154
+    }
+  },
+  {
+    "delivery_id": 169,
+    "delivery_timestamp": 8885.14,
+    "delivery_hms": "02:28:05",
+    "clip_start": 8880.14,
+    "clip_end": 8909.0,
+    "clip_start_hms": "02:28:00",
+    "clip_end_hms": "02:28:29",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.312,
+    "scoreboard": {
+      "runs": 154,
+      "wickets": 6,
+      "overs": 31.3,
+      "innings": 2,
+      "run_rate": 4.89,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 3,
+          "balls": 6
+        },
+        {
+          "name": "Ali",
+          "runs": 15,
+          "balls": 30
+        }
+      ],
+      "bowler": {
+        "name": "Jadeja",
+        "wickets": 0,
+        "runs": 13,
+        "overs": 3.3
+      },
+      "target": 155
+    }
+  },
+  {
+    "delivery_id": 170,
+    "delivery_timestamp": 8917.81,
+    "delivery_hms": "02:28:37",
+    "clip_start": 8912.81,
+    "clip_end": 8951.0,
+    "clip_start_hms": "02:28:32",
+    "clip_end_hms": "02:29:11",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.329,
+    "scoreboard": {
+      "runs": 155,
+      "wickets": 6,
+      "overs": 31.5,
+      "innings": 2,
+      "run_rate": 4.87,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 3,
+          "balls": 7
+        },
+        {
+          "name": "Ali",
+          "runs": 16,
+          "balls": 31
+        }
+      ],
+      "target": 155
+    }
+  },
+  {
+    "delivery_id": 171,
+    "delivery_timestamp": 8947.51,
+    "delivery_hms": "02:29:07",
+    "clip_start": 8942.51,
+    "clip_end": 9006.0,
+    "clip_start_hms": "02:29:02",
+    "clip_end_hms": "02:30:06",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.307,
+    "scoreboard": {
+      "runs": 156,
+      "wickets": 6,
+      "overs": 32.0,
+      "innings": 2,
+      "run_rate": 4.88,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 4,
+          "balls": 8
+        }
+      ],
+      "target": 155
+    }
+  },
+  {
+    "delivery_id": 172,
+    "delivery_timestamp": 9081.14,
+    "delivery_hms": "02:31:21",
+    "clip_start": 9076.14,
+    "clip_end": 9145.0,
+    "clip_start_hms": "02:31:16",
+    "clip_end_hms": "02:32:25",
+    "events": [
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.296,
+    "scoreboard": {
+      "runs": 158,
+      "wickets": 6,
+      "overs": 32.4,
+      "innings": 2,
+      "run_rate": 4.84,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 5,
+          "balls": 10
+        },
+        {
+          "name": "Ali",
+          "runs": 17,
+          "balls": 33
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 26,
+        "overs": 4.4
+      },
+      "target": 83
+    }
+  },
+  {
+    "delivery_id": 173,
+    "delivery_timestamp": 9244.47,
+    "delivery_hms": "02:34:04",
+    "clip_start": 9239.47,
+    "clip_end": 9306.0,
+    "clip_start_hms": "02:33:59",
+    "clip_end_hms": "02:35:06",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.28,
+    "scoreboard": {
+      "runs": 160,
+      "wickets": 6,
+      "overs": 33.4,
+      "innings": 2,
+      "run_rate": 4.75,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 7,
+          "balls": 12
+        },
+        {
+          "name": "Ali",
+          "runs": 17,
+          "balls": 37
+        }
+      ],
+      "bowler": {
+        "name": "Jadeja",
+        "wickets": 0,
+        "runs": 16,
+        "overs": 4.4
+      },
+      "target": 161
+    }
+  },
+  {
+    "delivery_id": 174,
+    "delivery_timestamp": 9559.25,
+    "delivery_hms": "02:39:19",
+    "clip_start": 9554.25,
+    "clip_end": 9615.0,
+    "clip_start_hms": "02:39:14",
+    "clip_end_hms": "02:40:15",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.313,
+    "scoreboard": {
+      "runs": 167,
+      "wickets": 6,
+      "overs": 35.0,
+      "innings": 2,
+      "run_rate": 4.77,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 8,
+          "balls": 15
+        },
+        {
+          "name": "Ali",
+          "runs": 23,
+          "balls": 42
+        }
+      ],
+      "target": 167
+    }
+  },
+  {
+    "delivery_id": 175,
+    "delivery_timestamp": 9621.61,
+    "delivery_hms": "02:40:21",
+    "clip_start": 9616.61,
+    "clip_end": 9636.61,
+    "clip_start_hms": "02:40:16",
+    "clip_end_hms": "02:40:36",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.285,
+    "scoreboard": {
+      "runs": 168,
+      "wickets": 6,
+      "overs": 35.1,
+      "innings": 2,
+      "run_rate": 4.78,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 9,
+          "balls": 16
+        },
+        {
+          "name": "Ali",
+          "runs": 23,
+          "balls": 42
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 3,
+        "runs": 38,
+        "overs": 6.1
+      },
+      "target": 167
+    }
+  },
+  {
+    "delivery_id": 176,
+    "delivery_timestamp": 9642.4,
+    "delivery_hms": "02:40:42",
+    "clip_start": 9637.4,
+    "clip_end": 9670.0,
+    "clip_start_hms": "02:40:37",
+    "clip_end_hms": "02:41:10",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.338,
+    "scoreboard": {
+      "runs": 169,
+      "wickets": 6,
+      "overs": 35.3,
+      "innings": 2,
+      "run_rate": 4.76,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 9,
+          "balls": 16
+        },
+        {
+          "name": "Ali",
+          "runs": 24,
+          "balls": 44
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 3,
+        "runs": 39,
+        "overs": 6.3
+      },
+      "target": 167
+    }
+  },
+  {
+    "delivery_id": 177,
+    "delivery_timestamp": 9666.16,
+    "delivery_hms": "02:41:06",
+    "clip_start": 9661.16,
+    "clip_end": 9702.0,
+    "clip_start_hms": "02:41:01",
+    "clip_end_hms": "02:41:42",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.378,
+    "scoreboard": {
+      "runs": 169,
+      "wickets": 6,
+      "overs": 35.5,
+      "innings": 2,
+      "run_rate": 4.72,
+      "target": 167
+    }
+  },
+  {
+    "delivery_id": 178,
+    "delivery_timestamp": 9704.76,
+    "delivery_hms": "02:41:44",
+    "clip_start": 9699.76,
+    "clip_end": 9756.0,
+    "clip_start_hms": "02:41:39",
+    "clip_end_hms": "02:42:36",
+    "events": [
+      "wicket",
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.462,
+    "scoreboard": {
+      "runs": 80,
+      "wickets": 3,
+      "run_rate": 8.42,
+      "bowler": {
+        "name": "Parkinson",
+        "wickets": 0,
+        "runs": 15,
+        "overs": 1.3
+      }
+    }
+  },
+  {
+    "delivery_id": 179,
+    "delivery_timestamp": 9752.28,
+    "delivery_hms": "02:42:32",
+    "clip_start": 9747.28,
+    "clip_end": 9785.0,
+    "clip_start_hms": "02:42:27",
+    "clip_end_hms": "02:43:05",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.433,
+    "scoreboard": {
+      "runs": 169,
+      "wickets": 6,
+      "overs": 36.1,
+      "innings": 2,
+      "run_rate": 4.67,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 9,
+          "balls": 19
+        },
+        {
+          "name": "Ali",
+          "runs": 24,
+          "balls": 45
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 33,
+        "overs": 6.1
+      },
+      "target": 81
+    }
+  },
+  {
+    "delivery_id": 180,
+    "delivery_timestamp": 9781.97,
+    "delivery_hms": "02:43:01",
+    "clip_start": 9776.97,
+    "clip_end": 9812.0,
+    "clip_start_hms": "02:42:56",
+    "clip_end_hms": "02:43:32",
+    "events": [
+      "six"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.45,
+    "scoreboard": {
+      "runs": 175,
+      "wickets": 6,
+      "overs": 2.0
+    }
+  },
+  {
+    "delivery_id": 181,
+    "delivery_timestamp": 9808.7,
+    "delivery_hms": "02:43:28",
+    "clip_start": 9803.7,
+    "clip_end": 9858.0,
+    "clip_start_hms": "02:43:23",
+    "clip_end_hms": "02:44:18",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.4,
+    "scoreboard": {
+      "runs": 175,
+      "wickets": 6,
+      "overs": 36.2,
+      "innings": 2,
+      "run_rate": 4.82,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 9,
+          "balls": 19
+        },
+        {
+          "name": "Ali",
+          "runs": 30,
+          "balls": 46
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 39,
+        "overs": 6.2
+      },
+      "target": 176
+    }
+  },
+  {
+    "delivery_id": 182,
+    "delivery_timestamp": 9865.12,
+    "delivery_hms": "02:44:25",
+    "clip_start": 9860.12,
+    "clip_end": 9881.0,
+    "clip_start_hms": "02:44:20",
+    "clip_end_hms": "02:44:41",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.314,
+    "scoreboard": {
+      "runs": 176,
+      "wickets": 6,
+      "overs": 36.3,
+      "innings": 2,
+      "run_rate": 4.82,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 9,
+          "balls": 19
+        },
+        {
+          "name": "Ali",
+          "runs": 31,
+          "balls": 47
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 40,
+        "overs": 6.3
+      },
+      "target": 176
+    }
+  },
+  {
+    "delivery_id": 183,
+    "delivery_timestamp": 9906.7,
+    "delivery_hms": "02:45:06",
+    "clip_start": 9901.7,
+    "clip_end": 9946.0,
+    "clip_start_hms": "02:45:01",
+    "clip_end_hms": "02:45:46",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.324,
+    "scoreboard": {
+      "runs": 178,
+      "wickets": 6,
+      "overs": 36.5,
+      "innings": 2,
+      "run_rate": 4.83,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 10,
+          "balls": 20
+        },
+        {
+          "name": "Ali",
+          "runs": 32,
+          "balls": 48
+        }
+      ],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 42,
+        "overs": 6.5
+      },
+      "target": 176
+    }
+  },
+  {
+    "delivery_id": 184,
+    "delivery_timestamp": 9942.33,
+    "delivery_hms": "02:45:42",
+    "clip_start": 9937.33,
+    "clip_end": 9967.0,
+    "clip_start_hms": "02:45:37",
+    "clip_end_hms": "02:46:07",
+    "events": [
+      "six"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.521,
+    "scoreboard": {
+      "runs": 184,
+      "wickets": 6,
+      "overs": 37.0,
+      "innings": 2,
+      "run_rate": 4.97,
+      "batsmen": [
+        {
+          "name": "Ali",
+          "runs": 32,
+          "balls": 48
+        }
+      ],
+      "target": 176
+    }
+  },
+  {
+    "delivery_id": 185,
+    "delivery_timestamp": 9963.12,
+    "delivery_hms": "02:46:03",
+    "clip_start": 9958.12,
+    "clip_end": 9999.0,
+    "clip_start_hms": "02:45:58",
+    "clip_end_hms": "02:46:39",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.421,
+    "scoreboard": {
+      "runs": 184,
+      "wickets": 6,
+      "overs": 37.0,
+      "innings": 2,
+      "run_rate": 4.97,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 16,
+          "balls": 21
+        },
+        {
+          "name": "Ali",
+          "runs": 32,
+          "balls": 48
+        }
+      ],
+      "target": 176
+    }
+  },
+  {
+    "delivery_id": 186,
+    "delivery_timestamp": 10022.51,
+    "delivery_hms": "02:47:02",
+    "clip_start": 10017.51,
+    "clip_end": 10086.0,
+    "clip_start_hms": "02:46:57",
+    "clip_end_hms": "02:48:06",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.429,
+    "scoreboard": {
+      "runs": 188,
+      "wickets": 6,
+      "overs": 37.2,
+      "innings": 2,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 16,
+          "balls": 21
+        },
+        {
+          "name": "Ali",
+          "runs": 36,
+          "balls": 50
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 3,
+        "runs": 43,
+        "overs": 7.2
+      },
+      "target": 185
+    }
+  },
+  {
+    "delivery_id": 187,
+    "delivery_timestamp": 10138.33,
+    "delivery_hms": "02:48:58",
+    "clip_start": 10133.33,
+    "clip_end": 10154.0,
+    "clip_start_hms": "02:48:53",
+    "clip_end_hms": "02:49:14",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.347,
+    "scoreboard": {
+      "runs": 189,
+      "wickets": 6,
+      "overs": 37.4,
+      "innings": 2,
+      "run_rate": 5.02,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 16,
+          "balls": 22
+        },
+        {
+          "name": "Ali",
+          "runs": 37,
+          "balls": 51
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 3,
+        "runs": 44,
+        "overs": 7.4
+      },
+      "target": 185
+    }
+  },
+  {
+    "delivery_id": 189,
+    "delivery_timestamp": 10292.75,
+    "delivery_hms": "02:51:32",
+    "clip_start": 10287.75,
+    "clip_end": 10320.0,
+    "clip_start_hms": "02:51:27",
+    "clip_end_hms": "02:52:00",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.295,
+    "scoreboard": {
+      "runs": 190,
+      "wickets": 6,
+      "overs": 38.2,
+      "innings": 2,
+      "run_rate": 4.96,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 16,
+          "balls": 25
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 52
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 24,
+        "overs": 6.2
+      },
+      "target": 190
+    }
+  },
+  {
+    "delivery_id": 190,
+    "delivery_timestamp": 10316.51,
+    "delivery_hms": "02:51:56",
+    "clip_start": 10311.51,
+    "clip_end": 10380.0,
+    "clip_start_hms": "02:51:51",
+    "clip_end_hms": "02:53:00",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.345,
+    "scoreboard": {
+      "runs": 194,
+      "wickets": 6,
+      "overs": 38.4,
+      "innings": 2,
+      "run_rate": 5.02,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 20,
+          "balls": 27
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 52
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 28,
+        "overs": 6.4
+      },
+      "target": 191
+    }
+  },
+  {
+    "delivery_id": 191,
+    "delivery_timestamp": 10405.6,
+    "delivery_hms": "02:53:25",
+    "clip_start": 10400.6,
+    "clip_end": 10437.0,
+    "clip_start_hms": "02:53:20",
+    "clip_end_hms": "02:53:57",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.318,
+    "scoreboard": {
+      "runs": 194,
+      "wickets": 6,
+      "overs": 38.5,
+      "innings": 2,
+      "run_rate": 5.0,
+      "target": 195
+    }
+  },
+  {
+    "delivery_id": 192,
+    "delivery_timestamp": 10441.23,
+    "delivery_hms": "02:54:01",
+    "clip_start": 10436.23,
+    "clip_end": 10495.0,
+    "clip_start_hms": "02:53:56",
+    "clip_end_hms": "02:54:55",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.349,
+    "scoreboard": {
+      "runs": 194,
+      "wickets": 6,
+      "overs": 39.0,
+      "innings": 2,
+      "run_rate": 4.97,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 20,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 52
+        }
+      ],
+      "target": 195
+    }
+  },
+  {
+    "delivery_id": 193,
+    "delivery_timestamp": 10491.71,
+    "delivery_hms": "02:54:51",
+    "clip_start": 10486.71,
+    "clip_end": 10516.0,
+    "clip_start_hms": "02:54:46",
+    "clip_end_hms": "02:55:16",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.319,
+    "scoreboard": {
+      "runs": 194,
+      "wickets": 6,
+      "overs": 39.0,
+      "innings": 2,
+      "run_rate": 4.97,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 20,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 52
+        }
+      ],
+      "target": 195
+    }
+  },
+  {
+    "delivery_id": 194,
+    "delivery_timestamp": 10518.44,
+    "delivery_hms": "02:55:18",
+    "clip_start": 10513.44,
+    "clip_end": 10553.0,
+    "clip_start_hms": "02:55:13",
+    "clip_end_hms": "02:55:53",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.357,
+    "scoreboard": {
+      "runs": 194,
+      "wickets": 6,
+      "overs": 39.1,
+      "innings": 2,
+      "run_rate": 4.95,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 20,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 53
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 1,
+        "runs": 32,
+        "overs": 7.1
+      },
+      "target": 195
+    }
+  },
+  {
+    "delivery_id": 195,
+    "delivery_timestamp": 10551.11,
+    "delivery_hms": "02:55:51",
+    "clip_start": 10546.11,
+    "clip_end": 10599.0,
+    "clip_start_hms": "02:55:46",
+    "clip_end_hms": "02:56:39",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.337,
+    "scoreboard": {
+      "runs": 195,
+      "wickets": 6,
+      "overs": 39.2,
+      "innings": 2,
+      "run_rate": 4.96,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 20,
+          "balls": 29
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 54
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 1,
+        "runs": 32,
+        "overs": 7.2
+      },
+      "target": 195
+    }
+  },
+  {
+    "delivery_id": 196,
+    "delivery_timestamp": 10595.65,
+    "delivery_hms": "02:56:35",
+    "clip_start": 10590.65,
+    "clip_end": 10638.0,
+    "clip_start_hms": "02:56:30",
+    "clip_end_hms": "02:57:18",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.429,
+    "scoreboard": {
+      "runs": 199,
+      "wickets": 6,
+      "overs": 39.3,
+      "innings": 2,
+      "run_rate": 5.04,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 24,
+          "balls": 30
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 54
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 1,
+        "runs": 36,
+        "overs": 7.3
+      },
+      "target": 195
+    }
+  },
+  {
+    "delivery_id": 197,
+    "delivery_timestamp": 10634.26,
+    "delivery_hms": "02:57:14",
+    "clip_start": 10629.26,
+    "clip_end": 10654.0,
+    "clip_start_hms": "02:57:09",
+    "clip_end_hms": "02:57:34",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.5,
+    "scoreboard": {
+      "runs": 200,
+      "wickets": 6,
+      "overs": 39.4,
+      "innings": 2,
+      "run_rate": 5.04,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 25,
+          "balls": 31
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 54
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 1,
+        "runs": 37,
+        "overs": 7.4
+      },
+      "target": 195
+    }
+  },
+  {
+    "delivery_id": 198,
+    "delivery_timestamp": 10655.04,
+    "delivery_hms": "02:57:35",
+    "clip_start": 10650.04,
+    "clip_end": 10674.0,
+    "clip_start_hms": "02:57:30",
+    "clip_end_hms": "02:57:54",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.396,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 199,
+    "delivery_timestamp": 10675.83,
+    "delivery_hms": "02:57:55",
+    "clip_start": 10670.83,
+    "clip_end": 10706.0,
+    "clip_start_hms": "02:57:50",
+    "clip_end_hms": "02:58:26",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.393,
+    "scoreboard": {
+      "runs": 200,
+      "wickets": 6,
+      "overs": 39.5,
+      "innings": 2,
+      "run_rate": 5.02,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 25,
+          "balls": 31
+        },
+        {
+          "name": "Ali",
+          "runs": 38,
+          "balls": 55
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 1,
+        "runs": 37,
+        "overs": 7.5
+      },
+      "target": 195
+    }
+  },
+  {
+    "delivery_id": 200,
+    "delivery_timestamp": 10708.5,
+    "delivery_hms": "02:58:28",
+    "clip_start": 10703.5,
+    "clip_end": 10760.0,
+    "clip_start_hms": "02:58:23",
+    "clip_end_hms": "02:59:20",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.353,
+    "scoreboard": {
+      "runs": 201,
+      "wickets": 6,
+      "overs": 40.0,
+      "run_rate": 5.03,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 25,
+          "balls": 31
+        },
+        {
+          "name": "Ali",
+          "runs": 39,
+          "balls": 56
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 201,
+    "delivery_timestamp": 10756.01,
+    "delivery_hms": "02:59:16",
+    "clip_start": 10751.01,
+    "clip_end": 10801.0,
+    "clip_start_hms": "02:59:11",
+    "clip_end_hms": "03:00:01",
+    "events": [
+      "six"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.492,
+    "scoreboard": {
+      "runs": 207,
+      "wickets": 6,
+      "overs": 40.1,
+      "run_rate": 5.15,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 25,
+          "balls": 31
+        },
+        {
+          "name": "Ali",
+          "runs": 45,
+          "balls": 57
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 34,
+        "overs": 7.1
+      }
+    }
+  },
+  {
+    "delivery_id": 202,
+    "delivery_timestamp": 10797.59,
+    "delivery_hms": "02:59:57",
+    "clip_start": 10792.59,
+    "clip_end": 10817.0,
+    "clip_start_hms": "02:59:52",
+    "clip_end_hms": "03:00:17",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.438,
+    "scoreboard": {
+      "runs": 207,
+      "wickets": 6,
+      "overs": 40.1,
+      "run_rate": 5.15,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 25,
+          "balls": 31
+        },
+        {
+          "name": "Ali",
+          "runs": 45,
+          "balls": 57
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 34,
+        "overs": 7.1
+      }
+    }
+  },
+  {
+    "delivery_id": 206,
+    "delivery_timestamp": 11035.16,
+    "delivery_hms": "03:03:55",
+    "clip_start": 11030.16,
+    "clip_end": 11099.0,
+    "clip_start_hms": "03:03:50",
+    "clip_end_hms": "03:04:59",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.338,
+    "scoreboard": {
+      "runs": 209,
+      "wickets": 6,
+      "overs": 41.4,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 25,
+          "balls": 34
+        },
+        {
+          "name": "Ali",
+          "runs": 47,
+          "balls": 63
+        }
+      ],
+      "bowler": {
+        "name": "Chahal",
+        "wickets": 3,
+        "runs": 45,
+        "overs": 8.4
+      }
+    }
+  },
+  {
+    "delivery_id": 207,
+    "delivery_timestamp": 11513.27,
+    "delivery_hms": "03:11:53",
+    "clip_start": 11508.27,
+    "clip_end": 11574.0,
+    "clip_start_hms": "03:11:48",
+    "clip_end_hms": "03:12:54",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.351,
+    "scoreboard": {
+      "runs": 213,
+      "wickets": 7,
+      "overs": 43.0,
+      "run_rate": 4.95
+    }
+  },
+  {
+    "delivery_id": 208,
+    "delivery_timestamp": 11694.42,
+    "delivery_hms": "03:14:54",
+    "clip_start": 11689.42,
+    "clip_end": 11726.0,
+    "clip_start_hms": "03:14:49",
+    "clip_end_hms": "03:15:26",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.457,
+    "scoreboard": {
+      "runs": 215,
+      "wickets": 7,
+      "overs": 44.0,
+      "run_rate": 4.89,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 27,
+          "balls": 39
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 209,
+    "delivery_timestamp": 11724.11,
+    "delivery_hms": "03:15:24",
+    "clip_start": 11719.11,
+    "clip_end": 11751.0,
+    "clip_start_hms": "03:15:19",
+    "clip_end_hms": "03:15:51",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.353,
+    "scoreboard": {
+      "runs": 215,
+      "wickets": 7,
+      "overs": 44.0,
+      "run_rate": 4.89,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 27,
+          "balls": 39
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 212,
+    "delivery_timestamp": 11816.17,
+    "delivery_hms": "03:16:56",
+    "clip_start": 11811.17,
+    "clip_end": 11849.0,
+    "clip_start_hms": "03:16:51",
+    "clip_end_hms": "03:17:29",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.274,
+    "scoreboard": {
+      "runs": 218,
+      "wickets": 7,
+      "overs": 44.3,
+      "run_rate": 4.9,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 30,
+          "balls": 42
+        }
+      ],
+      "bowler": {
+        "name": "Shami",
+        "wickets": 1,
+        "runs": 44,
+        "overs": 9.3
+      }
+    }
+  },
+  {
+    "delivery_id": 213,
+    "delivery_timestamp": 11857.75,
+    "delivery_hms": "03:17:37",
+    "clip_start": 11852.75,
+    "clip_end": 11921.0,
+    "clip_start_hms": "03:17:32",
+    "clip_end_hms": "03:18:41",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.314,
+    "scoreboard": {
+      "runs": 220,
+      "wickets": 7,
+      "overs": 44.5,
+      "run_rate": 4.91,
+      "batsmen": []
+    }
+  },
+  {
+    "delivery_id": 214,
+    "delivery_timestamp": 11934.96,
+    "delivery_hms": "03:18:54",
+    "clip_start": 11929.96,
+    "clip_end": 11998.0,
+    "clip_start_hms": "03:18:49",
+    "clip_end_hms": "03:19:58",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.352,
+    "scoreboard": {
+      "runs": 222,
+      "wickets": 7,
+      "overs": 45.0,
+      "run_rate": 4.93
+    }
+  },
+  {
+    "delivery_id": 215,
+    "delivery_timestamp": 12024.05,
+    "delivery_hms": "03:20:24",
+    "clip_start": 12019.05,
+    "clip_end": 12039.05,
+    "clip_start_hms": "03:20:19",
+    "clip_end_hms": "03:20:39",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.287,
+    "scoreboard": {
+      "runs": 222,
+      "wickets": 7,
+      "overs": 45.0,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 30,
+          "balls": 42
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 217,
+    "delivery_timestamp": 12077.5,
+    "delivery_hms": "03:21:17",
+    "clip_start": 12072.5,
+    "clip_end": 12112.0,
+    "clip_start_hms": "03:21:12",
+    "clip_end_hms": "03:21:52",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.291,
+    "scoreboard": {
+      "runs": 223,
+      "wickets": 7,
+      "overs": 45.2,
+      "run_rate": 4.92,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 31,
+          "balls": 43
+        }
+      ],
+      "bowler": {
+        "name": "Hardik",
+        "wickets": 2,
+        "runs": 26,
+        "overs": 5.2
+      }
+    }
+  },
+  {
+    "delivery_id": 218,
+    "delivery_timestamp": 12110.16,
+    "delivery_hms": "03:21:50",
+    "clip_start": 12105.16,
+    "clip_end": 12174.0,
+    "clip_start_hms": "03:21:45",
+    "clip_end_hms": "03:22:54",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.319,
+    "scoreboard": {
+      "runs": 224,
+      "wickets": 7,
+      "overs": 45.4,
+      "run_rate": 4.91,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 31,
+          "balls": 43
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 219,
+    "delivery_timestamp": 12309.13,
+    "delivery_hms": "03:25:09",
+    "clip_start": 12304.13,
+    "clip_end": 12336.0,
+    "clip_start_hms": "03:25:04",
+    "clip_end_hms": "03:25:36",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.323,
+    "scoreboard": {
+      "runs": 227,
+      "wickets": 7,
+      "overs": 46.0,
+      "run_rate": 4.93,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 32,
+          "balls": 44
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 220,
+    "delivery_timestamp": 12332.89,
+    "delivery_hms": "03:25:32",
+    "clip_start": 12327.89,
+    "clip_end": 12390.0,
+    "clip_start_hms": "03:25:27",
+    "clip_end_hms": "03:26:30",
+    "events": [
+      "six"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.387,
+    "scoreboard": {
+      "runs": 233,
+      "wickets": 7,
+      "overs": 46.1,
+      "run_rate": 5.05,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 38,
+          "balls": 45
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 41,
+        "overs": 8.1
+      }
+    }
+  },
+  {
+    "delivery_id": 221,
+    "delivery_timestamp": 12398.22,
+    "delivery_hms": "03:26:38",
+    "clip_start": 12393.22,
+    "clip_end": 12428.0,
+    "clip_start_hms": "03:26:33",
+    "clip_end_hms": "03:27:08",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.312,
+    "scoreboard": {
+      "runs": 235,
+      "wickets": 7,
+      "overs": 46.2,
+      "run_rate": 5.07,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 40,
+          "balls": 46
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 43,
+        "overs": 8.2
+      }
+    }
+  },
+  {
+    "delivery_id": 222,
+    "delivery_timestamp": 12427.92,
+    "delivery_hms": "03:27:07",
+    "clip_start": 12422.92,
+    "clip_end": 12487.0,
+    "clip_start_hms": "03:27:02",
+    "clip_end_hms": "03:28:07",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.349,
+    "scoreboard": {
+      "runs": 236,
+      "wickets": 7,
+      "overs": 46.4,
+      "run_rate": 5.05,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 40,
+          "balls": 47
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 43,
+        "overs": 8.3
+      }
+    }
+  },
+  {
+    "delivery_id": 223,
+    "delivery_timestamp": 12519.97,
+    "delivery_hms": "03:28:39",
+    "clip_start": 12514.97,
+    "clip_end": 12583.0,
+    "clip_start_hms": "03:28:34",
+    "clip_end_hms": "03:29:43",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.516,
+    "scoreboard": {
+      "runs": 237,
+      "wickets": 8,
+      "overs": 47.0,
+      "batsmen": [
+        {
+          "name": "Willey",
+          "runs": 41,
+          "balls": 48
+        }
+      ],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 0,
+        "runs": 45,
+        "overs": 8.5
+      }
+    }
+  },
+  {
+    "delivery_id": 224,
+    "delivery_timestamp": 12668.46,
+    "delivery_hms": "03:31:08",
+    "clip_start": 12663.46,
+    "clip_end": 12731.0,
+    "clip_start_hms": "03:31:03",
+    "clip_end_hms": "03:32:11",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.315,
+    "scoreboard": {
+      "runs": 237,
+      "wickets": 8,
+      "overs": 47.0,
+      "run_rate": 5.04,
+      "batsmen": []
+    }
+  },
+  {
+    "delivery_id": 225,
+    "delivery_timestamp": 12727.85,
+    "delivery_hms": "03:32:07",
+    "clip_start": 12722.85,
+    "clip_end": 12761.0,
+    "clip_start_hms": "03:32:02",
+    "clip_end_hms": "03:32:41",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.294,
+    "scoreboard": {
+      "runs": 237,
+      "wickets": 8,
+      "overs": 47.2,
+      "run_rate": 5.01,
+      "batsmen": [],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 0,
+        "runs": 48,
+        "overs": 7.2
+      }
+    }
+  },
+  {
+    "delivery_id": 226,
+    "delivery_timestamp": 12882.27,
+    "delivery_hms": "03:34:42",
+    "clip_start": 12877.27,
+    "clip_end": 12946.0,
+    "clip_start_hms": "03:34:37",
+    "clip_end_hms": "03:35:46",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.37,
+    "scoreboard": {
+      "runs": 240,
+      "wickets": 9,
+      "overs": 47.4,
+      "run_rate": 5.03,
+      "batsmen": [],
+      "bowler": {
+        "name": "Krishna",
+        "wickets": 1,
+        "runs": 51,
+        "overs": 7.4
+      }
+    }
+  },
+  {
+    "delivery_id": 227,
+    "delivery_timestamp": 13057.48,
+    "delivery_hms": "03:37:37",
+    "clip_start": 13052.48,
+    "clip_end": 13121.0,
+    "clip_start_hms": "03:37:32",
+    "clip_end_hms": "03:38:41",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.328,
+    "scoreboard": {
+      "runs": 242,
+      "wickets": 9,
+      "overs": 48.0,
+      "run_rate": 5.04,
+      "batsmen": [
+        {
+          "name": "Topley",
+          "runs": 2,
+          "balls": 2
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 228,
+    "delivery_timestamp": 13351.47,
+    "delivery_hms": "03:42:31",
+    "clip_start": 13346.47,
+    "clip_end": 13408.0,
+    "clip_start_hms": "03:42:26",
+    "clip_end_hms": "03:43:28",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.462,
+    "scoreboard": {
+      "runs": 246,
+      "wickets": 9,
+      "overs": 48.5,
+      "run_rate": 5.04,
+      "batsmen": [],
+      "bowler": {
+        "name": "Bumrah",
+        "wickets": 1,
+        "runs": 49,
+        "overs": 9.5
+      }
+    }
+  },
+  {
+    "delivery_id": 229,
+    "delivery_timestamp": 13404.92,
+    "delivery_hms": "03:43:24",
+    "clip_start": 13399.92,
+    "clip_end": 13435.0,
+    "clip_start_hms": "03:43:19",
+    "clip_end_hms": "03:43:55",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.369,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0,
+      "overs": 0.1,
+      "innings": 1
+    }
+  },
+  {
+    "delivery_id": 230,
+    "delivery_timestamp": 13431.65,
+    "delivery_hms": "03:43:51",
+    "clip_start": 13426.65,
+    "clip_end": 13454.0,
+    "clip_start_hms": "03:43:46",
+    "clip_end_hms": "03:44:14",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.339,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0,
+      "overs": 0.2,
+      "innings": 1,
+      "target": 247,
+      "bowler": {
+        "name": "Topley",
+        "wickets": 0,
+        "runs": 0,
+        "overs": 0.2
+      }
+    }
+  },
+  {
+    "delivery_id": 231,
+    "delivery_timestamp": 13452.44,
+    "delivery_hms": "03:44:12",
+    "clip_start": 13447.44,
+    "clip_end": 13492.0,
+    "clip_start_hms": "03:44:07",
+    "clip_end_hms": "03:44:52",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.394,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0,
+      "overs": 0.3,
+      "innings": 1,
+      "target": 247,
+      "bowler": {
+        "name": "Topley",
+        "wickets": 0,
+        "runs": 0,
+        "overs": 0.3
+      }
+    }
+  },
+  {
+    "delivery_id": 232,
+    "delivery_timestamp": 13488.07,
+    "delivery_hms": "03:44:48",
+    "clip_start": 13483.07,
+    "clip_end": 13530.0,
+    "clip_start_hms": "03:44:43",
+    "clip_end_hms": "03:45:30",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.398,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0,
+      "overs": 0.4,
+      "innings": 1,
+      "target": 247,
+      "bowler": {
+        "name": "Topley",
+        "wickets": 0,
+        "runs": 0,
+        "overs": 0.4
+      }
+    }
+  },
+  {
+    "delivery_id": 233,
+    "delivery_timestamp": 13526.68,
+    "delivery_hms": "03:45:26",
+    "clip_start": 13521.68,
+    "clip_end": 13556.0,
+    "clip_start_hms": "03:45:21",
+    "clip_end_hms": "03:45:56",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.361,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0,
+      "overs": 0.5,
+      "innings": 1,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 234,
+    "delivery_timestamp": 13553.41,
+    "delivery_hms": "03:45:53",
+    "clip_start": 13548.41,
+    "clip_end": 13602.0,
+    "clip_start_hms": "03:45:48",
+    "clip_end_hms": "03:46:42",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.437,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0,
+      "overs": 1.0,
+      "innings": 1,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 235,
+    "delivery_timestamp": 13600.92,
+    "delivery_hms": "03:46:40",
+    "clip_start": 13595.92,
+    "clip_end": 13634.0,
+    "clip_start_hms": "03:46:35",
+    "clip_end_hms": "03:47:14",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.38,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0
+    }
+  },
+  {
+    "delivery_id": 236,
+    "delivery_timestamp": 13633.59,
+    "delivery_hms": "03:47:13",
+    "clip_start": 13628.59,
+    "clip_end": 13658.0,
+    "clip_start_hms": "03:47:08",
+    "clip_end_hms": "03:47:38",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.345,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0,
+      "overs": 1.1,
+      "innings": 1,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 237,
+    "delivery_timestamp": 13654.37,
+    "delivery_hms": "03:47:34",
+    "clip_start": 13649.37,
+    "clip_end": 13717.0,
+    "clip_start_hms": "03:47:29",
+    "clip_end_hms": "03:48:37",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.375,
+    "scoreboard": {
+      "runs": 0,
+      "wickets": 0,
+      "overs": 1.3,
+      "innings": 1,
+      "target": 247,
+      "bowler": {
+        "name": "Willey",
+        "wickets": 0,
+        "runs": 0,
+        "overs": 0.3
+      }
+    }
+  },
+  {
+    "delivery_id": 238,
+    "delivery_timestamp": 13942.43,
+    "delivery_hms": "03:52:22",
+    "clip_start": 13937.43,
+    "clip_end": 13986.0,
+    "clip_start_hms": "03:52:17",
+    "clip_end_hms": "03:53:06",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.612,
+    "scoreboard": {
+      "runs": 4,
+      "wickets": 1,
+      "overs": 2.4,
+      "innings": 1,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 239,
+    "delivery_timestamp": 15445.06,
+    "delivery_hms": "04:17:25",
+    "clip_start": 15440.06,
+    "clip_end": 15509.0,
+    "clip_start_hms": "04:17:20",
+    "clip_end_hms": "04:18:29",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.274,
+    "scoreboard": {
+      "runs": 27,
+      "wickets": 1,
+      "overs": 8.4,
+      "innings": 1,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Dhawan",
+          "runs": 9,
+          "balls": 25
+        },
+        {
+          "name": "Kohli",
+          "runs": 13,
+          "balls": 17
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 240,
+    "delivery_timestamp": 15745.0,
+    "delivery_hms": "04:22:24",
+    "clip_start": 15740.0,
+    "clip_end": 15802.0,
+    "clip_start_hms": "04:22:20",
+    "clip_end_hms": "04:23:22",
+    "events": [
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.423,
+    "scoreboard": {
+      "runs": 27,
+      "wickets": 2,
+      "overs": 9.2,
+      "innings": 1,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Kohli",
+          "runs": 13,
+          "balls": 18
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 241,
+    "delivery_timestamp": 15967.72,
+    "delivery_hms": "04:26:07",
+    "clip_start": 15962.72,
+    "clip_end": 16031.0,
+    "clip_start_hms": "04:26:02",
+    "clip_end_hms": "04:27:11",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.284,
+    "scoreboard": {
+      "runs": 28,
+      "wickets": 2,
+      "overs": 10.0,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 242,
+    "delivery_timestamp": 16047.9,
+    "delivery_hms": "04:27:27",
+    "clip_start": 16042.9,
+    "clip_end": 16111.0,
+    "clip_start_hms": "04:27:22",
+    "clip_end_hms": "04:28:31",
+    "events": [
+      "wicket",
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.49,
+    "scoreboard": {
+      "runs": 29,
+      "wickets": 3,
+      "overs": 10.2,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 243,
+    "delivery_timestamp": 16849.7,
+    "delivery_hms": "04:40:49",
+    "clip_start": 16844.7,
+    "clip_end": 16864.7,
+    "clip_start_hms": "04:40:44",
+    "clip_end_hms": "04:41:04",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.276,
+    "scoreboard": {
+      "runs": 38,
+      "wickets": 4,
+      "overs": 12.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Suryakumar",
+          "runs": 7,
+          "balls": 5
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 244,
+    "delivery_timestamp": 16873.46,
+    "delivery_hms": "04:41:13",
+    "clip_start": 16868.46,
+    "clip_end": 16937.0,
+    "clip_start_hms": "04:41:08",
+    "clip_end_hms": "04:42:17",
+    "events": [
+      "wicket",
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.318,
+    "scoreboard": {
+      "runs": 42,
+      "wickets": 4,
+      "overs": 13.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Hardik",
+          "runs": 4,
+          "balls": 6
+        },
+        {
+          "name": "Suryakumar",
+          "runs": 8,
+          "balls": 6
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 245,
+    "delivery_timestamp": 17993.01,
+    "delivery_hms": "04:59:53",
+    "clip_start": 17988.01,
+    "clip_end": 18043.0,
+    "clip_start_hms": "04:59:48",
+    "clip_end_hms": "05:00:43",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.263,
+    "scoreboard": {
+      "runs": 60,
+      "wickets": 4,
+      "overs": 17.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Suryakumar",
+          "runs": 16,
+          "balls": 18
+        },
+        {
+          "name": "Hardik",
+          "runs": 14,
+          "balls": 22
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 246,
+    "delivery_timestamp": 18242.46,
+    "delivery_hms": "05:04:02",
+    "clip_start": 18237.46,
+    "clip_end": 18281.0,
+    "clip_start_hms": "05:03:57",
+    "clip_end_hms": "05:04:41",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.292,
+    "scoreboard": {
+      "runs": 70,
+      "wickets": 4,
+      "overs": 19.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Hardik",
+          "runs": 15,
+          "balls": 24
+        },
+        {
+          "name": "Suryakumar",
+          "runs": 25,
+          "balls": 24
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 247,
+    "delivery_timestamp": 18352.33,
+    "delivery_hms": "05:05:52",
+    "clip_start": 18347.33,
+    "clip_end": 18391.0,
+    "clip_start_hms": "05:05:47",
+    "clip_end_hms": "05:06:31",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.329,
+    "scoreboard": {
+      "runs": 71,
+      "wickets": 4,
+      "overs": 19.3,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Suryakumar",
+          "runs": 26,
+          "balls": 26
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 248,
+    "delivery_timestamp": 18387.97,
+    "delivery_hms": "05:06:27",
+    "clip_start": 18382.97,
+    "clip_end": 18446.0,
+    "clip_start_hms": "05:06:22",
+    "clip_end_hms": "05:07:26",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.293,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 249,
+    "delivery_timestamp": 18447.36,
+    "delivery_hms": "05:07:27",
+    "clip_start": 18442.36,
+    "clip_end": 18509.0,
+    "clip_start_hms": "05:07:22",
+    "clip_end_hms": "05:08:29",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.299,
+    "scoreboard": {
+      "runs": 73,
+      "wickets": 4,
+      "overs": 20.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Suryakumar",
+          "runs": 27,
+          "balls": 27
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 250,
+    "delivery_timestamp": 18512.69,
+    "delivery_hms": "05:08:32",
+    "clip_start": 18507.69,
+    "clip_end": 18552.0,
+    "clip_start_hms": "05:08:27",
+    "clip_end_hms": "05:09:12",
+    "events": [],
+    "reasons": [
+      "context"
+    ],
+    "max_rms": 0.158,
+    "scoreboard": {
+      "runs": 73,
+      "wickets": 4,
+      "overs": 20.1,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Suryakumar",
+          "runs": 27,
+          "balls": 28
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 251,
+    "delivery_timestamp": 18548.33,
+    "delivery_hms": "05:09:08",
+    "clip_start": 18543.33,
+    "clip_end": 18582.0,
+    "clip_start_hms": "05:09:03",
+    "clip_end_hms": "05:09:42",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.496,
+    "scoreboard": {
+      "runs": 73,
+      "wickets": 5,
+      "overs": 20.2,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 252,
+    "delivery_timestamp": 18578.03,
+    "delivery_hms": "05:09:38",
+    "clip_start": 18573.03,
+    "clip_end": 18600.0,
+    "clip_start_hms": "05:09:33",
+    "clip_end_hms": "05:10:00",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.399,
+    "scoreboard": {
+      "runs": 73,
+      "wickets": 5,
+      "overs": 20.2,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 253,
+    "delivery_timestamp": 18598.81,
+    "delivery_hms": "05:09:58",
+    "clip_start": 18593.81,
+    "clip_end": 18630.0,
+    "clip_start_hms": "05:09:53",
+    "clip_end_hms": "05:10:30",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.43,
+    "scoreboard": {
+      "runs": 74,
+      "wickets": 5,
+      "overs": 20.3,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Yadav",
+          "runs": 27,
+          "balls": 29
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 254,
+    "delivery_timestamp": 18628.51,
+    "delivery_hms": "05:10:28",
+    "clip_start": 18623.51,
+    "clip_end": 18662.0,
+    "clip_start_hms": "05:10:23",
+    "clip_end_hms": "05:11:02",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.348,
+    "scoreboard": {
+      "runs": 75,
+      "wickets": 5,
+      "overs": 20.4,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 255,
+    "delivery_timestamp": 18658.21,
+    "delivery_hms": "05:10:58",
+    "clip_start": 18653.21,
+    "clip_end": 18722.0,
+    "clip_start_hms": "05:10:53",
+    "clip_end_hms": "05:12:02",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.354,
+    "scoreboard": {
+      "runs": 75,
+      "wickets": 5,
+      "overs": 21.0,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 256,
+    "delivery_timestamp": 18993.77,
+    "delivery_hms": "05:16:33",
+    "clip_start": 18988.77,
+    "clip_end": 19012.0,
+    "clip_start_hms": "05:16:28",
+    "clip_end_hms": "05:16:52",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.274,
+    "scoreboard": {
+      "runs": 76,
+      "wickets": 5,
+      "overs": 22.1,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Hardik",
+          "runs": 18,
+          "balls": 30
+        },
+        {
+          "name": "Jadeja",
+          "runs": 1,
+          "balls": 8
+        }
+      ],
+      "bowler": {
+        "name": "Topley",
+        "wickets": 3,
+        "runs": 19,
+        "overs": 6.1
+      }
+    }
+  },
+  {
+    "delivery_id": 257,
+    "delivery_timestamp": 19014.56,
+    "delivery_hms": "05:16:54",
+    "clip_start": 19009.56,
+    "clip_end": 19039.0,
+    "clip_start_hms": "05:16:49",
+    "clip_end_hms": "05:17:19",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.288,
+    "scoreboard": {
+      "runs": 77,
+      "wickets": 5,
+      "overs": 22.2,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Jadeja",
+          "runs": 1,
+          "balls": 8
+        }
+      ],
+      "bowler": {
+        "name": "Topley",
+        "wickets": 3,
+        "runs": 20,
+        "overs": 6.2
+      }
+    }
+  },
+  {
+    "delivery_id": 259,
+    "delivery_timestamp": 19139.29,
+    "delivery_hms": "05:18:59",
+    "clip_start": 19134.29,
+    "clip_end": 19184.0,
+    "clip_start_hms": "05:18:54",
+    "clip_end_hms": "05:19:44",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.365,
+    "scoreboard": {
+      "runs": 77,
+      "wickets": 5,
+      "overs": 23.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Hardik",
+          "runs": 19,
+          "balls": 31
+        },
+        {
+          "name": "Jadeja",
+          "runs": 1,
+          "balls": 12
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 260,
+    "delivery_timestamp": 19180.86,
+    "delivery_hms": "05:19:40",
+    "clip_start": 19175.86,
+    "clip_end": 19244.0,
+    "clip_start_hms": "05:19:35",
+    "clip_end_hms": "05:20:44",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.321,
+    "scoreboard": {
+      "runs": 78,
+      "wickets": 5,
+      "overs": 23.1,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Hardik",
+          "runs": 20,
+          "balls": 32
+        },
+        {
+          "name": "Jadeja",
+          "runs": 1,
+          "balls": 12
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 261,
+    "delivery_timestamp": 19602.55,
+    "delivery_hms": "05:26:42",
+    "clip_start": 19597.55,
+    "clip_end": 19662.0,
+    "clip_start_hms": "05:26:37",
+    "clip_end_hms": "05:27:42",
+    "events": [
+      "four"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.357,
+    "scoreboard": {
+      "runs": 91,
+      "wickets": 5,
+      "overs": 24.5,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Hardik",
+          "runs": 27,
+          "balls": 37
+        },
+        {
+          "name": "Jadeja",
+          "runs": 7,
+          "balls": 17
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 262,
+    "delivery_timestamp": 20472.65,
+    "delivery_hms": "05:41:12",
+    "clip_start": 20467.65,
+    "clip_end": 20514.0,
+    "clip_start_hms": "05:41:07",
+    "clip_end_hms": "05:41:54",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.284,
+    "scoreboard": {
+      "runs": 108,
+      "wickets": 6,
+      "overs": 28.3,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 4,
+          "balls": 6
+        },
+        {
+          "name": "Jadeja",
+          "runs": 16,
+          "balls": 25
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 263,
+    "delivery_timestamp": 20514.23,
+    "delivery_hms": "05:41:54",
+    "clip_start": 20509.23,
+    "clip_end": 20578.0,
+    "clip_start_hms": "05:41:49",
+    "clip_end_hms": "05:42:58",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.367,
+    "scoreboard": {
+      "runs": 108,
+      "wickets": 6,
+      "overs": 28.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 4,
+          "balls": 8
+        },
+        {
+          "name": "Jadeja",
+          "runs": 16,
+          "balls": 25
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 264,
+    "delivery_timestamp": 20834.95,
+    "delivery_hms": "05:47:14",
+    "clip_start": 20829.95,
+    "clip_end": 20869.0,
+    "clip_start_hms": "05:47:09",
+    "clip_end_hms": "05:47:49",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.312,
+    "scoreboard": {
+      "runs": 123,
+      "wickets": 6,
+      "overs": 30.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Jadeja",
+          "runs": 20,
+          "balls": 29
+        },
+        {
+          "name": "Shami",
+          "runs": 15,
+          "balls": 12
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 266,
+    "delivery_timestamp": 21188.33,
+    "delivery_hms": "05:53:08",
+    "clip_start": 21183.33,
+    "clip_end": 21243.0,
+    "clip_start_hms": "05:53:03",
+    "clip_end_hms": "05:54:03",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.301,
+    "scoreboard": {
+      "runs": 131,
+      "wickets": 6,
+      "overs": 31.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 18,
+          "balls": 16
+        },
+        {
+          "name": "Jadeja",
+          "runs": 25,
+          "balls": 35
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 267,
+    "delivery_timestamp": 21372.45,
+    "delivery_hms": "05:56:12",
+    "clip_start": 21367.45,
+    "clip_end": 21433.0,
+    "clip_start_hms": "05:56:07",
+    "clip_end_hms": "05:57:13",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.332,
+    "scoreboard": {
+      "runs": 132,
+      "wickets": 6,
+      "overs": 32.2,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 18,
+          "balls": 19
+        },
+        {
+          "name": "Jadeja",
+          "runs": 26,
+          "balls": 36
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 268,
+    "delivery_timestamp": 21479.36,
+    "delivery_hms": "05:57:59",
+    "clip_start": 21474.36,
+    "clip_end": 21543.0,
+    "clip_start_hms": "05:57:54",
+    "clip_end_hms": "05:59:03",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.504,
+    "scoreboard": {
+      "runs": 135,
+      "wickets": 6,
+      "overs": 33.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 19,
+          "balls": 20
+        }
+      ],
+      "bowler": {
+        "name": "Willey",
+        "wickets": 1,
+        "runs": 25,
+        "overs": 8.5
+      }
+    }
+  },
+  {
+    "delivery_id": 269,
+    "delivery_timestamp": 21544.69,
+    "delivery_hms": "05:59:04",
+    "clip_start": 21539.69,
+    "clip_end": 21559.69,
+    "clip_start_hms": "05:58:59",
+    "clip_end_hms": "05:59:19",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.29,
+    "scoreboard": {
+      "runs": 136,
+      "wickets": 6,
+      "overs": 33.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Jadeja",
+          "runs": 27,
+          "balls": 38
+        },
+        {
+          "name": "Shami",
+          "runs": 21,
+          "balls": 21
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 270,
+    "delivery_timestamp": 21565.48,
+    "delivery_hms": "05:59:25",
+    "clip_start": 21560.48,
+    "clip_end": 21580.48,
+    "clip_start_hms": "05:59:20",
+    "clip_end_hms": "05:59:40",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.275,
+    "scoreboard": {
+      "runs": 136,
+      "wickets": 6,
+      "overs": 33.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 21,
+          "balls": 21
+        },
+        {
+          "name": "Jadeja",
+          "runs": 27,
+          "balls": 38
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 271,
+    "delivery_timestamp": 21630.81,
+    "delivery_hms": "06:00:30",
+    "clip_start": 21625.81,
+    "clip_end": 21665.0,
+    "clip_start_hms": "06:00:25",
+    "clip_end_hms": "06:01:05",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.371,
+    "scoreboard": {
+      "runs": 137,
+      "wickets": 6,
+      "overs": 33.3,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 21,
+          "balls": 23
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 272,
+    "delivery_timestamp": 21666.44,
+    "delivery_hms": "06:01:06",
+    "clip_start": 21661.44,
+    "clip_end": 21681.44,
+    "clip_start_hms": "06:01:01",
+    "clip_end_hms": "06:01:21",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.28,
+    "scoreboard": {
+      "runs": 137,
+      "wickets": 6,
+      "overs": 33.3,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 21,
+          "balls": 23
+        },
+        {
+          "name": "Jadeja",
+          "runs": 28,
+          "balls": 39
+        }
+      ],
+      "bowler": {
+        "name": "Carse",
+        "wickets": 1,
+        "runs": 31,
+        "overs": 6.3
+      }
+    }
+  },
+  {
+    "delivery_id": 273,
+    "delivery_timestamp": 21693.17,
+    "delivery_hms": "06:01:33",
+    "clip_start": 21688.17,
+    "clip_end": 21709.0,
+    "clip_start_hms": "06:01:28",
+    "clip_end_hms": "06:01:49",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.319,
+    "scoreboard": {
+      "runs": 138,
+      "wickets": 6,
+      "overs": 33.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 22,
+          "balls": 24
+        },
+        {
+          "name": "Jadeja",
+          "runs": 28,
+          "balls": 39
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 274,
+    "delivery_timestamp": 21719.9,
+    "delivery_hms": "06:01:59",
+    "clip_start": 21714.9,
+    "clip_end": 21750.0,
+    "clip_start_hms": "06:01:54",
+    "clip_end_hms": "06:02:30",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.295,
+    "scoreboard": {
+      "runs": 138,
+      "wickets": 6,
+      "overs": 33.5,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 22,
+          "balls": 24
+        }
+      ],
+      "bowler": {
+        "name": "Carse",
+        "wickets": 1,
+        "runs": 32,
+        "overs": 6.5
+      }
+    }
+  },
+  {
+    "delivery_id": 275,
+    "delivery_timestamp": 21749.59,
+    "delivery_hms": "06:02:29",
+    "clip_start": 21744.59,
+    "clip_end": 21793.0,
+    "clip_start_hms": "06:02:24",
+    "clip_end_hms": "06:03:13",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.338,
+    "scoreboard": {
+      "runs": 138,
+      "wickets": 6,
+      "overs": 34.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 22,
+          "balls": 24
+        },
+        {
+          "name": "Jadeja",
+          "runs": 28,
+          "balls": 41
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 277,
+    "delivery_timestamp": 21832.74,
+    "delivery_hms": "06:03:52",
+    "clip_start": 21827.74,
+    "clip_end": 21857.0,
+    "clip_start_hms": "06:03:47",
+    "clip_end_hms": "06:04:17",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.392,
+    "scoreboard": {
+      "runs": 138,
+      "wickets": 6,
+      "overs": 34.2,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 22,
+          "balls": 26
+        },
+        {
+          "name": "Jadeja",
+          "runs": 28,
+          "balls": 41
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 278,
+    "delivery_timestamp": 21853.53,
+    "delivery_hms": "06:04:13",
+    "clip_start": 21848.53,
+    "clip_end": 21880.0,
+    "clip_start_hms": "06:04:08",
+    "clip_end_hms": "06:04:40",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.392,
+    "scoreboard": {
+      "runs": 139,
+      "wickets": 6,
+      "overs": 34.3,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 23,
+          "balls": 27
+        },
+        {
+          "name": "Jadeja",
+          "runs": 28,
+          "balls": 41
+        }
+      ],
+      "bowler": {
+        "name": "Topley",
+        "wickets": 3,
+        "runs": 21,
+        "overs": 7.3
+      }
+    }
+  },
+  {
+    "delivery_id": 279,
+    "delivery_timestamp": 21892.14,
+    "delivery_hms": "06:04:52",
+    "clip_start": 21887.14,
+    "clip_end": 21920.0,
+    "clip_start_hms": "06:04:47",
+    "clip_end_hms": "06:05:20",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.323,
+    "scoreboard": {
+      "runs": 139,
+      "wickets": 6,
+      "overs": 34.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Jadeja",
+          "runs": 28,
+          "balls": 42
+        },
+        {
+          "name": "Shami",
+          "runs": 23,
+          "balls": 27
+        }
+      ],
+      "bowler": {
+        "name": "Topley",
+        "wickets": 3,
+        "runs": 21,
+        "overs": 7.4
+      }
+    }
+  },
+  {
+    "delivery_id": 280,
+    "delivery_timestamp": 21918.86,
+    "delivery_hms": "06:05:18",
+    "clip_start": 21913.86,
+    "clip_end": 21982.0,
+    "clip_start_hms": "06:05:13",
+    "clip_end_hms": "06:06:22",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.615,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 7,
+      "overs": 35.0,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 281,
+    "delivery_timestamp": 21990.13,
+    "delivery_hms": "06:06:30",
+    "clip_start": 21985.13,
+    "clip_end": 22010.0,
+    "clip_start_hms": "06:06:25",
+    "clip_end_hms": "06:06:50",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.392,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 7,
+      "overs": 35.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 23,
+          "balls": 28
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 282,
+    "delivery_timestamp": 22010.92,
+    "delivery_hms": "06:06:50",
+    "clip_start": 22005.92,
+    "clip_end": 22053.0,
+    "clip_start_hms": "06:06:45",
+    "clip_end_hms": "06:07:33",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.339,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 7,
+      "overs": 35.0,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Shami",
+          "runs": 23,
+          "balls": 28
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 283,
+    "delivery_timestamp": 22049.53,
+    "delivery_hms": "06:07:29",
+    "clip_start": 22044.53,
+    "clip_end": 22080.0,
+    "clip_start_hms": "06:07:24",
+    "clip_end_hms": "06:08:00",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.737,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 8,
+      "overs": 35.1,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Jadeja",
+          "runs": 29,
+          "balls": 43
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 284,
+    "delivery_timestamp": 22076.25,
+    "delivery_hms": "06:07:56",
+    "clip_start": 22071.25,
+    "clip_end": 22139.0,
+    "clip_start_hms": "06:07:51",
+    "clip_end_hms": "06:08:59",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.456,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 8,
+      "overs": 35.1,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Jadeja",
+          "runs": 29,
+          "balls": 44
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 285,
+    "delivery_timestamp": 22138.62,
+    "delivery_hms": "06:08:58",
+    "clip_start": 22133.62,
+    "clip_end": 22160.0,
+    "clip_start_hms": "06:08:53",
+    "clip_end_hms": "06:09:20",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.64,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 8,
+      "overs": 35.1,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Jadeja",
+          "runs": 29,
+          "balls": 44
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 286,
+    "delivery_timestamp": 22159.4,
+    "delivery_hms": "06:09:19",
+    "clip_start": 22154.4,
+    "clip_end": 22191.0,
+    "clip_start_hms": "06:09:14",
+    "clip_end_hms": "06:09:51",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.33,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 8
+    }
+  },
+  {
+    "delivery_id": 287,
+    "delivery_timestamp": 22206.92,
+    "delivery_hms": "06:10:06",
+    "clip_start": 22201.92,
+    "clip_end": 22231.0,
+    "clip_start_hms": "06:10:01",
+    "clip_end_hms": "06:10:31",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.401,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 8,
+      "overs": 35.2,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 288,
+    "delivery_timestamp": 22245.52,
+    "delivery_hms": "06:10:45",
+    "clip_start": 22240.52,
+    "clip_end": 22273.0,
+    "clip_start_hms": "06:10:40",
+    "clip_end_hms": "06:11:13",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.423,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 8,
+      "overs": 35.5,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 289,
+    "delivery_timestamp": 22269.28,
+    "delivery_hms": "06:11:09",
+    "clip_start": 22264.28,
+    "clip_end": 22284.28,
+    "clip_start_hms": "06:11:04",
+    "clip_end_hms": "06:11:24",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.315,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 8,
+      "overs": 35.5,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Chahal",
+          "runs": 0,
+          "balls": 4
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 290,
+    "delivery_timestamp": 22307.89,
+    "delivery_hms": "06:11:47",
+    "clip_start": 22302.89,
+    "clip_end": 22332.0,
+    "clip_start_hms": "06:11:42",
+    "clip_end_hms": "06:12:12",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.305,
+    "scoreboard": {
+      "runs": 140,
+      "wickets": 8,
+      "overs": 36.0,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 292,
+    "delivery_timestamp": 22376.19,
+    "delivery_hms": "06:12:56",
+    "clip_start": 22371.19,
+    "clip_end": 22391.19,
+    "clip_start_hms": "06:12:51",
+    "clip_end_hms": "06:13:11",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.334,
+    "scoreboard": null
+  },
+  {
+    "delivery_id": 294,
+    "delivery_timestamp": 22426.67,
+    "delivery_hms": "06:13:46",
+    "clip_start": 22421.67,
+    "clip_end": 22477.0,
+    "clip_start_hms": "06:13:41",
+    "clip_end_hms": "06:14:37",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.287,
+    "scoreboard": {
+      "runs": 141,
+      "wickets": 8,
+      "overs": 36.5,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 295,
+    "delivery_timestamp": 22518.73,
+    "delivery_hms": "06:15:18",
+    "clip_start": 22513.73,
+    "clip_end": 22561.0,
+    "clip_start_hms": "06:15:13",
+    "clip_end_hms": "06:16:01",
+    "events": [
+      "boundary_approx"
+    ],
+    "reasons": [
+      "rms",
+      "event",
+      "context"
+    ],
+    "max_rms": 0.302,
+    "scoreboard": {
+      "runs": 144,
+      "wickets": 8,
+      "overs": 37.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Bumrah",
+          "runs": 2,
+          "balls": 5
+        },
+        {
+          "name": "Chahal",
+          "runs": 2,
+          "balls": 10
+        }
+      ],
+      "bowler": {
+        "name": "Livingstone",
+        "wickets": 1,
+        "runs": 3,
+        "overs": 1.4
+      }
+    }
+  },
+  {
+    "delivery_id": 296,
+    "delivery_timestamp": 22557.33,
+    "delivery_hms": "06:15:57",
+    "clip_start": 22552.33,
+    "clip_end": 22572.33,
+    "clip_start_hms": "06:15:52",
+    "clip_end_hms": "06:16:12",
+    "events": [],
+    "reasons": [
+      "context"
+    ],
+    "max_rms": 0.142,
+    "scoreboard": {
+      "runs": 144,
+      "wickets": 8,
+      "overs": 37.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Chahal",
+          "runs": 2,
+          "balls": 10
+        },
+        {
+          "name": "Bumrah",
+          "runs": 2,
+          "balls": 5
+        }
+      ],
+      "bowler": {
+        "name": "Livingstone",
+        "wickets": 1,
+        "runs": 3,
+        "overs": 1.4
+      }
+    }
+  },
+  {
+    "delivery_id": 297,
+    "delivery_timestamp": 22578.12,
+    "delivery_hms": "06:16:18",
+    "clip_start": 22573.12,
+    "clip_end": 22623.0,
+    "clip_start_hms": "06:16:13",
+    "clip_end_hms": "06:17:03",
+    "events": [],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.357,
+    "scoreboard": {
+      "runs": 145,
+      "wickets": 8,
+      "overs": 38.1,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Chahal",
+          "runs": 3,
+          "balls": 12
+        },
+        {
+          "name": "Bumrah",
+          "runs": 2,
+          "balls": 6
+        }
+      ],
+      "bowler": {
+        "name": "Topley",
+        "wickets": 4,
+        "runs": 23,
+        "overs": 9.1
+      }
+    }
+  },
+  {
+    "delivery_id": 298,
+    "delivery_timestamp": 22619.7,
+    "delivery_hms": "06:16:59",
+    "clip_start": 22614.7,
+    "clip_end": 22668.0,
+    "clip_start_hms": "06:16:54",
+    "clip_end_hms": "06:17:48",
+    "events": [
+      "wicket"
+    ],
+    "reasons": [
+      "rms",
+      "context"
+    ],
+    "max_rms": 0.482,
+    "scoreboard": {
+      "runs": 145,
+      "wickets": 9,
+      "overs": 38.2,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 299,
+    "delivery_timestamp": 22664.24,
+    "delivery_hms": "06:17:44",
+    "clip_start": 22659.24,
+    "clip_end": 22697.0,
+    "clip_start_hms": "06:17:39",
+    "clip_end_hms": "06:18:17",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.469,
+    "scoreboard": {
+      "runs": 145,
+      "wickets": 9,
+      "overs": 38.2,
+      "innings": 2,
+      "target": 247
+    }
+  },
+  {
+    "delivery_id": 300,
+    "delivery_timestamp": 22693.94,
+    "delivery_hms": "06:18:13",
+    "clip_start": 22688.94,
+    "clip_end": 22736.0,
+    "clip_start_hms": "06:18:08",
+    "clip_end_hms": "06:18:56",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.377,
+    "scoreboard": {
+      "runs": 145,
+      "wickets": 9,
+      "overs": 38.2,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Chahal",
+          "runs": 3,
+          "balls": 13
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 301,
+    "delivery_timestamp": 22738.48,
+    "delivery_hms": "06:18:58",
+    "clip_start": 22733.48,
+    "clip_end": 22756.0,
+    "clip_start_hms": "06:18:53",
+    "clip_end_hms": "06:19:16",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.351,
+    "scoreboard": {
+      "runs": 146,
+      "wickets": 9,
+      "overs": 38.2,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Bumrah",
+          "runs": 2,
+          "balls": 6
+        }
+      ],
+      "bowler": {
+        "name": "Topley",
+        "wickets": 5,
+        "runs": 24,
+        "overs": 9.2
+      }
+    }
+  },
+  {
+    "delivery_id": 302,
+    "delivery_timestamp": 22777.09,
+    "delivery_hms": "06:19:37",
+    "clip_start": 22772.09,
+    "clip_end": 22819.0,
+    "clip_start_hms": "06:19:32",
+    "clip_end_hms": "06:20:19",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.329,
+    "scoreboard": {
+      "runs": 146,
+      "wickets": 9,
+      "overs": 38.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Bumrah",
+          "runs": 2,
+          "balls": 6
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 303,
+    "delivery_timestamp": 22821.63,
+    "delivery_hms": "06:20:21",
+    "clip_start": 22816.63,
+    "clip_end": 22861.0,
+    "clip_start_hms": "06:20:16",
+    "clip_end_hms": "06:21:01",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.515,
+    "scoreboard": {
+      "runs": 146,
+      "wickets": 9,
+      "overs": 38.4,
+      "innings": 2,
+      "target": 247,
+      "batsmen": [
+        {
+          "name": "Bumrah",
+          "runs": 2,
+          "balls": 6
+        }
+      ]
+    }
+  },
+  {
+    "delivery_id": 304,
+    "delivery_timestamp": 22857.27,
+    "delivery_hms": "06:20:57",
+    "clip_start": 22852.27,
+    "clip_end": 22872.27,
+    "clip_start_hms": "06:20:52",
+    "clip_end_hms": "06:21:12",
+    "events": [],
+    "reasons": [
+      "rms"
+    ],
+    "max_rms": 0.445,
+    "scoreboard": null
+  }
+]
