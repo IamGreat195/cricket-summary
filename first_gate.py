@@ -1,17 +1,3 @@
-"""
-first_gate.py  —  Event-based highlight detection
-──────────────────────────────────────────────────
-Two-pronged approach:
-
-  PRONG 1 — Audio gate: top 20% of segments by RMS energy
-  PRONG 2 — Scoreboard delta events:
-               • six / four / runs  (runs delta between valid reads)
-               • wicket
-               • chase climax       (2nd innings, close finish)
-               • milestone          (batsman near 50 or 100)
-             Event segments get ±30s context window included
-"""
-
 import json
 import numpy as np
 from collections import Counter

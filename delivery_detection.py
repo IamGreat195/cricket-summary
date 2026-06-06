@@ -7,7 +7,7 @@ def detect_deliveries_fast(video_path, out_json="deliveries.json",
                             sample_every=3,
                             min_gap=18,
                             motion_threshold=0.015,
-                            green_threshold=0.40):
+                            green_threshold=0.30):
 
     cap          = cv2.VideoCapture(video_path)
     fps          = cap.get(cv2.CAP_PROP_FPS)
@@ -52,8 +52,8 @@ def detect_deliveries_fast(video_path, out_json="deliveries.json",
         small  = cv2.resize(frame, (160, 90))
         hsv    = cv2.cvtColor(small, cv2.COLOR_BGR2HSV)
         gmask  = cv2.inRange(hsv,
-                     np.array([35, 40, 40]),
-                     np.array([85, 255, 255]))
+                     np.array([25, 20, 20]),
+                     np.array([95, 255, 255]))
 
         sh, sw = small.shape[:2]
         
@@ -68,9 +68,9 @@ def detect_deliveries_fast(video_path, out_json="deliveries.json",
 
         is_delivery_angle = (
             g_overall > green_threshold and
-            g_side_l  > 0.75 and
-            g_side_r  > 0.75 and
-            g_center  < 0.70
+            g_side_l  > 0.60 and
+            g_side_r  > 0.60 and
+            g_center  < 0.85
         )
 
         if not is_delivery_angle:
