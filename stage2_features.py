@@ -245,17 +245,17 @@ if __name__ == "__main__":
 
     VIDEO_PATH = "match1_h264.mp4"
 
-    with open("delivery_highlights.json") as f:
+    with open("data/delivery_highlights.json") as f:
         deliveries = json.load(f)
 
     # load whisper transcript if available
     whisper_segments = []
-    if os.path.exists("transcript.json"):
-        with open("transcript.json") as f:
+    if os.path.exists("data/transcript.json"):
+        with open("data/transcript.json") as f:
             whisper_segments = json.load(f)
         print(f"Loaded {len(whisper_segments)} whisper segments")
     else:
-        print("No transcript.json found — commentary score will be 0")
+        print("No data/transcript.json found — commentary score will be 0")
         print("Run: whisper match1_audio.wav --model small "
               "--word_timestamps True --output_format json")
 
@@ -277,8 +277,9 @@ if __name__ == "__main__":
             "feature_dim":        len(feat),
         })
 
-    with open("delivery_features.json", "w") as f:
+    os.makedirs("data", exist_ok=True)
+    with open("data/delivery_features.json", "w") as f:
         json.dump(results, f, indent=2)
 
-    print(f"\nSaved {len(results)} feature vectors → delivery_features.json")
+    print(f"\nSaved {len(results)} feature vectors → data/delivery_features.json")
     print(f"Feature vector dimension: {results[0]['feature_dim']}")

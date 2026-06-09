@@ -106,7 +106,7 @@ def read_scoreboard(frame):
     text = " ".join(lines)
     return parse_ecb_scoreboard(text), text.strip()
 
-def batch_process_scoreboards(video_path, json_path="segments_rms.json", out_path="segments_ocr.json"):
+def batch_process_scoreboards(video_path, json_path="data/segments_rms.json", out_path="data/segments_ocr.json"):
     with open(json_path, "r") as f:
         segments = json.load(f)
     

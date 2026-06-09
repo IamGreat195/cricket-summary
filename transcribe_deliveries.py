@@ -16,9 +16,9 @@ def extract_audio_segment(input_wav, output_wav, start_time, end_time):
     ]
     subprocess.run(cmd, check=True)
 
-def transcribe_deliveries(delivery_highlights_path="delivery_highlights.json", 
+def transcribe_deliveries(delivery_highlights_path="data/delivery_highlights.json", 
                           full_audio_path="match1_audio.wav", 
-                          out_json="transcript.json"):
+                          out_json="data/transcript.json"):
     
     with open(delivery_highlights_path) as f:
         deliveries = json.load(f)

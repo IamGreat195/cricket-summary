@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 from tqdm import tqdm
 
-def generate_video(features_path="delivery_features.json", 
+def generate_video(features_path="data/delivery_features.json", 
                    model_path="highlight_classifier.pkl", 
                    video_path="match1_h264.mp4",
                    output_path="final_highlights.mp4"):

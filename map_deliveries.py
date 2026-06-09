@@ -4,7 +4,7 @@ def fmt_hms(seconds):
     s = int(seconds)
     return f"{s//3600:02d}:{(s%3600)//60:02d}:{s%60:02d}"
 
-def map_deliveries_to_highlights(deliveries_path="deliveries.json", highlights_path="highlights.json", out_path="delivery_highlights.json"):
+def map_deliveries_to_highlights(deliveries_path="data/deliveries.json", highlights_path="data/highlights.json", out_path="data/delivery_highlights.json"):
     with open(deliveries_path) as f:
         deliveries = json.load(f)
         
