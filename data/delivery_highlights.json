@@ -11257,8 +11257,8 @@
     "clip_start_hms": "04:06:59",
     "clip_end_hms": "04:08:07",
     "events": [
-      "wicket",
-      "boundary_approx"
+      "boundary_approx",
+      "wicket"
     ],
     "reasons": [
       "rms",
@@ -11501,8 +11501,8 @@
     "clip_start_hms": "04:11:50",
     "clip_end_hms": "04:12:26",
     "events": [
-      "wicket",
-      "boundary_approx"
+      "boundary_approx",
+      "wicket"
     ],
     "reasons": [
       "event",
@@ -11533,8 +11533,8 @@
     "clip_start_hms": "04:12:17",
     "clip_end_hms": "04:12:46",
     "events": [
-      "wicket",
-      "boundary_approx"
+      "boundary_approx",
+      "wicket"
     ],
     "reasons": [
       "event",
@@ -11575,8 +11575,8 @@
     "clip_start_hms": "04:12:37",
     "clip_end_hms": "04:13:34",
     "events": [
-      "wicket",
-      "boundary_approx"
+      "boundary_approx",
+      "wicket"
     ],
     "reasons": [
       "event",
@@ -12080,8 +12080,8 @@
     "clip_start_hms": "04:27:37",
     "clip_end_hms": "04:28:33",
     "events": [
-      "wicket",
-      "boundary_approx"
+      "boundary_approx",
+      "wicket"
     ],
     "reasons": [
       "rms",
@@ -12576,8 +12576,8 @@
     "clip_start_hms": "04:41:44",
     "clip_end_hms": "04:42:22",
     "events": [
-      "wicket",
-      "boundary_approx"
+      "boundary_approx",
+      "wicket"
     ],
     "reasons": [
       "event",

@@ -60,7 +60,7 @@ def detect_deliveries_fast(video_path, out_json="data/deliveries.json", sample_e
             gray_small = cv2.cvtColor(cv2.resize(frame, (160, 90)), cv2.COLOR_BGR2GRAY)
             prev_gray_small = gray_small
             continue
-
+        motion_score = 0.0
         gray_small = cv2.cvtColor(cv2.resize(frame, (160, 90)), cv2.COLOR_BGR2GRAY)
         if prev_gray_small is not None:
             diff = cv2.absdiff(prev_gray_small, gray_small)

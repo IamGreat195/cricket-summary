@@ -6,10 +6,10 @@ import subprocess
 import json
 import os
 from tqdm import tqdm
-from scipy.ndimage import uniform_filterId
+from scipy.ndimage import uniform_filter1d
 
-video_path = "match1_mp4.webm"
-wav_path = "math1_audio.wav"
+video_path = "match1_h264.mp4"
+wav_path = "match1_audio.wav"
 
 if not os.path.exists(wav_path):
     print("Getting audio with FFmpeg:")
@@ -45,12 +45,12 @@ print("saved segments file")
 def extract_audio_rms(wav_path, segments):
     with wave.open(wav_path, "rb") as wf:
         sr = wf.getframerate()
-        n_channels = wf.getnchannels
-        sampwidth = wf.getsampwidth
+        n_channels = wf.getnchannels()
+        sampwidth = wf.getsampwidth()
 
         for seg in tqdm(segments, desc="Extracting RMS"):
             start_frame = int(seg["start"] * sr)
-            n_frames = int(seg["end"] - seg["start"] * sr)
+            n_frames = int((seg["end"] - seg["start"]) * sr)
             wf.setpos(start_frame)
             raw = wf.readframes(n_frames)
 

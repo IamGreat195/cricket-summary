@@ -19,7 +19,7 @@ def get_label(events):
         # unless you specifically want to model normal runs.
         return "none"
 
-def train_model(features_path="delivery_features.json", model_out="highlight_classifier.pkl"):
+def train_model(features_path="data/delivery_features.json", model_out="highlight_classifier.pkl"):
     print("Loading delivery features...")
     with open(features_path) as f:
         data = json.load(f)
