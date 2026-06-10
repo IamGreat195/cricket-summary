@@ -7,20 +7,13 @@ import torch
 def transcribe_deliveries(delivery_highlights_path="data/delivery_highlights.json",
                           full_audio_path="match1_audio.wav",
                           out_json="data/transcript.json"):
-
     with open(delivery_highlights_path) as f:
         deliveries = json.load(f)
-
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Loading Whisper model (small) on {device}...")
     with warnings.catch_warnings():
         warnings.simplefilter("ignore")
         model = whisper.load_model("small", device=device)
-
-    # ── Run Whisper ONCE on the full audio ──────────────────────────────────
-    # This is much faster because Whisper natively skips silence (VAD), 
-    # doesn't have Python loop overhead 200 times, and doesn't pad every 
-    # tiny clip to 30 seconds.
     print(f"Transcribing full audio file: {full_audio_path}")
     print("This usually takes 3-5 mins, but avoids all Python overhead.")
     with warnings.catch_warnings():
@@ -34,8 +27,6 @@ def transcribe_deliveries(delivery_highlights_path="data/delivery_highlights.jso
 
     all_segs = result["segments"]
     print(f"Whisper produced {len(all_segs)} raw segments from full audio.")
-
-    # ── Filter segments to only those overlapping a highlight clip ───────────
     windows = [
         (
             max(0, d["clip_start"] - 2),
@@ -57,7 +48,6 @@ def transcribe_deliveries(delivery_highlights_path="data/delivery_highlights.jso
                     "delivery_id": d_id,
                 })
                 break  
-
     global_segments.sort(key=lambda x: x["start"])
 
     os.makedirs(os.path.dirname(out_json), exist_ok=True)
