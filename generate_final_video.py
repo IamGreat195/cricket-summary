@@ -49,7 +49,7 @@ def generate_video(features_path="data/delivery_features.json",
     
     highlight_clips = []
     for pred, d in zip(predictions, valid_deliveries):
-        if pred != "none":
+        if pred not in ["none", "four"]:
             highlight_clips.append(d)
             print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred}")
             
