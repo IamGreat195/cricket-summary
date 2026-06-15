@@ -6,44 +6,58 @@ import numpy as np
 from tqdm import tqdm
 
 def generate_video(features_path="data/delivery_features.json", 
-                   model_path="highlight_classifier.pkl", 
+                   model_path="highlight_pipeline.pkl", 
                    video_path="match1_h264.mp4",
                    output_path="final_highlights.mp4"):
     
-    print("Loading model and features...")
-    model = joblib.load(model_path)
+    print("Loading pipeline and features...")
+    pipeline = joblib.load(model_path)
+    pca_vid = pipeline["pca_vid"]
+    pca_txt = pipeline["pca_txt"]
+    le = pipeline["label_encoder"]
+    clf = pipeline["model"]
     
     with open(features_path) as f:
         deliveries = json.load(f)
         
-    X = []
+    X_raw = []
     valid_deliveries = []
     
     for d in deliveries:
-        if d.get("feature_vector"):
-            X.append(d["feature_vector"])
+        if d.get("feature_vector") and len(d["feature_vector"]) >= 1165:
+            X_raw.append(d["feature_vector"])
             valid_deliveries.append(d)
             
-    X = np.array(X)
+    X_raw = np.array(X_raw)
+    if len(X_raw) == 0:
+        print("No valid deliveries found with full feature vectors.")
+        return
+
+    # Transform features through PCA pipeline
+    vid_feats = X_raw[:, 0:768]
+    txt_feats = X_raw[:, 768:1152]
+    core_feats = X_raw[:, 1152:1165]
+
+    vid_pca = pca_vid.transform(vid_feats)
+    txt_pca = pca_txt.transform(txt_feats)
+
+    X_final = np.concatenate([vid_pca, txt_pca, core_feats], axis=1)
     
-    # Predict on all available deliveries
     print("Running predictions...")
-    predictions = model.predict(X)
+    y_pred_idx = clf.predict(X_final)
+    predictions = le.inverse_transform(y_pred_idx)
     
-    # Filter for anything that isn't 'none'
     highlight_clips = []
     for pred, d in zip(predictions, valid_deliveries):
         if pred != "none":
             highlight_clips.append(d)
-            print(f"  Selected Delivery {d['delivery_id']:>3} {d['hms']} -> Predicted: {pred}")
+            print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred}")
             
     if not highlight_clips:
-        print("\nModel didn't predict ANY highlights! This might be due to the small training dataset.")
-        print("Falling back to top 10 deliveries based on 'none' probability threshold...")
-        probs = model.predict_proba(X)
-        none_idx = list(model.classes_).index("none")
+        print("\nModel didn't predict ANY highlights! Falling back to top 10 probabilities...")
+        probs = clf.predict_proba(X_final)
+        none_idx = list(le.classes_).index("none")
         
-        # highest probability of NOT being none
         not_none_probs = 1.0 - probs[:, none_idx]
         top_indices = np.argsort(not_none_probs)[-10:]
         

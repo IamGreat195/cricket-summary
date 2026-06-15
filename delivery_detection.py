@@ -4,7 +4,7 @@ import json
 import os
 from tqdm import tqdm
 
-def detect_deliveries_fast(video_path, out_json="data/deliveries.json", sample_every=3, min_gap=18, motion_threshold=0.015, green_threshold=0.30):
+def detect_deliveries_fast(video_path, out_json="data/deliveries.json", sample_every=1, min_gap=18, motion_threshold=0.015, green_threshold=0.30, onset_offset_secs=1.5):
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS)
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -68,11 +68,12 @@ def detect_deliveries_fast(video_path, out_json="data/deliveries.json", sample_e
         prev_gray_small = gray_small
 
         if motion_score >= motion_threshold:
-            hour = int(t) // 3600
-            mins = (int(t) % 3600) // 60
-            sec = int(t) % 60
+            delivery_t = max(0.0, t - onset_offset_secs)
+            hour = int(delivery_t) // 3600
+            mins = (int(delivery_t) % 3600) // 60
+            sec = int(delivery_t) % 60
 
-            deliveries.append({"delivery_id": len(deliveries) + 1, "timestamp": round(t, 2), "hms": f"{hour:02d}:{mins:02d}:{sec:02d}", "motion_score": round(motion_score, 4), "green_ratio":  round(g_overall, 3)})
+            deliveries.append({"delivery_id": len(deliveries) + 1, "timestamp": round(delivery_t, 2), "hms": f"{hour:02d}:{mins:02d}:{sec:02d}", "motion_score": round(motion_score, 4), "green_ratio":  round(g_overall, 3)})
             last_delivery_t = t
     pbar.close()
     cap.release()
@@ -84,4 +85,5 @@ def detect_deliveries_fast(video_path, out_json="data/deliveries.json", sample_e
     print(f"Expected ~300 for full ODI, ~120 for T20")
     return deliveries
 
-detect_deliveries_fast("match1_h264.mp4")
+if __name__ == "__main__":
+    detect_deliveries_fast("match1_h264.mp4")
