@@ -48,7 +48,15 @@ def generate_video(features_path="data/delivery_features.json",
     predictions = le.inverse_transform(y_pred_idx)
     
     highlight_clips = []
-    for pred, d in zip(predictions, valid_deliveries):
+    if len(valid_deliveries) > 0:
+        first_ball = dict(valid_deliveries[0])
+        first_ball["clip_start"] = 0.0
+        highlight_clips.append(first_ball)
+        print(f"  Selected Delivery {first_ball.get('delivery_id', '?'):>3} {first_ball.get('hms', '?')} -> Predicted: opening_and_first_ball")
+
+    for i, (pred, d) in enumerate(zip(predictions, valid_deliveries)):
+        if i == 0:
+            continue
         if pred not in ["none", "four"]:
             highlight_clips.append(d)
             print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred}")
