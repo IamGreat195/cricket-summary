@@ -169,4 +169,11 @@ def batch_process_scoreboards(video_path, json_path="data/segments_rms.json", ou
     print(f"\nDone! Saved OCR results to {out_path}")
 
 if __name__ == "__main__":
-    batch_process_scoreboards("match1_h264.mp4")
+    import os
+    video   = os.environ.get("VIDEO_PATH", "match1_h264.mp4")
+    data_dir = os.environ.get("DATA_DIR", "data")
+    batch_process_scoreboards(
+        video,
+        json_path=f"{data_dir}/segments_rms.json",
+        out_path=f"{data_dir}/segments_ocr.json"
+    )

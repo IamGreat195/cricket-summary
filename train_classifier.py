@@ -102,4 +102,9 @@ def train_model(features_path="data/delivery_features.json", model_out="highligh
     print(f"\nPipeline (PCA + XGBoost) saved to '{model_out}'")
 
 if __name__ == "__main__":
-    train_model()
+    import os
+    data_dir = os.environ.get("DATA_DIR", "data")
+    train_model(
+        features_path=f"{data_dir}/delivery_features.json",
+        model_out=f"{data_dir}/highlight_pipeline.pkl"
+    )

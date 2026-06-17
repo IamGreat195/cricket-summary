@@ -104,7 +104,9 @@ def build_highlights(segments):
 
 
 if __name__ == "__main__":
-    with open("data/segments_ocr.json") as f:
+    import os
+    data_dir = os.environ.get("DATA_DIR", "data")
+    with open(f"{data_dir}/segments_ocr.json") as f:
         segments = json.load(f)
     print(f"Loaded {len(segments):,} segments")
     segments = detect_events(segments)
@@ -146,7 +148,8 @@ if __name__ == "__main__":
         "scoreboard":       h.get("scoreboard"),
     } for h in highlights]
 
-    os.makedirs("data", exist_ok=True)
-    with open("data/highlights.json", "w") as f:
+    os.makedirs(data_dir, exist_ok=True)
+    with open(f"{data_dir}/highlights.json", "w") as f:
         json.dump(out, f, indent=2)
+    print(f"Saved {data_dir}/highlights.json")
     print(f"\nSaved {len(out):,} highlights → data/highlights.json")

@@ -173,9 +173,12 @@ def extract_all_features(video_path, delivery, whisper_segments):
     return feature_vec
 
 if __name__ == "__main__":
-    VIDEO_PATH = "match1_h264.mp4"
+    import os
+    VIDEO_PATH = os.environ.get("VIDEO_PATH", "match1_h264.mp4")
+    AUDIO_PATH = os.environ.get("AUDIO_PATH", "match1_audio.wav")
+    data_dir   = os.environ.get("DATA_DIR", "data")
 
-    with open("data/delivery_highlights.json") as f:
+    with open(f"{data_dir}/delivery_highlights.json") as f:
         deliveries = json.load(f)
 
     whisper_segments = []
@@ -203,9 +206,12 @@ if __name__ == "__main__":
             "feature_dim":        len(feat),
         })
 
-    os.makedirs("data", exist_ok=True)
-    with open("data/delivery_features.json", "w") as f:
+    os.makedirs(data_dir, exist_ok=True)
+    with open(f"{data_dir}/delivery_features.json", "w") as f:
         json.dump(results, f, indent=2)
 
-    print(f"\nSaved {len(results)} feature vectors → data/delivery_features.json")
-    print(f"Feature vector dimension: {results[0]['feature_dim']}")
+    print(f"\nSaved {len(results)} feature vectors → {data_dir}/delivery_features.json")
+    if len(results) > 0:
+        print(f"Feature vector dimension: {results[0]['feature_dim']}")
+    else:
+        print("No deliveries to extract features for.")

@@ -60,4 +60,11 @@ def transcribe_deliveries(delivery_highlights_path="data/delivery_highlights.jso
     print(f"Saved → {out_json}")
 
 if __name__ == "__main__":
-    transcribe_deliveries()
+    import os
+    data_dir = os.environ.get("DATA_DIR", "data")
+    audio    = os.environ.get("AUDIO_PATH", "match1_audio.wav")
+    transcribe_deliveries(
+        delivery_highlights_path=f"{data_dir}/delivery_highlights.json",
+        full_audio_path=audio,
+        out_json=f"{data_dir}/transcript.json"
+    )

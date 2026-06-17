@@ -8,8 +8,10 @@ import os
 from tqdm import tqdm
 from scipy.ndimage import uniform_filter1d
 
-video_path = "match1_h264.mp4"
-wav_path = "match1_audio.wav"
+video_path = os.environ.get("VIDEO_PATH", "match1_h264.mp4")
+wav_path   = os.environ.get("AUDIO_PATH",  "match1_audio.wav")
+data_dir   = os.environ.get("DATA_DIR",    "data")
+os.makedirs(data_dir, exist_ok=True)
 
 if not os.path.exists(wav_path):
     print("Getting audio with FFmpeg:")
@@ -37,8 +39,7 @@ while t + 2.0 <= duration:
     t += 1.0
 
 print(f"Total segments: {len(segments)}")
-os.makedirs("data", exist_ok=True)
-with open("data/segments.json", "w") as f:
+with open(f"{data_dir}/segments.json", "w") as f:
     json.dump(segments, f)
 print("saved segments file")
 
@@ -73,9 +74,9 @@ def extract_audio_rms(wav_path, segments):
 print("extracting rms..")
 segments = extract_audio_rms(wav_path, segments)
 
-with open("data/segments_rms.json", "w") as f:
+with open(f"{data_dir}/segments_rms.json", "w") as f:
     json.dump(segments, f)
-print("Saved segments_rms.json")
+print(f"Saved {data_dir}/segments_rms.json")
 
 rms_values = np.array([s["rms_norm"] for s in segments])
 smoothed = uniform_filter1d(rms_values, size=5)

@@ -54,12 +54,39 @@ def generate_video(features_path="data/delivery_features.json",
         highlight_clips.append(first_ball)
         print(f"  Selected Delivery {first_ball.get('delivery_id', '?'):>3} {first_ball.get('hms', '?')} -> Predicted: opening_and_first_ball")
 
+    last_six_time = -9999
+    last_four_time = -9999
+    
     for i, (pred, d) in enumerate(zip(predictions, valid_deliveries)):
         if i == 0:
             continue
-        if pred not in ["none", "four"]:
+            
+        t_stamp = d.get('delivery_timestamp', d.get('clip_start', 0))
+        
+        # Include all wickets, milestones, run-outs, and opening balls
+        if pred in ["wicket", "run-out", "milestone", "win"]:
             highlight_clips.append(d)
-            print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred}")
+            print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Always Include)")
+            
+        elif pred == "six":
+            # Only include a six if it's been at least 180 seconds (3 mins) since the last one
+            if t_stamp - last_six_time >= 180:
+                highlight_clips.append(d)
+                last_six_time = t_stamp
+                print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Spaced)")
+            else:
+                print(f"  Skipped Delivery  {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Too close to last six)")
+                
+        elif pred == "four":
+            # Only include a four if it's been at least 600 seconds (10 mins) since the last one
+            if t_stamp - last_four_time >= 600:
+                highlight_clips.append(d)
+                last_four_time = t_stamp
+                print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Spaced)")
+            else:
+                print(f"  Skipped Delivery  {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Too close to last four)")
+        
+        # 'none' and other crowd shots are entirely skipped.
             
     if not highlight_clips:
         print("\nModel didn't predict ANY highlights! Falling back to top 10 probabilities...")
@@ -128,4 +155,14 @@ def generate_video(features_path="data/delivery_features.json",
     print(f"Done! Final video saved to {output_path}")
 
 if __name__ == "__main__":
-    generate_video()
+    import os
+    data_dir = os.environ.get("DATA_DIR", "data")
+    video = os.environ.get("VIDEO_PATH", "match1_h264.mp4")
+    out = os.environ.get("OUTPUT_PATH", "final_highlights.mp4")
+    
+    generate_video(
+        features_path=f"{data_dir}/delivery_features.json",
+        model_path=f"{data_dir}/highlight_pipeline.pkl",
+        video_path=video,
+        output_path=out
+    )

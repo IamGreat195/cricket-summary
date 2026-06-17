@@ -1,4726 +1,4726 @@
 [
   {
     "delivery_id": 1,
-    "timestamp": 2.97,
-    "hms": "00:00:02",
+    "timestamp": 1.47,
+    "hms": "00:00:01",
     "motion_score": 0.106,
     "green_ratio": 0.64
   },
   {
     "delivery_id": 2,
-    "timestamp": 23.76,
-    "hms": "00:00:23",
+    "timestamp": 22.26,
+    "hms": "00:00:22",
     "motion_score": 0.1598,
     "green_ratio": 0.763
   },
   {
     "delivery_id": 3,
-    "timestamp": 56.42,
-    "hms": "00:00:56",
+    "timestamp": 54.92,
+    "hms": "00:00:54",
     "motion_score": 0.2131,
     "green_ratio": 0.901
   },
   {
     "delivery_id": 4,
-    "timestamp": 80.18,
-    "hms": "00:01:20",
+    "timestamp": 78.68,
+    "hms": "00:01:18",
     "motion_score": 0.2077,
     "green_ratio": 0.645
   },
   {
     "delivery_id": 5,
-    "timestamp": 121.75,
-    "hms": "00:02:01",
+    "timestamp": 120.25,
+    "hms": "00:02:00",
     "motion_score": 0.1878,
     "green_ratio": 0.837
   },
   {
     "delivery_id": 6,
-    "timestamp": 148.48,
-    "hms": "00:02:28",
+    "timestamp": 146.98,
+    "hms": "00:02:26",
     "motion_score": 0.0981,
     "green_ratio": 0.784
   },
   {
     "delivery_id": 7,
-    "timestamp": 187.09,
-    "hms": "00:03:07",
+    "timestamp": 185.59,
+    "hms": "00:03:05",
     "motion_score": 0.1646,
     "green_ratio": 0.811
   },
   {
     "delivery_id": 8,
-    "timestamp": 219.75,
-    "hms": "00:03:39",
+    "timestamp": 218.25,
+    "hms": "00:03:38",
     "motion_score": 0.2445,
     "green_ratio": 0.858
   },
   {
     "delivery_id": 9,
-    "timestamp": 267.27,
-    "hms": "00:04:27",
+    "timestamp": 265.77,
+    "hms": "00:04:25",
     "motion_score": 0.1913,
     "green_ratio": 0.846
   },
   {
     "delivery_id": 10,
-    "timestamp": 288.05,
-    "hms": "00:04:48",
+    "timestamp": 286.55,
+    "hms": "00:04:46",
     "motion_score": 0.147,
     "green_ratio": 0.484
   },
   {
     "delivery_id": 11,
-    "timestamp": 332.6,
-    "hms": "00:05:32",
+    "timestamp": 331.1,
+    "hms": "00:05:31",
     "motion_score": 0.2094,
     "green_ratio": 0.756
   },
   {
     "delivery_id": 12,
-    "timestamp": 356.36,
-    "hms": "00:05:56",
+    "timestamp": 354.86,
+    "hms": "00:05:54",
     "motion_score": 0.1438,
     "green_ratio": 0.738
   },
   {
     "delivery_id": 13,
-    "timestamp": 377.14,
-    "hms": "00:06:17",
+    "timestamp": 375.64,
+    "hms": "00:06:15",
     "motion_score": 0.1541,
     "green_ratio": 0.823
   },
   {
     "delivery_id": 14,
-    "timestamp": 412.78,
-    "hms": "00:06:52",
+    "timestamp": 411.28,
+    "hms": "00:06:51",
     "motion_score": 0.2283,
     "green_ratio": 0.768
   },
   {
     "delivery_id": 15,
-    "timestamp": 436.54,
-    "hms": "00:07:16",
+    "timestamp": 435.04,
+    "hms": "00:07:15",
     "motion_score": 0.1596,
     "green_ratio": 0.79
   },
   {
     "delivery_id": 16,
-    "timestamp": 489.99,
-    "hms": "00:08:09",
+    "timestamp": 488.49,
+    "hms": "00:08:08",
     "motion_score": 0.2046,
     "green_ratio": 0.778
   },
   {
     "delivery_id": 17,
-    "timestamp": 546.41,
-    "hms": "00:09:06",
+    "timestamp": 544.91,
+    "hms": "00:09:04",
     "motion_score": 0.2019,
     "green_ratio": 0.806
   },
   {
     "delivery_id": 18,
-    "timestamp": 567.2,
-    "hms": "00:09:27",
+    "timestamp": 565.7,
+    "hms": "00:09:25",
     "motion_score": 0.133,
     "green_ratio": 0.684
   },
   {
     "delivery_id": 19,
-    "timestamp": 596.9,
-    "hms": "00:09:56",
+    "timestamp": 595.4,
+    "hms": "00:09:55",
     "motion_score": 0.1582,
     "green_ratio": 0.859
   },
   {
     "delivery_id": 20,
-    "timestamp": 620.65,
-    "hms": "00:10:20",
+    "timestamp": 619.15,
+    "hms": "00:10:19",
     "motion_score": 0.3297,
     "green_ratio": 0.841
   },
   {
     "delivery_id": 21,
-    "timestamp": 641.44,
-    "hms": "00:10:41",
+    "timestamp": 639.94,
+    "hms": "00:10:39",
     "motion_score": 0.0983,
     "green_ratio": 0.908
   },
   {
     "delivery_id": 22,
-    "timestamp": 662.23,
-    "hms": "00:11:02",
+    "timestamp": 660.73,
+    "hms": "00:11:00",
     "motion_score": 0.1252,
     "green_ratio": 0.565
   },
   {
     "delivery_id": 23,
-    "timestamp": 685.99,
-    "hms": "00:11:25",
+    "timestamp": 684.49,
+    "hms": "00:11:24",
     "motion_score": 0.1745,
     "green_ratio": 0.882
   },
   {
     "delivery_id": 24,
-    "timestamp": 724.59,
-    "hms": "00:12:04",
+    "timestamp": 723.09,
+    "hms": "00:12:03",
     "motion_score": 0.1964,
     "green_ratio": 0.828
   },
   {
     "delivery_id": 25,
-    "timestamp": 754.29,
-    "hms": "00:12:34",
+    "timestamp": 752.79,
+    "hms": "00:12:32",
     "motion_score": 0.2902,
     "green_ratio": 0.813
   },
   {
     "delivery_id": 26,
-    "timestamp": 775.07,
-    "hms": "00:12:55",
+    "timestamp": 773.57,
+    "hms": "00:12:53",
     "motion_score": 0.1227,
     "green_ratio": 0.848
   },
   {
     "delivery_id": 27,
-    "timestamp": 798.83,
-    "hms": "00:13:18",
+    "timestamp": 797.33,
+    "hms": "00:13:17",
     "motion_score": 0.2084,
     "green_ratio": 0.836
   },
   {
     "delivery_id": 28,
-    "timestamp": 873.07,
-    "hms": "00:14:33",
+    "timestamp": 871.57,
+    "hms": "00:14:31",
     "motion_score": 0.1804,
     "green_ratio": 0.791
   },
   {
     "delivery_id": 29,
-    "timestamp": 893.86,
-    "hms": "00:14:53",
+    "timestamp": 892.36,
+    "hms": "00:14:52",
     "motion_score": 0.0894,
     "green_ratio": 0.907
   },
   {
     "delivery_id": 30,
-    "timestamp": 917.62,
-    "hms": "00:15:17",
+    "timestamp": 916.12,
+    "hms": "00:15:16",
     "motion_score": 0.0829,
     "green_ratio": 0.89
   },
   {
     "delivery_id": 31,
-    "timestamp": 938.4,
-    "hms": "00:15:38",
+    "timestamp": 936.9,
+    "hms": "00:15:36",
     "motion_score": 0.0868,
     "green_ratio": 0.914
   },
   {
     "delivery_id": 32,
-    "timestamp": 982.95,
-    "hms": "00:16:22",
+    "timestamp": 981.45,
+    "hms": "00:16:21",
     "motion_score": 0.1617,
     "green_ratio": 0.758
   },
   {
     "delivery_id": 33,
-    "timestamp": 1006.71,
-    "hms": "00:16:46",
+    "timestamp": 1005.21,
+    "hms": "00:16:45",
     "motion_score": 0.1237,
     "green_ratio": 0.864
   },
   {
     "delivery_id": 34,
-    "timestamp": 1030.46,
-    "hms": "00:17:10",
+    "timestamp": 1028.96,
+    "hms": "00:17:08",
     "motion_score": 0.1607,
     "green_ratio": 0.833
   },
   {
     "delivery_id": 35,
-    "timestamp": 1063.13,
-    "hms": "00:17:43",
+    "timestamp": 1061.63,
+    "hms": "00:17:41",
     "motion_score": 0.244,
     "green_ratio": 0.79
   },
   {
     "delivery_id": 36,
-    "timestamp": 1125.49,
-    "hms": "00:18:45",
+    "timestamp": 1123.99,
+    "hms": "00:18:43",
     "motion_score": 0.1906,
     "green_ratio": 0.856
   },
   {
     "delivery_id": 37,
-    "timestamp": 1146.28,
-    "hms": "00:19:06",
+    "timestamp": 1144.78,
+    "hms": "00:19:04",
     "motion_score": 0.0764,
     "green_ratio": 0.907
   },
   {
     "delivery_id": 38,
-    "timestamp": 1167.07,
-    "hms": "00:19:27",
+    "timestamp": 1165.57,
+    "hms": "00:19:25",
     "motion_score": 0.1278,
     "green_ratio": 0.665
   },
   {
     "delivery_id": 39,
-    "timestamp": 1187.85,
-    "hms": "00:19:47",
+    "timestamp": 1186.35,
+    "hms": "00:19:46",
     "motion_score": 0.1506,
     "green_ratio": 0.884
   },
   {
     "delivery_id": 40,
-    "timestamp": 1220.52,
-    "hms": "00:20:20",
+    "timestamp": 1219.02,
+    "hms": "00:20:19",
     "motion_score": 0.1605,
     "green_ratio": 0.9
   },
   {
     "delivery_id": 41,
-    "timestamp": 1244.28,
-    "hms": "00:20:44",
+    "timestamp": 1242.78,
+    "hms": "00:20:42",
     "motion_score": 0.1851,
     "green_ratio": 0.814
   },
   {
     "delivery_id": 42,
-    "timestamp": 1265.06,
-    "hms": "00:21:05",
+    "timestamp": 1263.56,
+    "hms": "00:21:03",
     "motion_score": 0.1307,
     "green_ratio": 0.722
   },
   {
     "delivery_id": 43,
-    "timestamp": 1339.3,
-    "hms": "00:22:19",
+    "timestamp": 1337.8,
+    "hms": "00:22:17",
     "motion_score": 0.1927,
     "green_ratio": 0.815
   },
   {
     "delivery_id": 44,
-    "timestamp": 1383.85,
-    "hms": "00:23:03",
+    "timestamp": 1382.35,
+    "hms": "00:23:02",
     "motion_score": 0.1676,
     "green_ratio": 0.898
   },
   {
     "delivery_id": 45,
-    "timestamp": 1404.64,
-    "hms": "00:23:24",
+    "timestamp": 1403.14,
+    "hms": "00:23:23",
     "motion_score": 0.159,
     "green_ratio": 0.476
   },
   {
     "delivery_id": 46,
-    "timestamp": 1437.3,
-    "hms": "00:23:57",
+    "timestamp": 1435.8,
+    "hms": "00:23:55",
     "motion_score": 0.2305,
     "green_ratio": 0.738
   },
   {
     "delivery_id": 47,
-    "timestamp": 1478.88,
-    "hms": "00:24:38",
+    "timestamp": 1477.38,
+    "hms": "00:24:37",
     "motion_score": 0.2409,
     "green_ratio": 0.691
   },
   {
     "delivery_id": 48,
-    "timestamp": 1499.66,
-    "hms": "00:24:59",
+    "timestamp": 1498.16,
+    "hms": "00:24:58",
     "motion_score": 0.1729,
     "green_ratio": 0.738
   },
   {
     "delivery_id": 49,
-    "timestamp": 1538.27,
-    "hms": "00:25:38",
+    "timestamp": 1536.77,
+    "hms": "00:25:36",
     "motion_score": 0.1414,
     "green_ratio": 0.843
   },
   {
     "delivery_id": 50,
-    "timestamp": 1597.66,
-    "hms": "00:26:37",
+    "timestamp": 1596.16,
+    "hms": "00:26:36",
     "motion_score": 0.1234,
     "green_ratio": 0.566
   },
   {
     "delivery_id": 51,
-    "timestamp": 1633.3,
-    "hms": "00:27:13",
+    "timestamp": 1631.8,
+    "hms": "00:27:11",
     "motion_score": 0.1473,
     "green_ratio": 0.692
   },
   {
     "delivery_id": 52,
-    "timestamp": 1657.06,
-    "hms": "00:27:37",
+    "timestamp": 1655.56,
+    "hms": "00:27:35",
     "motion_score": 0.0836,
     "green_ratio": 0.54
   },
   {
     "delivery_id": 53,
-    "timestamp": 1677.84,
-    "hms": "00:27:57",
+    "timestamp": 1676.34,
+    "hms": "00:27:56",
     "motion_score": 0.2077,
     "green_ratio": 0.72
   },
   {
     "delivery_id": 54,
-    "timestamp": 1698.63,
-    "hms": "00:28:18",
+    "timestamp": 1697.13,
+    "hms": "00:28:17",
     "motion_score": 0.1107,
     "green_ratio": 0.908
   },
   {
     "delivery_id": 55,
-    "timestamp": 1740.21,
-    "hms": "00:29:00",
+    "timestamp": 1738.71,
+    "hms": "00:28:58",
     "motion_score": 0.195,
     "green_ratio": 0.814
   },
   {
     "delivery_id": 56,
-    "timestamp": 1760.99,
-    "hms": "00:29:20",
+    "timestamp": 1759.49,
+    "hms": "00:29:19",
     "motion_score": 0.0973,
     "green_ratio": 0.765
   },
   {
     "delivery_id": 57,
-    "timestamp": 1814.45,
-    "hms": "00:30:14",
+    "timestamp": 1812.95,
+    "hms": "00:30:12",
     "motion_score": 0.1435,
     "green_ratio": 0.702
   },
   {
     "delivery_id": 58,
-    "timestamp": 1844.14,
-    "hms": "00:30:44",
+    "timestamp": 1842.64,
+    "hms": "00:30:42",
     "motion_score": 0.2367,
     "green_ratio": 0.552
   },
   {
     "delivery_id": 59,
-    "timestamp": 1900.57,
-    "hms": "00:31:40",
+    "timestamp": 1899.07,
+    "hms": "00:31:39",
     "motion_score": 0.2083,
     "green_ratio": 0.673
   },
   {
     "delivery_id": 60,
-    "timestamp": 1959.96,
-    "hms": "00:32:39",
+    "timestamp": 1958.46,
+    "hms": "00:32:38",
     "motion_score": 0.2353,
     "green_ratio": 0.695
   },
   {
     "delivery_id": 61,
-    "timestamp": 1995.59,
-    "hms": "00:33:15",
+    "timestamp": 1994.09,
+    "hms": "00:33:14",
     "motion_score": 0.191,
     "green_ratio": 0.788
   },
   {
     "delivery_id": 62,
-    "timestamp": 2022.32,
-    "hms": "00:33:42",
+    "timestamp": 2020.82,
+    "hms": "00:33:40",
     "motion_score": 0.3348,
     "green_ratio": 0.894
   },
   {
     "delivery_id": 63,
-    "timestamp": 2046.08,
-    "hms": "00:34:06",
+    "timestamp": 2044.58,
+    "hms": "00:34:04",
     "motion_score": 0.1148,
     "green_ratio": 0.763
   },
   {
     "delivery_id": 64,
-    "timestamp": 2066.86,
-    "hms": "00:34:26",
+    "timestamp": 2065.36,
+    "hms": "00:34:25",
     "motion_score": 0.1216,
     "green_ratio": 0.728
   },
   {
     "delivery_id": 65,
-    "timestamp": 2087.65,
-    "hms": "00:34:47",
+    "timestamp": 2086.15,
+    "hms": "00:34:46",
     "motion_score": 0.118,
     "green_ratio": 0.906
   },
   {
     "delivery_id": 66,
-    "timestamp": 2114.38,
-    "hms": "00:35:14",
+    "timestamp": 2112.88,
+    "hms": "00:35:12",
     "motion_score": 0.2733,
     "green_ratio": 0.799
   },
   {
     "delivery_id": 67,
-    "timestamp": 2135.17,
-    "hms": "00:35:35",
+    "timestamp": 2133.67,
+    "hms": "00:35:33",
     "motion_score": 0.172,
     "green_ratio": 0.727
   },
   {
     "delivery_id": 68,
-    "timestamp": 2203.47,
-    "hms": "00:36:43",
+    "timestamp": 2201.97,
+    "hms": "00:36:41",
     "motion_score": 0.1899,
     "green_ratio": 0.778
   },
   {
     "delivery_id": 69,
-    "timestamp": 2242.07,
-    "hms": "00:37:22",
+    "timestamp": 2240.57,
+    "hms": "00:37:20",
     "motion_score": 0.189,
     "green_ratio": 0.772
   },
   {
     "delivery_id": 70,
-    "timestamp": 2262.86,
-    "hms": "00:37:42",
+    "timestamp": 2261.36,
+    "hms": "00:37:41",
     "motion_score": 0.1022,
     "green_ratio": 0.884
   },
   {
     "delivery_id": 71,
-    "timestamp": 2286.62,
-    "hms": "00:38:06",
+    "timestamp": 2285.12,
+    "hms": "00:38:05",
     "motion_score": 0.2338,
     "green_ratio": 0.654
   },
   {
     "delivery_id": 72,
-    "timestamp": 2319.28,
-    "hms": "00:38:39",
+    "timestamp": 2317.78,
+    "hms": "00:38:37",
     "motion_score": 0.236,
     "green_ratio": 0.882
   },
   {
     "delivery_id": 73,
-    "timestamp": 2363.83,
-    "hms": "00:39:23",
+    "timestamp": 2362.33,
+    "hms": "00:39:22",
     "motion_score": 0.2025,
     "green_ratio": 0.78
   },
   {
     "delivery_id": 74,
-    "timestamp": 2432.13,
-    "hms": "00:40:32",
+    "timestamp": 2430.63,
+    "hms": "00:40:30",
     "motion_score": 0.1659,
     "green_ratio": 0.81
   },
   {
     "delivery_id": 75,
-    "timestamp": 2452.92,
-    "hms": "00:40:52",
+    "timestamp": 2451.42,
+    "hms": "00:40:51",
     "motion_score": 0.0796,
     "green_ratio": 0.902
   },
   {
     "delivery_id": 76,
-    "timestamp": 2509.34,
-    "hms": "00:41:49",
+    "timestamp": 2507.84,
+    "hms": "00:41:47",
     "motion_score": 0.1749,
     "green_ratio": 0.724
   },
   {
     "delivery_id": 77,
-    "timestamp": 2530.13,
-    "hms": "00:42:10",
+    "timestamp": 2528.63,
+    "hms": "00:42:08",
     "motion_score": 0.137,
     "green_ratio": 0.536
   },
   {
     "delivery_id": 78,
-    "timestamp": 2642.97,
-    "hms": "00:44:02",
+    "timestamp": 2641.47,
+    "hms": "00:44:01",
     "motion_score": 0.2106,
     "green_ratio": 0.557
   },
   {
     "delivery_id": 79,
-    "timestamp": 2699.4,
-    "hms": "00:44:59",
+    "timestamp": 2697.9,
+    "hms": "00:44:57",
     "motion_score": 0.1079,
     "green_ratio": 0.907
   },
   {
     "delivery_id": 80,
-    "timestamp": 2720.18,
-    "hms": "00:45:20",
+    "timestamp": 2718.68,
+    "hms": "00:45:18",
     "motion_score": 0.084,
     "green_ratio": 0.916
   },
   {
     "delivery_id": 81,
-    "timestamp": 2782.55,
-    "hms": "00:46:22",
+    "timestamp": 2781.05,
+    "hms": "00:46:21",
     "motion_score": 0.1756,
     "green_ratio": 0.797
   },
   {
     "delivery_id": 82,
-    "timestamp": 2844.91,
-    "hms": "00:47:24",
+    "timestamp": 2843.41,
+    "hms": "00:47:23",
     "motion_score": 0.1557,
     "green_ratio": 0.78
   },
   {
     "delivery_id": 83,
-    "timestamp": 2868.67,
-    "hms": "00:47:48",
+    "timestamp": 2867.17,
+    "hms": "00:47:47",
     "motion_score": 0.2105,
     "green_ratio": 0.788
   },
   {
     "delivery_id": 84,
-    "timestamp": 2889.45,
-    "hms": "00:48:09",
+    "timestamp": 2887.95,
+    "hms": "00:48:07",
     "motion_score": 0.1113,
     "green_ratio": 0.745
   },
   {
     "delivery_id": 85,
-    "timestamp": 2928.06,
-    "hms": "00:48:48",
+    "timestamp": 2926.56,
+    "hms": "00:48:46",
     "motion_score": 0.1636,
     "green_ratio": 0.717
   },
   {
     "delivery_id": 86,
-    "timestamp": 2948.85,
-    "hms": "00:49:08",
+    "timestamp": 2947.35,
+    "hms": "00:49:07",
     "motion_score": 0.1217,
     "green_ratio": 0.642
   },
   {
     "delivery_id": 87,
-    "timestamp": 2972.6,
-    "hms": "00:49:32",
+    "timestamp": 2971.1,
+    "hms": "00:49:31",
     "motion_score": 0.2144,
     "green_ratio": 0.519
   },
   {
     "delivery_id": 88,
-    "timestamp": 3109.21,
-    "hms": "00:51:49",
+    "timestamp": 3107.71,
+    "hms": "00:51:47",
     "motion_score": 0.1687,
     "green_ratio": 0.859
   },
   {
     "delivery_id": 89,
-    "timestamp": 3135.93,
-    "hms": "00:52:15",
+    "timestamp": 3134.43,
+    "hms": "00:52:14",
     "motion_score": 0.1796,
     "green_ratio": 0.7
   },
   {
     "delivery_id": 90,
-    "timestamp": 3180.48,
-    "hms": "00:53:00",
+    "timestamp": 3178.98,
+    "hms": "00:52:58",
     "motion_score": 0.1472,
     "green_ratio": 0.879
   },
   {
     "delivery_id": 91,
-    "timestamp": 3216.11,
-    "hms": "00:53:36",
+    "timestamp": 3214.61,
+    "hms": "00:53:34",
     "motion_score": 0.2314,
     "green_ratio": 0.782
   },
   {
     "delivery_id": 92,
-    "timestamp": 3275.51,
-    "hms": "00:54:35",
+    "timestamp": 3274.01,
+    "hms": "00:54:34",
     "motion_score": 0.1871,
     "green_ratio": 0.705
   },
   {
     "delivery_id": 93,
-    "timestamp": 3308.17,
-    "hms": "00:55:08",
+    "timestamp": 3306.67,
+    "hms": "00:55:06",
     "motion_score": 0.1806,
     "green_ratio": 0.697
   },
   {
     "delivery_id": 94,
-    "timestamp": 3358.66,
-    "hms": "00:55:58",
+    "timestamp": 3357.16,
+    "hms": "00:55:57",
     "motion_score": 0.062,
     "green_ratio": 0.886
   },
   {
     "delivery_id": 95,
-    "timestamp": 3382.41,
-    "hms": "00:56:22",
+    "timestamp": 3380.91,
+    "hms": "00:56:20",
     "motion_score": 0.126,
     "green_ratio": 0.925
   },
   {
     "delivery_id": 96,
-    "timestamp": 3409.14,
-    "hms": "00:56:49",
+    "timestamp": 3407.64,
+    "hms": "00:56:47",
     "motion_score": 0.1298,
     "green_ratio": 0.773
   },
   {
     "delivery_id": 97,
-    "timestamp": 3429.93,
-    "hms": "00:57:09",
+    "timestamp": 3428.43,
+    "hms": "00:57:08",
     "motion_score": 0.1213,
     "green_ratio": 0.912
   },
   {
     "delivery_id": 98,
-    "timestamp": 3456.65,
-    "hms": "00:57:36",
+    "timestamp": 3455.15,
+    "hms": "00:57:35",
     "motion_score": 0.1125,
     "green_ratio": 0.528
   },
   {
     "delivery_id": 99,
-    "timestamp": 3495.26,
-    "hms": "00:58:15",
+    "timestamp": 3493.76,
+    "hms": "00:58:13",
     "motion_score": 0.2179,
     "green_ratio": 0.715
   },
   {
     "delivery_id": 100,
-    "timestamp": 3554.65,
-    "hms": "00:59:14",
+    "timestamp": 3553.15,
+    "hms": "00:59:13",
     "motion_score": 0.1803,
     "green_ratio": 0.801
   },
   {
     "delivery_id": 101,
-    "timestamp": 3575.44,
-    "hms": "00:59:35",
+    "timestamp": 3573.94,
+    "hms": "00:59:33",
     "motion_score": 0.1218,
     "green_ratio": 0.875
   },
   {
     "delivery_id": 102,
-    "timestamp": 3596.23,
-    "hms": "00:59:56",
+    "timestamp": 3594.73,
+    "hms": "00:59:54",
     "motion_score": 0.1848,
     "green_ratio": 0.515
   },
   {
     "delivery_id": 103,
-    "timestamp": 3619.98,
-    "hms": "01:00:19",
+    "timestamp": 3618.48,
+    "hms": "01:00:18",
     "motion_score": 0.199,
     "green_ratio": 0.867
   },
   {
     "delivery_id": 104,
-    "timestamp": 3640.77,
-    "hms": "01:00:40",
+    "timestamp": 3639.27,
+    "hms": "01:00:39",
     "motion_score": 0.1021,
     "green_ratio": 0.732
   },
   {
     "delivery_id": 105,
-    "timestamp": 3664.53,
-    "hms": "01:01:04",
+    "timestamp": 3663.03,
+    "hms": "01:01:03",
     "motion_score": 0.1675,
     "green_ratio": 0.733
   },
   {
     "delivery_id": 106,
-    "timestamp": 3712.04,
-    "hms": "01:01:52",
+    "timestamp": 3710.54,
+    "hms": "01:01:50",
     "motion_score": 0.1488,
     "green_ratio": 0.777
   },
   {
     "delivery_id": 107,
-    "timestamp": 3732.83,
-    "hms": "01:02:12",
+    "timestamp": 3731.33,
+    "hms": "01:02:11",
     "motion_score": 0.0985,
     "green_ratio": 0.859
   },
   {
     "delivery_id": 108,
-    "timestamp": 3804.1,
-    "hms": "01:03:24",
+    "timestamp": 3802.6,
+    "hms": "01:03:22",
     "motion_score": 0.1623,
     "green_ratio": 0.706
   },
   {
     "delivery_id": 109,
-    "timestamp": 3827.86,
-    "hms": "01:03:47",
+    "timestamp": 3826.36,
+    "hms": "01:03:46",
     "motion_score": 0.1079,
     "green_ratio": 0.828
   },
   {
     "delivery_id": 110,
-    "timestamp": 3848.64,
-    "hms": "01:04:08",
+    "timestamp": 3847.14,
+    "hms": "01:04:07",
     "motion_score": 0.2012,
     "green_ratio": 0.793
   },
   {
     "delivery_id": 111,
-    "timestamp": 3869.43,
-    "hms": "01:04:29",
+    "timestamp": 3867.93,
+    "hms": "01:04:27",
     "motion_score": 0.1726,
     "green_ratio": 0.659
   },
   {
     "delivery_id": 112,
-    "timestamp": 3893.19,
-    "hms": "01:04:53",
+    "timestamp": 3891.69,
+    "hms": "01:04:51",
     "motion_score": 0.0878,
     "green_ratio": 0.736
   },
   {
     "delivery_id": 113,
-    "timestamp": 3940.7,
-    "hms": "01:05:40",
+    "timestamp": 3939.2,
+    "hms": "01:05:39",
     "motion_score": 0.0572,
     "green_ratio": 0.909
   },
   {
     "delivery_id": 114,
-    "timestamp": 3970.4,
-    "hms": "01:06:10",
+    "timestamp": 3968.9,
+    "hms": "01:06:08",
     "motion_score": 0.1975,
     "green_ratio": 0.811
   },
   {
     "delivery_id": 115,
-    "timestamp": 3991.19,
-    "hms": "01:06:31",
+    "timestamp": 3989.69,
+    "hms": "01:06:29",
     "motion_score": 0.1187,
     "green_ratio": 0.625
   },
   {
     "delivery_id": 116,
-    "timestamp": 4023.85,
-    "hms": "01:07:03",
+    "timestamp": 4022.35,
+    "hms": "01:07:02",
     "motion_score": 0.1047,
     "green_ratio": 0.818
   },
   {
     "delivery_id": 117,
-    "timestamp": 4092.15,
-    "hms": "01:08:12",
+    "timestamp": 4090.65,
+    "hms": "01:08:10",
     "motion_score": 0.1513,
     "green_ratio": 0.754
   },
   {
     "delivery_id": 118,
-    "timestamp": 4112.94,
-    "hms": "01:08:32",
+    "timestamp": 4111.44,
+    "hms": "01:08:31",
     "motion_score": 0.0536,
     "green_ratio": 0.912
   },
   {
     "delivery_id": 119,
-    "timestamp": 4133.73,
-    "hms": "01:08:53",
+    "timestamp": 4132.23,
+    "hms": "01:08:52",
     "motion_score": 0.0861,
     "green_ratio": 0.667
   },
   {
     "delivery_id": 120,
-    "timestamp": 4202.03,
-    "hms": "01:10:02",
+    "timestamp": 4200.53,
+    "hms": "01:10:00",
     "motion_score": 0.1987,
     "green_ratio": 0.749
   },
   {
     "delivery_id": 121,
-    "timestamp": 4252.51,
-    "hms": "01:10:52",
+    "timestamp": 4251.01,
+    "hms": "01:10:51",
     "motion_score": 0.2063,
     "green_ratio": 0.87
   },
   {
     "delivery_id": 122,
-    "timestamp": 4279.24,
-    "hms": "01:11:19",
+    "timestamp": 4277.74,
+    "hms": "01:11:17",
     "motion_score": 0.2008,
     "green_ratio": 0.79
   },
   {
     "delivery_id": 123,
-    "timestamp": 4323.79,
-    "hms": "01:12:03",
+    "timestamp": 4322.29,
+    "hms": "01:12:02",
     "motion_score": 0.2272,
     "green_ratio": 0.772
   },
   {
     "delivery_id": 124,
-    "timestamp": 4353.48,
-    "hms": "01:12:33",
+    "timestamp": 4351.98,
+    "hms": "01:12:31",
     "motion_score": 0.2662,
     "green_ratio": 0.697
   },
   {
     "delivery_id": 125,
-    "timestamp": 4392.09,
-    "hms": "01:13:12",
+    "timestamp": 4390.59,
+    "hms": "01:13:10",
     "motion_score": 0.2427,
     "green_ratio": 0.792
   },
   {
     "delivery_id": 126,
-    "timestamp": 4412.88,
-    "hms": "01:13:32",
+    "timestamp": 4411.38,
+    "hms": "01:13:31",
     "motion_score": 0.114,
     "green_ratio": 0.774
   },
   {
     "delivery_id": 127,
-    "timestamp": 4445.54,
-    "hms": "01:14:05",
+    "timestamp": 4444.04,
+    "hms": "01:14:04",
     "motion_score": 0.1857,
     "green_ratio": 0.916
   },
   {
     "delivery_id": 128,
-    "timestamp": 4469.3,
-    "hms": "01:14:29",
+    "timestamp": 4467.8,
+    "hms": "01:14:27",
     "motion_score": 0.1857,
     "green_ratio": 0.759
   },
   {
     "delivery_id": 129,
-    "timestamp": 4525.72,
-    "hms": "01:15:25",
+    "timestamp": 4524.22,
+    "hms": "01:15:24",
     "motion_score": 0.1719,
     "green_ratio": 0.875
   },
   {
     "delivery_id": 130,
-    "timestamp": 4546.51,
-    "hms": "01:15:46",
+    "timestamp": 4545.01,
+    "hms": "01:15:45",
     "motion_score": 0.1628,
     "green_ratio": 0.516
   },
   {
     "delivery_id": 131,
-    "timestamp": 4570.27,
-    "hms": "01:16:10",
+    "timestamp": 4568.77,
+    "hms": "01:16:08",
     "motion_score": 0.1578,
     "green_ratio": 0.407
   },
   {
     "delivery_id": 132,
-    "timestamp": 4626.69,
-    "hms": "01:17:06",
+    "timestamp": 4625.19,
+    "hms": "01:17:05",
     "motion_score": 0.1631,
     "green_ratio": 0.709
   },
   {
     "delivery_id": 133,
-    "timestamp": 4659.35,
-    "hms": "01:17:39",
+    "timestamp": 4657.85,
+    "hms": "01:17:37",
     "motion_score": 0.1441,
     "green_ratio": 0.789
   },
   {
     "delivery_id": 134,
-    "timestamp": 4703.9,
-    "hms": "01:18:23",
+    "timestamp": 4702.4,
+    "hms": "01:18:22",
     "motion_score": 0.2978,
     "green_ratio": 0.807
   },
   {
     "delivery_id": 135,
-    "timestamp": 4730.63,
-    "hms": "01:18:50",
+    "timestamp": 4729.13,
+    "hms": "01:18:49",
     "motion_score": 0.1849,
     "green_ratio": 0.774
   },
   {
     "delivery_id": 136,
-    "timestamp": 4825.65,
-    "hms": "01:20:25",
+    "timestamp": 4824.15,
+    "hms": "01:20:24",
     "motion_score": 0.0823,
     "green_ratio": 0.817
   },
   {
     "delivery_id": 137,
-    "timestamp": 4846.44,
-    "hms": "01:20:46",
+    "timestamp": 4844.94,
+    "hms": "01:20:44",
     "motion_score": 0.1096,
     "green_ratio": 0.913
   },
   {
     "delivery_id": 138,
-    "timestamp": 4867.23,
-    "hms": "01:21:07",
+    "timestamp": 4865.73,
+    "hms": "01:21:05",
     "motion_score": 0.0936,
     "green_ratio": 0.799
   },
   {
     "delivery_id": 139,
-    "timestamp": 4888.02,
-    "hms": "01:21:28",
+    "timestamp": 4886.52,
+    "hms": "01:21:26",
     "motion_score": 0.1066,
     "green_ratio": 0.581
   },
   {
     "delivery_id": 140,
-    "timestamp": 4926.62,
-    "hms": "01:22:06",
+    "timestamp": 4925.12,
+    "hms": "01:22:05",
     "motion_score": 0.1968,
     "green_ratio": 0.502
   },
   {
     "delivery_id": 141,
-    "timestamp": 4956.32,
-    "hms": "01:22:36",
+    "timestamp": 4954.82,
+    "hms": "01:22:34",
     "motion_score": 0.1712,
     "green_ratio": 0.734
   },
   {
     "delivery_id": 142,
-    "timestamp": 5069.16,
-    "hms": "01:24:29",
+    "timestamp": 5067.66,
+    "hms": "01:24:27",
     "motion_score": 0.1471,
     "green_ratio": 0.654
   },
   {
     "delivery_id": 143,
-    "timestamp": 5101.83,
-    "hms": "01:25:01",
+    "timestamp": 5100.33,
+    "hms": "01:25:00",
     "motion_score": 0.2044,
     "green_ratio": 0.778
   },
   {
     "delivery_id": 144,
-    "timestamp": 5125.59,
-    "hms": "01:25:25",
+    "timestamp": 5124.09,
+    "hms": "01:25:24",
     "motion_score": 0.078,
     "green_ratio": 0.806
   },
   {
     "delivery_id": 145,
-    "timestamp": 5155.28,
-    "hms": "01:25:55",
+    "timestamp": 5153.78,
+    "hms": "01:25:53",
     "motion_score": 0.2388,
     "green_ratio": 0.756
   },
   {
     "delivery_id": 146,
-    "timestamp": 5179.04,
-    "hms": "01:26:19",
+    "timestamp": 5177.54,
+    "hms": "01:26:17",
     "motion_score": 0.1546,
     "green_ratio": 0.85
   },
   {
     "delivery_id": 147,
-    "timestamp": 5220.62,
-    "hms": "01:27:00",
+    "timestamp": 5219.12,
+    "hms": "01:26:59",
     "motion_score": 0.2231,
     "green_ratio": 0.777
   },
   {
     "delivery_id": 148,
-    "timestamp": 5259.22,
-    "hms": "01:27:39",
+    "timestamp": 5257.72,
+    "hms": "01:27:37",
     "motion_score": 0.1705,
     "green_ratio": 0.9
   },
   {
     "delivery_id": 149,
-    "timestamp": 5288.92,
-    "hms": "01:28:08",
+    "timestamp": 5287.42,
+    "hms": "01:28:07",
     "motion_score": 0.2723,
     "green_ratio": 0.51
   },
   {
     "delivery_id": 150,
-    "timestamp": 5309.7,
-    "hms": "01:28:29",
+    "timestamp": 5308.2,
+    "hms": "01:28:28",
     "motion_score": 0.2006,
     "green_ratio": 0.602
   },
   {
     "delivery_id": 151,
-    "timestamp": 5339.4,
-    "hms": "01:28:59",
+    "timestamp": 5337.9,
+    "hms": "01:28:57",
     "motion_score": 0.2469,
     "green_ratio": 0.717
   },
   {
     "delivery_id": 152,
-    "timestamp": 5443.34,
-    "hms": "01:30:43",
+    "timestamp": 5441.84,
+    "hms": "01:30:41",
     "motion_score": 0.2117,
     "green_ratio": 0.559
   },
   {
     "delivery_id": 153,
-    "timestamp": 5496.79,
-    "hms": "01:31:36",
+    "timestamp": 5495.29,
+    "hms": "01:31:35",
     "motion_score": 0.1746,
     "green_ratio": 0.699
   },
   {
     "delivery_id": 154,
-    "timestamp": 5535.4,
-    "hms": "01:32:15",
+    "timestamp": 5533.9,
+    "hms": "01:32:13",
     "motion_score": 0.0793,
     "green_ratio": 0.657
   },
   {
     "delivery_id": 155,
-    "timestamp": 5568.06,
-    "hms": "01:32:48",
+    "timestamp": 5566.56,
+    "hms": "01:32:46",
     "motion_score": 0.2077,
     "green_ratio": 0.845
   },
   {
     "delivery_id": 156,
-    "timestamp": 5627.46,
-    "hms": "01:33:47",
+    "timestamp": 5625.96,
+    "hms": "01:33:45",
     "motion_score": 0.1817,
     "green_ratio": 0.71
   },
   {
     "delivery_id": 157,
-    "timestamp": 5651.21,
-    "hms": "01:34:11",
+    "timestamp": 5649.71,
+    "hms": "01:34:09",
     "motion_score": 0.0725,
     "green_ratio": 0.881
   },
   {
     "delivery_id": 158,
-    "timestamp": 5713.57,
-    "hms": "01:35:13",
+    "timestamp": 5712.07,
+    "hms": "01:35:12",
     "motion_score": 0.2033,
     "green_ratio": 0.795
   },
   {
     "delivery_id": 159,
-    "timestamp": 5737.33,
-    "hms": "01:35:37",
+    "timestamp": 5735.83,
+    "hms": "01:35:35",
     "motion_score": 0.0936,
     "green_ratio": 0.545
   },
   {
     "delivery_id": 160,
-    "timestamp": 5770.0,
-    "hms": "01:36:09",
+    "timestamp": 5768.5,
+    "hms": "01:36:08",
     "motion_score": 0.1146,
     "green_ratio": 0.742
   },
   {
     "delivery_id": 161,
-    "timestamp": 5805.63,
-    "hms": "01:36:45",
+    "timestamp": 5804.13,
+    "hms": "01:36:44",
     "motion_score": 0.2739,
     "green_ratio": 0.835
   },
   {
     "delivery_id": 162,
-    "timestamp": 5859.09,
-    "hms": "01:37:39",
+    "timestamp": 5857.59,
+    "hms": "01:37:37",
     "motion_score": 0.1716,
     "green_ratio": 0.797
   },
   {
     "delivery_id": 163,
-    "timestamp": 5894.72,
-    "hms": "01:38:14",
+    "timestamp": 5893.22,
+    "hms": "01:38:13",
     "motion_score": 0.2021,
     "green_ratio": 0.875
   },
   {
     "delivery_id": 164,
-    "timestamp": 5936.3,
-    "hms": "01:38:56",
+    "timestamp": 5934.8,
+    "hms": "01:38:54",
     "motion_score": 0.2193,
     "green_ratio": 0.855
   },
   {
     "delivery_id": 165,
-    "timestamp": 5957.08,
-    "hms": "01:39:17",
+    "timestamp": 5955.58,
+    "hms": "01:39:15",
     "motion_score": 0.1042,
     "green_ratio": 0.873
   },
   {
     "delivery_id": 166,
-    "timestamp": 5992.72,
-    "hms": "01:39:52",
+    "timestamp": 5991.22,
+    "hms": "01:39:51",
     "motion_score": 0.1504,
     "green_ratio": 0.68
   },
   {
     "delivery_id": 167,
-    "timestamp": 6013.51,
-    "hms": "01:40:13",
+    "timestamp": 6012.01,
+    "hms": "01:40:12",
     "motion_score": 0.1117,
     "green_ratio": 0.763
   },
   {
     "delivery_id": 168,
-    "timestamp": 6034.29,
-    "hms": "01:40:34",
+    "timestamp": 6032.79,
+    "hms": "01:40:32",
     "motion_score": 0.0971,
     "green_ratio": 0.817
   },
   {
     "delivery_id": 169,
-    "timestamp": 6081.81,
-    "hms": "01:41:21",
+    "timestamp": 6080.31,
+    "hms": "01:41:20",
     "motion_score": 0.2353,
     "green_ratio": 0.826
   },
   {
     "delivery_id": 170,
-    "timestamp": 6167.93,
-    "hms": "01:42:47",
+    "timestamp": 6166.43,
+    "hms": "01:42:46",
     "motion_score": 0.2285,
     "green_ratio": 0.921
   },
   {
     "delivery_id": 171,
-    "timestamp": 6191.69,
-    "hms": "01:43:11",
+    "timestamp": 6190.19,
+    "hms": "01:43:10",
     "motion_score": 0.1479,
     "green_ratio": 0.827
   },
   {
     "delivery_id": 172,
-    "timestamp": 6215.44,
-    "hms": "01:43:35",
+    "timestamp": 6213.94,
+    "hms": "01:43:33",
     "motion_score": 0.1193,
     "green_ratio": 0.588
   },
   {
     "delivery_id": 173,
-    "timestamp": 6245.14,
-    "hms": "01:44:05",
+    "timestamp": 6243.64,
+    "hms": "01:44:03",
     "motion_score": 0.09,
     "green_ratio": 0.764
   },
   {
     "delivery_id": 174,
-    "timestamp": 6322.35,
-    "hms": "01:45:22",
+    "timestamp": 6320.85,
+    "hms": "01:45:20",
     "motion_score": 0.1813,
     "green_ratio": 0.715
   },
   {
     "delivery_id": 175,
-    "timestamp": 6346.11,
-    "hms": "01:45:46",
+    "timestamp": 6344.61,
+    "hms": "01:45:44",
     "motion_score": 0.2139,
     "green_ratio": 0.427
   },
   {
     "delivery_id": 176,
-    "timestamp": 6408.47,
-    "hms": "01:46:48",
+    "timestamp": 6406.97,
+    "hms": "01:46:46",
     "motion_score": 0.1389,
     "green_ratio": 0.817
   },
   {
     "delivery_id": 177,
-    "timestamp": 6429.26,
-    "hms": "01:47:09",
+    "timestamp": 6427.76,
+    "hms": "01:47:07",
     "motion_score": 0.0913,
     "green_ratio": 0.739
   },
   {
     "delivery_id": 178,
-    "timestamp": 6461.92,
-    "hms": "01:47:41",
+    "timestamp": 6460.42,
+    "hms": "01:47:40",
     "motion_score": 0.1814,
     "green_ratio": 0.799
   },
   {
     "delivery_id": 179,
-    "timestamp": 6488.65,
-    "hms": "01:48:08",
+    "timestamp": 6487.15,
+    "hms": "01:48:07",
     "motion_score": 0.1145,
     "green_ratio": 0.749
   },
   {
     "delivery_id": 180,
-    "timestamp": 6512.41,
-    "hms": "01:48:32",
+    "timestamp": 6510.91,
+    "hms": "01:48:30",
     "motion_score": 0.2204,
     "green_ratio": 0.661
   },
   {
     "delivery_id": 181,
-    "timestamp": 6553.98,
-    "hms": "01:49:13",
+    "timestamp": 6552.48,
+    "hms": "01:49:12",
     "motion_score": 0.1773,
     "green_ratio": 0.926
   },
   {
     "delivery_id": 182,
-    "timestamp": 6586.65,
-    "hms": "01:49:46",
+    "timestamp": 6585.15,
+    "hms": "01:49:45",
     "motion_score": 0.2673,
     "green_ratio": 0.758
   },
   {
     "delivery_id": 183,
-    "timestamp": 6607.43,
-    "hms": "01:50:07",
+    "timestamp": 6605.93,
+    "hms": "01:50:05",
     "motion_score": 0.1821,
     "green_ratio": 0.587
   },
   {
     "delivery_id": 184,
-    "timestamp": 6628.22,
-    "hms": "01:50:28",
+    "timestamp": 6626.72,
+    "hms": "01:50:26",
     "motion_score": 0.1767,
     "green_ratio": 0.815
   },
   {
     "delivery_id": 185,
-    "timestamp": 6657.92,
-    "hms": "01:50:57",
+    "timestamp": 6656.42,
+    "hms": "01:50:56",
     "motion_score": 0.1747,
     "green_ratio": 0.829
   },
   {
     "delivery_id": 186,
-    "timestamp": 6696.52,
-    "hms": "01:51:36",
+    "timestamp": 6695.02,
+    "hms": "01:51:35",
     "motion_score": 0.2022,
     "green_ratio": 0.761
   },
   {
     "delivery_id": 187,
-    "timestamp": 6729.19,
-    "hms": "01:52:09",
+    "timestamp": 6727.69,
+    "hms": "01:52:07",
     "motion_score": 0.1681,
     "green_ratio": 0.869
   },
   {
     "delivery_id": 188,
-    "timestamp": 6761.86,
-    "hms": "01:52:41",
+    "timestamp": 6760.36,
+    "hms": "01:52:40",
     "motion_score": 0.28,
     "green_ratio": 0.774
   },
   {
     "delivery_id": 189,
-    "timestamp": 6788.58,
-    "hms": "01:53:08",
+    "timestamp": 6787.08,
+    "hms": "01:53:07",
     "motion_score": 0.0796,
     "green_ratio": 0.716
   },
   {
     "delivery_id": 190,
-    "timestamp": 6827.19,
-    "hms": "01:53:47",
+    "timestamp": 6825.69,
+    "hms": "01:53:45",
     "motion_score": 0.1808,
     "green_ratio": 0.811
   },
   {
     "delivery_id": 191,
-    "timestamp": 6895.49,
-    "hms": "01:54:55",
+    "timestamp": 6893.99,
+    "hms": "01:54:53",
     "motion_score": 0.2376,
     "green_ratio": 0.808
   },
   {
     "delivery_id": 192,
-    "timestamp": 6928.15,
-    "hms": "01:55:28",
+    "timestamp": 6926.65,
+    "hms": "01:55:26",
     "motion_score": 0.0686,
     "green_ratio": 0.827
   },
   {
     "delivery_id": 193,
-    "timestamp": 6948.94,
-    "hms": "01:55:48",
+    "timestamp": 6947.44,
+    "hms": "01:55:47",
     "motion_score": 0.1063,
     "green_ratio": 0.651
   },
   {
     "delivery_id": 194,
-    "timestamp": 6969.73,
-    "hms": "01:56:09",
+    "timestamp": 6968.23,
+    "hms": "01:56:08",
     "motion_score": 0.1142,
     "green_ratio": 0.584
   },
   {
     "delivery_id": 195,
-    "timestamp": 6990.52,
-    "hms": "01:56:30",
+    "timestamp": 6989.02,
+    "hms": "01:56:29",
     "motion_score": 0.1326,
     "green_ratio": 0.857
   },
   {
     "delivery_id": 196,
-    "timestamp": 7064.76,
-    "hms": "01:57:44",
+    "timestamp": 7063.26,
+    "hms": "01:57:43",
     "motion_score": 0.21,
     "green_ratio": 0.762
   },
   {
     "delivery_id": 197,
-    "timestamp": 7085.55,
-    "hms": "01:58:05",
+    "timestamp": 7084.05,
+    "hms": "01:58:04",
     "motion_score": 0.0754,
     "green_ratio": 0.904
   },
   {
     "delivery_id": 198,
-    "timestamp": 7136.03,
-    "hms": "01:58:56",
+    "timestamp": 7134.53,
+    "hms": "01:58:54",
     "motion_score": 0.1212,
     "green_ratio": 0.601
   },
   {
     "delivery_id": 199,
-    "timestamp": 7183.54,
-    "hms": "01:59:43",
+    "timestamp": 7182.04,
+    "hms": "01:59:42",
     "motion_score": 0.1873,
     "green_ratio": 0.832
   },
   {
     "delivery_id": 200,
-    "timestamp": 7222.15,
-    "hms": "02:00:22",
+    "timestamp": 7220.65,
+    "hms": "02:00:20",
     "motion_score": 0.2123,
     "green_ratio": 0.819
   },
   {
     "delivery_id": 201,
-    "timestamp": 7245.91,
-    "hms": "02:00:45",
+    "timestamp": 7244.41,
+    "hms": "02:00:44",
     "motion_score": 0.0622,
     "green_ratio": 0.894
   },
   {
     "delivery_id": 202,
-    "timestamp": 7281.54,
-    "hms": "02:01:21",
+    "timestamp": 7280.04,
+    "hms": "02:01:20",
     "motion_score": 0.2994,
     "green_ratio": 0.89
   },
   {
     "delivery_id": 203,
-    "timestamp": 7302.33,
-    "hms": "02:01:42",
+    "timestamp": 7300.83,
+    "hms": "02:01:40",
     "motion_score": 0.1114,
     "green_ratio": 0.719
   },
   {
     "delivery_id": 204,
-    "timestamp": 7337.96,
-    "hms": "02:02:17",
+    "timestamp": 7336.46,
+    "hms": "02:02:16",
     "motion_score": 0.1185,
     "green_ratio": 0.757
   },
   {
     "delivery_id": 205,
-    "timestamp": 7358.75,
-    "hms": "02:02:38",
+    "timestamp": 7357.25,
+    "hms": "02:02:37",
     "motion_score": 0.074,
     "green_ratio": 0.705
   },
   {
     "delivery_id": 206,
-    "timestamp": 7379.54,
-    "hms": "02:02:59",
+    "timestamp": 7378.04,
+    "hms": "02:02:58",
     "motion_score": 0.1015,
     "green_ratio": 0.745
   },
   {
     "delivery_id": 207,
-    "timestamp": 7400.33,
-    "hms": "02:03:20",
+    "timestamp": 7398.83,
+    "hms": "02:03:18",
     "motion_score": 0.1071,
     "green_ratio": 0.788
   },
   {
     "delivery_id": 208,
-    "timestamp": 7430.02,
-    "hms": "02:03:50",
+    "timestamp": 7428.52,
+    "hms": "02:03:48",
     "motion_score": 0.216,
     "green_ratio": 0.741
   },
   {
     "delivery_id": 209,
-    "timestamp": 7453.78,
-    "hms": "02:04:13",
+    "timestamp": 7452.28,
+    "hms": "02:04:12",
     "motion_score": 0.1875,
     "green_ratio": 0.785
   },
   {
     "delivery_id": 210,
-    "timestamp": 7474.57,
-    "hms": "02:04:34",
+    "timestamp": 7473.07,
+    "hms": "02:04:33",
     "motion_score": 0.1253,
     "green_ratio": 0.705
   },
   {
     "delivery_id": 211,
-    "timestamp": 7495.35,
-    "hms": "02:04:55",
+    "timestamp": 7493.85,
+    "hms": "02:04:53",
     "motion_score": 0.1179,
     "green_ratio": 0.677
   },
   {
     "delivery_id": 212,
-    "timestamp": 7581.47,
-    "hms": "02:06:21",
+    "timestamp": 7579.97,
+    "hms": "02:06:19",
     "motion_score": 0.2902,
     "green_ratio": 0.491
   },
   {
     "delivery_id": 213,
-    "timestamp": 7614.14,
-    "hms": "02:06:54",
+    "timestamp": 7612.64,
+    "hms": "02:06:52",
     "motion_score": 0.1322,
     "green_ratio": 0.884
   },
   {
     "delivery_id": 214,
-    "timestamp": 7658.68,
-    "hms": "02:07:38",
+    "timestamp": 7657.18,
+    "hms": "02:07:37",
     "motion_score": 0.175,
     "green_ratio": 0.719
   },
   {
     "delivery_id": 215,
-    "timestamp": 7694.32,
-    "hms": "02:08:14",
+    "timestamp": 7692.82,
+    "hms": "02:08:12",
     "motion_score": 0.1862,
     "green_ratio": 0.854
   },
   {
     "delivery_id": 216,
-    "timestamp": 7721.05,
-    "hms": "02:08:41",
+    "timestamp": 7719.55,
+    "hms": "02:08:39",
     "motion_score": 0.1899,
     "green_ratio": 0.901
   },
   {
     "delivery_id": 217,
-    "timestamp": 7747.77,
-    "hms": "02:09:07",
+    "timestamp": 7746.27,
+    "hms": "02:09:06",
     "motion_score": 0.0665,
     "green_ratio": 0.781
   },
   {
     "delivery_id": 218,
-    "timestamp": 7783.41,
-    "hms": "02:09:43",
+    "timestamp": 7781.91,
+    "hms": "02:09:41",
     "motion_score": 0.175,
     "green_ratio": 0.562
   },
   {
     "delivery_id": 219,
-    "timestamp": 7804.2,
-    "hms": "02:10:04",
+    "timestamp": 7802.7,
+    "hms": "02:10:02",
     "motion_score": 0.1085,
     "green_ratio": 0.841
   },
   {
     "delivery_id": 220,
-    "timestamp": 7872.5,
-    "hms": "02:11:12",
+    "timestamp": 7871.0,
+    "hms": "02:11:10",
     "motion_score": 0.2212,
     "green_ratio": 0.783
   },
   {
     "delivery_id": 221,
-    "timestamp": 7899.22,
-    "hms": "02:11:39",
+    "timestamp": 7897.72,
+    "hms": "02:11:37",
     "motion_score": 0.1604,
     "green_ratio": 0.772
   },
   {
     "delivery_id": 222,
-    "timestamp": 7920.01,
-    "hms": "02:12:00",
+    "timestamp": 7918.51,
+    "hms": "02:11:58",
     "motion_score": 0.1122,
     "green_ratio": 0.756
   },
   {
     "delivery_id": 223,
-    "timestamp": 7952.68,
-    "hms": "02:12:32",
+    "timestamp": 7951.18,
+    "hms": "02:12:31",
     "motion_score": 0.2048,
     "green_ratio": 0.78
   },
   {
     "delivery_id": 224,
-    "timestamp": 7976.44,
-    "hms": "02:12:56",
+    "timestamp": 7974.94,
+    "hms": "02:12:54",
     "motion_score": 0.1737,
     "green_ratio": 0.68
   },
   {
     "delivery_id": 225,
-    "timestamp": 8018.01,
-    "hms": "02:13:38",
+    "timestamp": 8016.51,
+    "hms": "02:13:36",
     "motion_score": 0.189,
     "green_ratio": 0.839
   },
   {
     "delivery_id": 226,
-    "timestamp": 8047.71,
-    "hms": "02:14:07",
+    "timestamp": 8046.21,
+    "hms": "02:14:06",
     "motion_score": 0.2391,
     "green_ratio": 0.52
   },
   {
     "delivery_id": 227,
-    "timestamp": 8098.19,
-    "hms": "02:14:58",
+    "timestamp": 8096.69,
+    "hms": "02:14:56",
     "motion_score": 0.2688,
     "green_ratio": 0.585
   },
   {
     "delivery_id": 228,
-    "timestamp": 8133.83,
-    "hms": "02:15:33",
+    "timestamp": 8132.33,
+    "hms": "02:15:32",
     "motion_score": 0.2021,
     "green_ratio": 0.638
   },
   {
     "delivery_id": 229,
-    "timestamp": 8157.58,
-    "hms": "02:15:57",
+    "timestamp": 8156.08,
+    "hms": "02:15:56",
     "motion_score": 0.0883,
     "green_ratio": 0.787
   },
   {
     "delivery_id": 230,
-    "timestamp": 8178.37,
-    "hms": "02:16:18",
+    "timestamp": 8176.87,
+    "hms": "02:16:16",
     "motion_score": 0.0739,
     "green_ratio": 0.547
   },
   {
     "delivery_id": 231,
-    "timestamp": 8202.13,
-    "hms": "02:16:42",
+    "timestamp": 8200.63,
+    "hms": "02:16:40",
     "motion_score": 0.0465,
     "green_ratio": 0.782
   },
   {
     "delivery_id": 232,
-    "timestamp": 8237.76,
-    "hms": "02:17:17",
+    "timestamp": 8236.26,
+    "hms": "02:17:16",
     "motion_score": 0.1631,
     "green_ratio": 0.785
   },
   {
     "delivery_id": 233,
-    "timestamp": 8258.55,
-    "hms": "02:17:38",
+    "timestamp": 8257.05,
+    "hms": "02:17:37",
     "motion_score": 0.1149,
     "green_ratio": 0.721
   },
   {
     "delivery_id": 234,
-    "timestamp": 8285.28,
-    "hms": "02:18:05",
+    "timestamp": 8283.78,
+    "hms": "02:18:03",
     "motion_score": 0.2696,
     "green_ratio": 0.899
   },
   {
     "delivery_id": 235,
-    "timestamp": 8326.85,
-    "hms": "02:18:46",
+    "timestamp": 8325.35,
+    "hms": "02:18:45",
     "motion_score": 0.1877,
     "green_ratio": 0.672
   },
   {
     "delivery_id": 236,
-    "timestamp": 8368.43,
-    "hms": "02:19:28",
+    "timestamp": 8366.93,
+    "hms": "02:19:26",
     "motion_score": 0.3233,
     "green_ratio": 0.822
   },
   {
     "delivery_id": 237,
-    "timestamp": 8418.91,
-    "hms": "02:20:18",
+    "timestamp": 8417.41,
+    "hms": "02:20:17",
     "motion_score": 0.1287,
     "green_ratio": 0.659
   },
   {
     "delivery_id": 238,
-    "timestamp": 8457.52,
-    "hms": "02:20:57",
+    "timestamp": 8456.02,
+    "hms": "02:20:56",
     "motion_score": 0.1873,
     "green_ratio": 0.785
   },
   {
     "delivery_id": 239,
-    "timestamp": 8484.24,
-    "hms": "02:21:24",
+    "timestamp": 8482.74,
+    "hms": "02:21:22",
     "motion_score": 0.2122,
     "green_ratio": 0.76
   },
   {
     "delivery_id": 240,
-    "timestamp": 8510.97,
-    "hms": "02:21:50",
+    "timestamp": 8509.47,
+    "hms": "02:21:49",
     "motion_score": 0.2156,
     "green_ratio": 0.721
   },
   {
     "delivery_id": 241,
-    "timestamp": 8540.67,
-    "hms": "02:22:20",
+    "timestamp": 8539.17,
+    "hms": "02:22:19",
     "motion_score": 0.174,
     "green_ratio": 0.728
   },
   {
     "delivery_id": 242,
-    "timestamp": 8597.09,
-    "hms": "02:23:17",
+    "timestamp": 8595.59,
+    "hms": "02:23:15",
     "motion_score": 0.2745,
     "green_ratio": 0.754
   },
   {
     "delivery_id": 243,
-    "timestamp": 8617.88,
-    "hms": "02:23:37",
+    "timestamp": 8616.38,
+    "hms": "02:23:36",
     "motion_score": 0.0867,
     "green_ratio": 0.88
   },
   {
     "delivery_id": 244,
-    "timestamp": 8674.3,
-    "hms": "02:24:34",
+    "timestamp": 8672.8,
+    "hms": "02:24:32",
     "motion_score": 0.1674,
     "green_ratio": 0.806
   },
   {
     "delivery_id": 245,
-    "timestamp": 8706.96,
-    "hms": "02:25:06",
+    "timestamp": 8705.46,
+    "hms": "02:25:05",
     "motion_score": 0.1853,
     "green_ratio": 0.888
   },
   {
     "delivery_id": 246,
-    "timestamp": 8727.75,
-    "hms": "02:25:27",
+    "timestamp": 8726.25,
+    "hms": "02:25:26",
     "motion_score": 0.0868,
     "green_ratio": 0.854
   },
   {
     "delivery_id": 247,
-    "timestamp": 8748.54,
-    "hms": "02:25:48",
+    "timestamp": 8747.04,
+    "hms": "02:25:47",
     "motion_score": 0.1086,
     "green_ratio": 0.736
   },
   {
     "delivery_id": 248,
-    "timestamp": 8787.15,
-    "hms": "02:26:27",
+    "timestamp": 8785.65,
+    "hms": "02:26:25",
     "motion_score": 0.2446,
     "green_ratio": 0.805
   },
   {
     "delivery_id": 249,
-    "timestamp": 8810.9,
-    "hms": "02:26:50",
+    "timestamp": 8809.4,
+    "hms": "02:26:49",
     "motion_score": 0.1541,
     "green_ratio": 0.875
   },
   {
     "delivery_id": 250,
-    "timestamp": 8837.63,
-    "hms": "02:27:17",
+    "timestamp": 8836.13,
+    "hms": "02:27:16",
     "motion_score": 0.2022,
     "green_ratio": 0.911
   },
   {
     "delivery_id": 251,
-    "timestamp": 8858.42,
-    "hms": "02:27:38",
+    "timestamp": 8856.92,
+    "hms": "02:27:36",
     "motion_score": 0.0957,
     "green_ratio": 0.707
   },
   {
     "delivery_id": 252,
-    "timestamp": 8879.2,
-    "hms": "02:27:59",
+    "timestamp": 8877.7,
+    "hms": "02:27:57",
     "motion_score": 0.1133,
     "green_ratio": 0.689
   },
   {
     "delivery_id": 253,
-    "timestamp": 8905.93,
-    "hms": "02:28:25",
+    "timestamp": 8904.43,
+    "hms": "02:28:24",
     "motion_score": 0.2293,
     "green_ratio": 0.692
   },
   {
     "delivery_id": 254,
-    "timestamp": 8938.6,
-    "hms": "02:28:58",
+    "timestamp": 8937.1,
+    "hms": "02:28:57",
     "motion_score": 0.2514,
     "green_ratio": 0.749
   },
   {
     "delivery_id": 255,
-    "timestamp": 9024.72,
-    "hms": "02:30:24",
+    "timestamp": 9023.22,
+    "hms": "02:30:23",
     "motion_score": 0.2062,
     "green_ratio": 0.842
   },
   {
     "delivery_id": 256,
-    "timestamp": 9045.5,
-    "hms": "02:30:45",
+    "timestamp": 9044.0,
+    "hms": "02:30:44",
     "motion_score": 0.1606,
     "green_ratio": 0.582
   },
   {
     "delivery_id": 257,
-    "timestamp": 9078.17,
-    "hms": "02:31:18",
+    "timestamp": 9076.67,
+    "hms": "02:31:16",
     "motion_score": 0.137,
     "green_ratio": 0.737
   },
   {
     "delivery_id": 258,
-    "timestamp": 9119.74,
-    "hms": "02:31:59",
+    "timestamp": 9118.24,
+    "hms": "02:31:58",
     "motion_score": 0.2324,
     "green_ratio": 0.827
   },
   {
     "delivery_id": 259,
-    "timestamp": 9149.44,
-    "hms": "02:32:29",
+    "timestamp": 9147.94,
+    "hms": "02:32:27",
     "motion_score": 0.2592,
     "green_ratio": 0.819
   },
   {
     "delivery_id": 260,
-    "timestamp": 9170.23,
-    "hms": "02:32:50",
+    "timestamp": 9168.73,
+    "hms": "02:32:48",
     "motion_score": 0.0781,
     "green_ratio": 0.899
   },
   {
     "delivery_id": 261,
-    "timestamp": 9238.53,
-    "hms": "02:33:58",
+    "timestamp": 9237.03,
+    "hms": "02:33:57",
     "motion_score": 0.2052,
     "green_ratio": 0.706
   },
   {
     "delivery_id": 262,
-    "timestamp": 9259.32,
-    "hms": "02:34:19",
+    "timestamp": 9257.82,
+    "hms": "02:34:17",
     "motion_score": 0.1071,
     "green_ratio": 0.802
   },
   {
     "delivery_id": 263,
-    "timestamp": 9289.01,
-    "hms": "02:34:49",
+    "timestamp": 9287.51,
+    "hms": "02:34:47",
     "motion_score": 0.1637,
     "green_ratio": 0.696
   },
   {
     "delivery_id": 264,
-    "timestamp": 9309.8,
-    "hms": "02:35:09",
+    "timestamp": 9308.3,
+    "hms": "02:35:08",
     "motion_score": 0.1445,
     "green_ratio": 0.51
   },
   {
     "delivery_id": 265,
-    "timestamp": 9372.16,
-    "hms": "02:36:12",
+    "timestamp": 9370.66,
+    "hms": "02:36:10",
     "motion_score": 0.2801,
     "green_ratio": 0.759
   },
   {
     "delivery_id": 266,
-    "timestamp": 9407.8,
-    "hms": "02:36:47",
+    "timestamp": 9406.3,
+    "hms": "02:36:46",
     "motion_score": 0.3319,
     "green_ratio": 0.758
   },
   {
     "delivery_id": 267,
-    "timestamp": 9428.59,
-    "hms": "02:37:08",
+    "timestamp": 9427.09,
+    "hms": "02:37:07",
     "motion_score": 0.1828,
     "green_ratio": 0.512
   },
   {
     "delivery_id": 268,
-    "timestamp": 9455.31,
-    "hms": "02:37:35",
+    "timestamp": 9453.81,
+    "hms": "02:37:33",
     "motion_score": 0.1006,
     "green_ratio": 0.814
   },
   {
     "delivery_id": 269,
-    "timestamp": 9482.04,
-    "hms": "02:38:02",
+    "timestamp": 9480.54,
+    "hms": "02:38:00",
     "motion_score": 0.0661,
     "green_ratio": 0.858
   },
   {
     "delivery_id": 270,
-    "timestamp": 9505.8,
-    "hms": "02:38:25",
+    "timestamp": 9504.3,
+    "hms": "02:38:24",
     "motion_score": 0.1514,
     "green_ratio": 0.909
   },
   {
     "delivery_id": 271,
-    "timestamp": 9544.4,
-    "hms": "02:39:04",
+    "timestamp": 9542.9,
+    "hms": "02:39:02",
     "motion_score": 0.141,
     "green_ratio": 0.842
   },
   {
     "delivery_id": 272,
-    "timestamp": 9609.73,
-    "hms": "02:40:09",
+    "timestamp": 9608.23,
+    "hms": "02:40:08",
     "motion_score": 0.1849,
     "green_ratio": 0.828
   },
   {
     "delivery_id": 273,
-    "timestamp": 9630.52,
-    "hms": "02:40:30",
+    "timestamp": 9629.02,
+    "hms": "02:40:29",
     "motion_score": 0.0642,
     "green_ratio": 0.733
   },
   {
     "delivery_id": 274,
-    "timestamp": 9666.16,
-    "hms": "02:41:06",
+    "timestamp": 9664.66,
+    "hms": "02:41:04",
     "motion_score": 0.1608,
     "green_ratio": 0.76
   },
   {
     "delivery_id": 275,
-    "timestamp": 9704.76,
-    "hms": "02:41:44",
+    "timestamp": 9703.26,
+    "hms": "02:41:43",
     "motion_score": 0.2622,
     "green_ratio": 0.692
   },
   {
     "delivery_id": 276,
-    "timestamp": 9731.49,
-    "hms": "02:42:11",
+    "timestamp": 9729.99,
+    "hms": "02:42:09",
     "motion_score": 0.1826,
     "green_ratio": 0.729
   },
   {
     "delivery_id": 277,
-    "timestamp": 9752.28,
-    "hms": "02:42:32",
+    "timestamp": 9750.78,
+    "hms": "02:42:30",
     "motion_score": 0.0968,
     "green_ratio": 0.805
   },
   {
     "delivery_id": 278,
-    "timestamp": 9773.06,
-    "hms": "02:42:53",
+    "timestamp": 9771.56,
+    "hms": "02:42:51",
     "motion_score": 0.1112,
     "green_ratio": 0.669
   },
   {
     "delivery_id": 279,
-    "timestamp": 9793.85,
-    "hms": "02:43:13",
+    "timestamp": 9792.35,
+    "hms": "02:43:12",
     "motion_score": 0.1094,
     "green_ratio": 0.83
   },
   {
     "delivery_id": 280,
-    "timestamp": 9820.58,
-    "hms": "02:43:40",
+    "timestamp": 9819.08,
+    "hms": "02:43:39",
     "motion_score": 0.2866,
     "green_ratio": 0.583
   },
   {
     "delivery_id": 281,
-    "timestamp": 9865.12,
-    "hms": "02:44:25",
+    "timestamp": 9863.62,
+    "hms": "02:44:23",
     "motion_score": 0.0787,
     "green_ratio": 0.85
   },
   {
     "delivery_id": 282,
-    "timestamp": 9885.91,
-    "hms": "02:44:45",
+    "timestamp": 9884.41,
+    "hms": "02:44:44",
     "motion_score": 0.0706,
     "green_ratio": 0.855
   },
   {
     "delivery_id": 283,
-    "timestamp": 9906.7,
-    "hms": "02:45:06",
+    "timestamp": 9905.2,
+    "hms": "02:45:05",
     "motion_score": 0.104,
     "green_ratio": 0.757
   },
   {
     "delivery_id": 284,
-    "timestamp": 9942.33,
-    "hms": "02:45:42",
+    "timestamp": 9940.83,
+    "hms": "02:45:40",
     "motion_score": 0.1063,
     "green_ratio": 0.917
   },
   {
     "delivery_id": 285,
-    "timestamp": 9963.12,
-    "hms": "02:46:03",
+    "timestamp": 9961.62,
+    "hms": "02:46:01",
     "motion_score": 0.0858,
     "green_ratio": 0.763
   },
   {
     "delivery_id": 286,
-    "timestamp": 9986.88,
-    "hms": "02:46:26",
+    "timestamp": 9985.38,
+    "hms": "02:46:25",
     "motion_score": 0.2174,
     "green_ratio": 0.857
   },
   {
     "delivery_id": 287,
-    "timestamp": 10022.51,
-    "hms": "02:47:02",
+    "timestamp": 10021.01,
+    "hms": "02:47:01",
     "motion_score": 0.1578,
     "green_ratio": 0.917
   },
   {
     "delivery_id": 288,
-    "timestamp": 10055.18,
-    "hms": "02:47:35",
+    "timestamp": 10053.68,
+    "hms": "02:47:33",
     "motion_score": 0.2782,
     "green_ratio": 0.475
   },
   {
     "delivery_id": 289,
-    "timestamp": 10078.94,
-    "hms": "02:47:58",
+    "timestamp": 10077.44,
+    "hms": "02:47:57",
     "motion_score": 0.2754,
     "green_ratio": 0.785
   },
   {
     "delivery_id": 290,
-    "timestamp": 10114.57,
-    "hms": "02:48:34",
+    "timestamp": 10113.07,
+    "hms": "02:48:33",
     "motion_score": 0.0782,
     "green_ratio": 0.69
   },
   {
     "delivery_id": 291,
-    "timestamp": 10135.36,
-    "hms": "02:48:55",
+    "timestamp": 10133.86,
+    "hms": "02:48:53",
     "motion_score": 0.1125,
     "green_ratio": 0.904
   },
   {
     "delivery_id": 292,
-    "timestamp": 10165.05,
-    "hms": "02:49:25",
+    "timestamp": 10163.55,
+    "hms": "02:49:23",
     "motion_score": 0.2078,
     "green_ratio": 0.913
   },
   {
     "delivery_id": 293,
-    "timestamp": 10260.08,
-    "hms": "02:51:00",
+    "timestamp": 10258.58,
+    "hms": "02:50:58",
     "motion_score": 0.2161,
     "green_ratio": 0.78
   },
   {
     "delivery_id": 294,
-    "timestamp": 10292.75,
-    "hms": "02:51:32",
+    "timestamp": 10291.25,
+    "hms": "02:51:31",
     "motion_score": 0.236,
     "green_ratio": 0.84
   },
   {
     "delivery_id": 295,
-    "timestamp": 10313.54,
-    "hms": "02:51:53",
+    "timestamp": 10312.04,
+    "hms": "02:51:52",
     "motion_score": 0.0971,
     "green_ratio": 0.852
   },
   {
     "delivery_id": 296,
-    "timestamp": 10366.99,
-    "hms": "02:52:46",
+    "timestamp": 10365.49,
+    "hms": "02:52:45",
     "motion_score": 0.2266,
     "green_ratio": 0.765
   },
   {
     "delivery_id": 297,
-    "timestamp": 10405.6,
-    "hms": "02:53:25",
+    "timestamp": 10404.1,
+    "hms": "02:53:24",
     "motion_score": 0.3004,
     "green_ratio": 0.774
   },
   {
     "delivery_id": 298,
-    "timestamp": 10441.23,
-    "hms": "02:54:01",
+    "timestamp": 10439.73,
+    "hms": "02:53:59",
     "motion_score": 0.2064,
     "green_ratio": 0.755
   },
   {
     "delivery_id": 299,
-    "timestamp": 10491.71,
-    "hms": "02:54:51",
+    "timestamp": 10490.21,
+    "hms": "02:54:50",
     "motion_score": 0.1603,
     "green_ratio": 0.901
   },
   {
     "delivery_id": 300,
-    "timestamp": 10518.44,
-    "hms": "02:55:18",
+    "timestamp": 10516.94,
+    "hms": "02:55:16",
     "motion_score": 0.2191,
     "green_ratio": 0.799
   },
   {
     "delivery_id": 301,
-    "timestamp": 10551.11,
-    "hms": "02:55:51",
+    "timestamp": 10549.61,
+    "hms": "02:55:49",
     "motion_score": 0.202,
     "green_ratio": 0.856
   },
   {
     "delivery_id": 302,
-    "timestamp": 10595.65,
-    "hms": "02:56:35",
+    "timestamp": 10594.15,
+    "hms": "02:56:34",
     "motion_score": 0.2092,
     "green_ratio": 0.751
   },
   {
     "delivery_id": 303,
-    "timestamp": 10634.26,
-    "hms": "02:57:14",
+    "timestamp": 10632.76,
+    "hms": "02:57:12",
     "motion_score": 0.1935,
     "green_ratio": 0.738
   },
   {
     "delivery_id": 304,
-    "timestamp": 10655.04,
-    "hms": "02:57:35",
+    "timestamp": 10653.54,
+    "hms": "02:57:33",
     "motion_score": 0.0978,
     "green_ratio": 0.819
   },
   {
     "delivery_id": 305,
-    "timestamp": 10675.83,
-    "hms": "02:57:55",
+    "timestamp": 10674.33,
+    "hms": "02:57:54",
     "motion_score": 0.1134,
     "green_ratio": 0.748
   },
   {
     "delivery_id": 306,
-    "timestamp": 10708.5,
-    "hms": "02:58:28",
+    "timestamp": 10707.0,
+    "hms": "02:58:26",
     "motion_score": 0.1403,
     "green_ratio": 0.863
   },
   {
     "delivery_id": 307,
-    "timestamp": 10756.01,
-    "hms": "02:59:16",
+    "timestamp": 10754.51,
+    "hms": "02:59:14",
     "motion_score": 0.1807,
     "green_ratio": 0.694
   },
   {
     "delivery_id": 308,
-    "timestamp": 10797.59,
-    "hms": "02:59:57",
+    "timestamp": 10796.09,
+    "hms": "02:59:56",
     "motion_score": 0.1973,
     "green_ratio": 0.833
   },
   {
     "delivery_id": 309,
-    "timestamp": 10845.1,
-    "hms": "03:00:45",
+    "timestamp": 10843.6,
+    "hms": "03:00:43",
     "motion_score": 0.0868,
     "green_ratio": 0.714
   },
   {
     "delivery_id": 310,
-    "timestamp": 10877.77,
-    "hms": "03:01:17",
+    "timestamp": 10876.27,
+    "hms": "03:01:16",
     "motion_score": 0.0771,
     "green_ratio": 0.835
   },
   {
     "delivery_id": 311,
-    "timestamp": 10898.55,
-    "hms": "03:01:38",
+    "timestamp": 10897.05,
+    "hms": "03:01:37",
     "motion_score": 0.0593,
     "green_ratio": 0.912
   },
   {
     "delivery_id": 312,
-    "timestamp": 10919.34,
-    "hms": "03:01:59",
+    "timestamp": 10917.84,
+    "hms": "03:01:57",
     "motion_score": 0.0779,
     "green_ratio": 0.788
   },
   {
     "delivery_id": 313,
-    "timestamp": 10946.07,
-    "hms": "03:02:26",
+    "timestamp": 10944.57,
+    "hms": "03:02:24",
     "motion_score": 0.0816,
     "green_ratio": 0.719
   },
   {
     "delivery_id": 314,
-    "timestamp": 11011.4,
-    "hms": "03:03:31",
+    "timestamp": 11009.9,
+    "hms": "03:03:29",
     "motion_score": 0.1845,
     "green_ratio": 0.701
   },
   {
     "delivery_id": 315,
-    "timestamp": 11035.16,
-    "hms": "03:03:55",
+    "timestamp": 11033.66,
+    "hms": "03:03:53",
     "motion_score": 0.069,
     "green_ratio": 0.893
   },
   {
     "delivery_id": 316,
-    "timestamp": 11055.94,
-    "hms": "03:04:15",
+    "timestamp": 11054.44,
+    "hms": "03:04:14",
     "motion_score": 0.0754,
     "green_ratio": 0.825
   },
   {
     "delivery_id": 317,
-    "timestamp": 11094.55,
-    "hms": "03:04:54",
+    "timestamp": 11093.05,
+    "hms": "03:04:53",
     "motion_score": 0.2433,
     "green_ratio": 0.719
   },
   {
     "delivery_id": 318,
-    "timestamp": 11115.34,
-    "hms": "03:05:15",
+    "timestamp": 11113.84,
+    "hms": "03:05:13",
     "motion_score": 0.0578,
     "green_ratio": 0.694
   },
   {
     "delivery_id": 319,
-    "timestamp": 11251.94,
-    "hms": "03:07:31",
+    "timestamp": 11250.44,
+    "hms": "03:07:30",
     "motion_score": 0.1876,
     "green_ratio": 0.869
   },
   {
     "delivery_id": 320,
-    "timestamp": 11272.73,
-    "hms": "03:07:52",
+    "timestamp": 11271.23,
+    "hms": "03:07:51",
     "motion_score": 0.0785,
     "green_ratio": 0.717
   },
   {
     "delivery_id": 321,
-    "timestamp": 11317.27,
-    "hms": "03:08:37",
+    "timestamp": 11315.77,
+    "hms": "03:08:35",
     "motion_score": 0.1984,
     "green_ratio": 0.521
   },
   {
     "delivery_id": 322,
-    "timestamp": 11346.97,
-    "hms": "03:09:06",
+    "timestamp": 11345.47,
+    "hms": "03:09:05",
     "motion_score": 0.0702,
     "green_ratio": 0.843
   },
   {
     "delivery_id": 323,
-    "timestamp": 11382.6,
-    "hms": "03:09:42",
+    "timestamp": 11381.1,
+    "hms": "03:09:41",
     "motion_score": 0.1692,
     "green_ratio": 0.722
   },
   {
     "delivery_id": 324,
-    "timestamp": 11403.39,
-    "hms": "03:10:03",
+    "timestamp": 11401.89,
+    "hms": "03:10:01",
     "motion_score": 0.0872,
     "green_ratio": 0.784
   },
   {
     "delivery_id": 325,
-    "timestamp": 11450.91,
-    "hms": "03:10:50",
+    "timestamp": 11449.41,
+    "hms": "03:10:49",
     "motion_score": 0.1825,
     "green_ratio": 0.9
   },
   {
     "delivery_id": 326,
-    "timestamp": 11492.48,
-    "hms": "03:11:32",
+    "timestamp": 11490.98,
+    "hms": "03:11:30",
     "motion_score": 0.1655,
     "green_ratio": 0.84
   },
   {
     "delivery_id": 327,
-    "timestamp": 11513.27,
-    "hms": "03:11:53",
+    "timestamp": 11511.77,
+    "hms": "03:11:51",
     "motion_score": 0.1001,
     "green_ratio": 0.727
   },
   {
     "delivery_id": 328,
-    "timestamp": 11578.6,
-    "hms": "03:12:58",
+    "timestamp": 11577.1,
+    "hms": "03:12:57",
     "motion_score": 0.1813,
     "green_ratio": 0.796
   },
   {
     "delivery_id": 329,
-    "timestamp": 11599.39,
-    "hms": "03:13:19",
+    "timestamp": 11597.89,
+    "hms": "03:13:17",
     "motion_score": 0.0724,
     "green_ratio": 0.919
   },
   {
     "delivery_id": 330,
-    "timestamp": 11629.08,
-    "hms": "03:13:49",
+    "timestamp": 11627.58,
+    "hms": "03:13:47",
     "motion_score": 0.1514,
     "green_ratio": 0.914
   },
   {
     "delivery_id": 331,
-    "timestamp": 11661.75,
-    "hms": "03:14:21",
+    "timestamp": 11660.25,
+    "hms": "03:14:20",
     "motion_score": 0.0606,
     "green_ratio": 0.828
   },
   {
     "delivery_id": 332,
-    "timestamp": 11691.45,
-    "hms": "03:14:51",
+    "timestamp": 11689.95,
+    "hms": "03:14:49",
     "motion_score": 0.089,
     "green_ratio": 0.819
   },
   {
     "delivery_id": 333,
-    "timestamp": 11718.17,
-    "hms": "03:15:18",
+    "timestamp": 11716.67,
+    "hms": "03:15:16",
     "motion_score": 0.118,
     "green_ratio": 0.777
   },
   {
     "delivery_id": 334,
-    "timestamp": 11744.9,
-    "hms": "03:15:44",
+    "timestamp": 11743.4,
+    "hms": "03:15:43",
     "motion_score": 0.2291,
     "green_ratio": 0.824
   },
   {
     "delivery_id": 335,
-    "timestamp": 11765.69,
-    "hms": "03:16:05",
+    "timestamp": 11764.19,
+    "hms": "03:16:04",
     "motion_score": 0.0697,
     "green_ratio": 0.817
   },
   {
     "delivery_id": 336,
-    "timestamp": 11795.38,
-    "hms": "03:16:35",
+    "timestamp": 11793.88,
+    "hms": "03:16:33",
     "motion_score": 0.0632,
     "green_ratio": 0.783
   },
   {
     "delivery_id": 337,
-    "timestamp": 11816.17,
-    "hms": "03:16:56",
+    "timestamp": 11814.67,
+    "hms": "03:16:54",
     "motion_score": 0.0936,
     "green_ratio": 0.732
   },
   {
     "delivery_id": 338,
-    "timestamp": 11857.75,
-    "hms": "03:17:37",
+    "timestamp": 11856.25,
+    "hms": "03:17:36",
     "motion_score": 0.2573,
     "green_ratio": 0.83
   },
   {
     "delivery_id": 339,
-    "timestamp": 11905.26,
-    "hms": "03:18:25",
+    "timestamp": 11903.76,
+    "hms": "03:18:23",
     "motion_score": 0.1393,
     "green_ratio": 0.833
   },
   {
     "delivery_id": 340,
-    "timestamp": 11934.96,
-    "hms": "03:18:54",
+    "timestamp": 11933.46,
+    "hms": "03:18:53",
     "motion_score": 0.2426,
     "green_ratio": 0.844
   },
   {
     "delivery_id": 341,
-    "timestamp": 12024.05,
-    "hms": "03:20:24",
+    "timestamp": 12022.55,
+    "hms": "03:20:22",
     "motion_score": 0.2115,
     "green_ratio": 0.76
   },
   {
     "delivery_id": 342,
-    "timestamp": 12044.83,
-    "hms": "03:20:44",
+    "timestamp": 12043.33,
+    "hms": "03:20:43",
     "motion_score": 0.086,
     "green_ratio": 0.905
   },
   {
     "delivery_id": 343,
-    "timestamp": 12068.59,
-    "hms": "03:21:08",
+    "timestamp": 12067.09,
+    "hms": "03:21:07",
     "motion_score": 0.0803,
     "green_ratio": 0.526
   },
   {
     "delivery_id": 344,
-    "timestamp": 12092.35,
-    "hms": "03:21:32",
+    "timestamp": 12090.85,
+    "hms": "03:21:30",
     "motion_score": 0.1075,
     "green_ratio": 0.473
   },
   {
     "delivery_id": 345,
-    "timestamp": 12113.13,
-    "hms": "03:21:53",
+    "timestamp": 12111.63,
+    "hms": "03:21:51",
     "motion_score": 0.1412,
     "green_ratio": 0.807
   },
   {
     "delivery_id": 346,
-    "timestamp": 12145.8,
-    "hms": "03:22:25",
+    "timestamp": 12144.3,
+    "hms": "03:22:24",
     "motion_score": 0.205,
     "green_ratio": 0.821
   },
   {
     "delivery_id": 347,
-    "timestamp": 12175.5,
-    "hms": "03:22:55",
+    "timestamp": 12174.0,
+    "hms": "03:22:53",
     "motion_score": 0.1883,
     "green_ratio": 0.89
   },
   {
     "delivery_id": 348,
-    "timestamp": 12211.13,
-    "hms": "03:23:31",
+    "timestamp": 12209.63,
+    "hms": "03:23:29",
     "motion_score": 0.1154,
     "green_ratio": 0.508
   },
   {
     "delivery_id": 349,
-    "timestamp": 12231.92,
-    "hms": "03:23:51",
+    "timestamp": 12230.42,
+    "hms": "03:23:50",
     "motion_score": 0.154,
     "green_ratio": 0.734
   },
   {
     "delivery_id": 350,
-    "timestamp": 12252.71,
-    "hms": "03:24:12",
+    "timestamp": 12251.21,
+    "hms": "03:24:11",
     "motion_score": 0.1367,
     "green_ratio": 0.702
   },
   {
     "delivery_id": 351,
-    "timestamp": 12282.4,
-    "hms": "03:24:42",
+    "timestamp": 12280.9,
+    "hms": "03:24:40",
     "motion_score": 0.2101,
     "green_ratio": 0.554
   },
   {
     "delivery_id": 352,
-    "timestamp": 12309.13,
-    "hms": "03:25:09",
+    "timestamp": 12307.63,
+    "hms": "03:25:07",
     "motion_score": 0.1485,
     "green_ratio": 0.747
   },
   {
     "delivery_id": 353,
-    "timestamp": 12332.89,
-    "hms": "03:25:32",
+    "timestamp": 12331.39,
+    "hms": "03:25:31",
     "motion_score": 0.0782,
     "green_ratio": 0.712
   },
   {
     "delivery_id": 354,
-    "timestamp": 12377.43,
-    "hms": "03:26:17",
+    "timestamp": 12375.93,
+    "hms": "03:26:15",
     "motion_score": 0.1554,
     "green_ratio": 0.808
   },
   {
     "delivery_id": 355,
-    "timestamp": 12398.22,
-    "hms": "03:26:38",
+    "timestamp": 12396.72,
+    "hms": "03:26:36",
     "motion_score": 0.0842,
     "green_ratio": 0.83
   },
   {
     "delivery_id": 356,
-    "timestamp": 12427.92,
-    "hms": "03:27:07",
+    "timestamp": 12426.42,
+    "hms": "03:27:06",
     "motion_score": 0.0796,
     "green_ratio": 0.791
   },
   {
     "delivery_id": 357,
-    "timestamp": 12475.43,
-    "hms": "03:27:55",
+    "timestamp": 12473.93,
+    "hms": "03:27:53",
     "motion_score": 0.2055,
     "green_ratio": 0.713
   },
   {
     "delivery_id": 358,
-    "timestamp": 12519.97,
-    "hms": "03:28:39",
+    "timestamp": 12518.47,
+    "hms": "03:28:38",
     "motion_score": 0.2117,
     "green_ratio": 0.851
   },
   {
     "delivery_id": 359,
-    "timestamp": 12561.55,
-    "hms": "03:29:21",
+    "timestamp": 12560.05,
+    "hms": "03:29:20",
     "motion_score": 0.1818,
     "green_ratio": 0.771
   },
   {
     "delivery_id": 360,
-    "timestamp": 12582.34,
-    "hms": "03:29:42",
+    "timestamp": 12580.84,
+    "hms": "03:29:40",
     "motion_score": 0.1163,
     "green_ratio": 0.496
   },
   {
     "delivery_id": 361,
-    "timestamp": 12668.46,
-    "hms": "03:31:08",
+    "timestamp": 12666.96,
+    "hms": "03:31:06",
     "motion_score": 0.2263,
     "green_ratio": 0.852
   },
   {
     "delivery_id": 362,
-    "timestamp": 12710.03,
-    "hms": "03:31:50",
+    "timestamp": 12708.53,
+    "hms": "03:31:48",
     "motion_score": 0.173,
     "green_ratio": 0.823
   },
   {
     "delivery_id": 363,
-    "timestamp": 12745.67,
-    "hms": "03:32:25",
+    "timestamp": 12744.17,
+    "hms": "03:32:24",
     "motion_score": 0.2494,
     "green_ratio": 0.664
   },
   {
     "delivery_id": 364,
-    "timestamp": 12781.3,
-    "hms": "03:33:01",
+    "timestamp": 12779.8,
+    "hms": "03:32:59",
     "motion_score": 0.0707,
     "green_ratio": 0.779
   },
   {
     "delivery_id": 365,
-    "timestamp": 12805.06,
-    "hms": "03:33:25",
+    "timestamp": 12803.56,
+    "hms": "03:33:23",
     "motion_score": 0.2582,
     "green_ratio": 0.722
   },
   {
     "delivery_id": 366,
-    "timestamp": 12825.85,
-    "hms": "03:33:45",
+    "timestamp": 12824.35,
+    "hms": "03:33:44",
     "motion_score": 0.186,
     "green_ratio": 0.75
   },
   {
     "delivery_id": 367,
-    "timestamp": 12846.63,
-    "hms": "03:34:06",
+    "timestamp": 12845.13,
+    "hms": "03:34:05",
     "motion_score": 0.1251,
     "green_ratio": 0.813
   },
   {
     "delivery_id": 368,
-    "timestamp": 12882.27,
-    "hms": "03:34:42",
+    "timestamp": 12880.77,
+    "hms": "03:34:40",
     "motion_score": 0.2152,
     "green_ratio": 0.701
   },
   {
     "delivery_id": 369,
-    "timestamp": 12903.06,
-    "hms": "03:35:03",
+    "timestamp": 12901.56,
+    "hms": "03:35:01",
     "motion_score": 0.1181,
     "green_ratio": 0.659
   },
   {
     "delivery_id": 370,
-    "timestamp": 12947.6,
-    "hms": "03:35:47",
+    "timestamp": 12946.1,
+    "hms": "03:35:46",
     "motion_score": 0.1398,
     "green_ratio": 0.828
   },
   {
     "delivery_id": 371,
-    "timestamp": 12968.39,
-    "hms": "03:36:08",
+    "timestamp": 12966.89,
+    "hms": "03:36:06",
     "motion_score": 0.1127,
     "green_ratio": 0.826
   },
   {
     "delivery_id": 372,
-    "timestamp": 12992.15,
-    "hms": "03:36:32",
+    "timestamp": 12990.65,
+    "hms": "03:36:30",
     "motion_score": 0.2536,
     "green_ratio": 0.78
   },
   {
     "delivery_id": 373,
-    "timestamp": 13018.87,
-    "hms": "03:36:58",
+    "timestamp": 13017.37,
+    "hms": "03:36:57",
     "motion_score": 0.2278,
     "green_ratio": 0.728
   },
   {
     "delivery_id": 374,
-    "timestamp": 13054.51,
-    "hms": "03:37:34",
+    "timestamp": 13053.01,
+    "hms": "03:37:33",
     "motion_score": 0.1786,
     "green_ratio": 0.812
   },
   {
     "delivery_id": 375,
-    "timestamp": 13122.81,
-    "hms": "03:38:42",
+    "timestamp": 13121.31,
+    "hms": "03:38:41",
     "motion_score": 0.2694,
     "green_ratio": 0.837
   },
   {
     "delivery_id": 376,
-    "timestamp": 13143.6,
-    "hms": "03:39:03",
+    "timestamp": 13142.1,
+    "hms": "03:39:02",
     "motion_score": 0.0863,
     "green_ratio": 0.911
   },
   {
     "delivery_id": 377,
-    "timestamp": 13164.38,
-    "hms": "03:39:24",
+    "timestamp": 13162.88,
+    "hms": "03:39:22",
     "motion_score": 0.1202,
     "green_ratio": 0.738
   },
   {
     "delivery_id": 378,
-    "timestamp": 13185.17,
-    "hms": "03:39:45",
+    "timestamp": 13183.67,
+    "hms": "03:39:43",
     "motion_score": 0.1634,
     "green_ratio": 0.749
   },
   {
     "delivery_id": 379,
-    "timestamp": 13208.93,
-    "hms": "03:40:08",
+    "timestamp": 13207.43,
+    "hms": "03:40:07",
     "motion_score": 0.1394,
     "green_ratio": 0.836
   },
   {
     "delivery_id": 380,
-    "timestamp": 13244.56,
-    "hms": "03:40:44",
+    "timestamp": 13243.06,
+    "hms": "03:40:43",
     "motion_score": 0.0898,
     "green_ratio": 0.75
   },
   {
     "delivery_id": 381,
-    "timestamp": 13265.35,
-    "hms": "03:41:05",
+    "timestamp": 13263.85,
+    "hms": "03:41:03",
     "motion_score": 0.1213,
     "green_ratio": 0.751
   },
   {
     "delivery_id": 382,
-    "timestamp": 13286.14,
-    "hms": "03:41:26",
+    "timestamp": 13284.64,
+    "hms": "03:41:24",
     "motion_score": 0.1087,
     "green_ratio": 0.731
   },
   {
     "delivery_id": 383,
-    "timestamp": 13306.93,
-    "hms": "03:41:46",
+    "timestamp": 13305.43,
+    "hms": "03:41:45",
     "motion_score": 0.0947,
     "green_ratio": 0.824
   },
   {
     "delivery_id": 384,
-    "timestamp": 13333.65,
-    "hms": "03:42:13",
+    "timestamp": 13332.15,
+    "hms": "03:42:12",
     "motion_score": 0.064,
     "green_ratio": 0.915
   },
   {
     "delivery_id": 385,
-    "timestamp": 13366.32,
-    "hms": "03:42:46",
+    "timestamp": 13364.82,
+    "hms": "03:42:44",
     "motion_score": 0.143,
     "green_ratio": 0.707
   },
   {
     "delivery_id": 386,
-    "timestamp": 13387.11,
-    "hms": "03:43:07",
+    "timestamp": 13385.61,
+    "hms": "03:43:05",
     "motion_score": 0.0808,
     "green_ratio": 0.787
   },
   {
     "delivery_id": 387,
-    "timestamp": 13431.65,
-    "hms": "03:43:51",
+    "timestamp": 13430.15,
+    "hms": "03:43:50",
     "motion_score": 0.209,
     "green_ratio": 0.822
   },
   {
     "delivery_id": 388,
-    "timestamp": 13452.44,
-    "hms": "03:44:12",
+    "timestamp": 13450.94,
+    "hms": "03:44:10",
     "motion_score": 0.139,
     "green_ratio": 0.7
   },
   {
     "delivery_id": 389,
-    "timestamp": 13488.07,
-    "hms": "03:44:48",
+    "timestamp": 13486.57,
+    "hms": "03:44:46",
     "motion_score": 0.173,
     "green_ratio": 0.736
   },
   {
     "delivery_id": 390,
-    "timestamp": 13511.83,
-    "hms": "03:45:11",
+    "timestamp": 13510.33,
+    "hms": "03:45:10",
     "motion_score": 0.0851,
     "green_ratio": 0.84
   },
   {
     "delivery_id": 391,
-    "timestamp": 13532.62,
-    "hms": "03:45:32",
+    "timestamp": 13531.12,
+    "hms": "03:45:31",
     "motion_score": 0.1006,
     "green_ratio": 0.702
   },
   {
     "delivery_id": 392,
-    "timestamp": 13553.41,
-    "hms": "03:45:53",
+    "timestamp": 13551.91,
+    "hms": "03:45:51",
     "motion_score": 0.0932,
     "green_ratio": 0.814
   },
   {
     "delivery_id": 393,
-    "timestamp": 13600.92,
-    "hms": "03:46:40",
+    "timestamp": 13599.42,
+    "hms": "03:46:39",
     "motion_score": 0.1428,
     "green_ratio": 0.901
   },
   {
     "delivery_id": 394,
-    "timestamp": 13633.59,
-    "hms": "03:47:13",
+    "timestamp": 13632.09,
+    "hms": "03:47:12",
     "motion_score": 0.2364,
     "green_ratio": 0.812
   },
   {
     "delivery_id": 395,
-    "timestamp": 13654.37,
-    "hms": "03:47:34",
+    "timestamp": 13652.87,
+    "hms": "03:47:32",
     "motion_score": 0.1057,
     "green_ratio": 0.906
   },
   {
     "delivery_id": 396,
-    "timestamp": 13695.95,
-    "hms": "03:48:15",
+    "timestamp": 13694.45,
+    "hms": "03:48:14",
     "motion_score": 0.1625,
     "green_ratio": 0.791
   },
   {
     "delivery_id": 397,
-    "timestamp": 13728.61,
-    "hms": "03:48:48",
+    "timestamp": 13727.11,
+    "hms": "03:48:47",
     "motion_score": 0.1507,
     "green_ratio": 0.83
   },
   {
     "delivery_id": 398,
-    "timestamp": 13752.37,
-    "hms": "03:49:12",
+    "timestamp": 13750.87,
+    "hms": "03:49:10",
     "motion_score": 0.0733,
     "green_ratio": 0.908
   },
   {
     "delivery_id": 399,
-    "timestamp": 13793.95,
-    "hms": "03:49:53",
+    "timestamp": 13792.45,
+    "hms": "03:49:52",
     "motion_score": 0.1956,
     "green_ratio": 0.743
   },
   {
     "delivery_id": 400,
-    "timestamp": 13835.52,
-    "hms": "03:50:35",
+    "timestamp": 13834.02,
+    "hms": "03:50:34",
     "motion_score": 0.1343,
     "green_ratio": 0.741
   },
   {
     "delivery_id": 401,
-    "timestamp": 13874.13,
-    "hms": "03:51:14",
+    "timestamp": 13872.63,
+    "hms": "03:51:12",
     "motion_score": 0.2582,
     "green_ratio": 0.758
   },
   {
     "delivery_id": 402,
-    "timestamp": 13894.91,
-    "hms": "03:51:34",
+    "timestamp": 13893.41,
+    "hms": "03:51:33",
     "motion_score": 0.1056,
     "green_ratio": 0.566
   },
   {
     "delivery_id": 403,
-    "timestamp": 13942.43,
-    "hms": "03:52:22",
+    "timestamp": 13940.93,
+    "hms": "03:52:20",
     "motion_score": 0.2465,
     "green_ratio": 0.807
   },
   {
     "delivery_id": 404,
-    "timestamp": 13978.06,
-    "hms": "03:52:58",
+    "timestamp": 13976.56,
+    "hms": "03:52:56",
     "motion_score": 0.1375,
     "green_ratio": 0.581
   },
   {
     "delivery_id": 405,
-    "timestamp": 14010.73,
-    "hms": "03:53:30",
+    "timestamp": 14009.23,
+    "hms": "03:53:29",
     "motion_score": 0.1118,
     "green_ratio": 0.703
   },
   {
     "delivery_id": 406,
-    "timestamp": 14099.82,
-    "hms": "03:54:59",
+    "timestamp": 14098.32,
+    "hms": "03:54:58",
     "motion_score": 0.1803,
     "green_ratio": 0.819
   },
   {
     "delivery_id": 407,
-    "timestamp": 14120.61,
-    "hms": "03:55:20",
+    "timestamp": 14119.11,
+    "hms": "03:55:19",
     "motion_score": 0.1746,
     "green_ratio": 0.791
   },
   {
     "delivery_id": 408,
-    "timestamp": 14141.39,
-    "hms": "03:55:41",
+    "timestamp": 14139.89,
+    "hms": "03:55:39",
     "motion_score": 0.1335,
     "green_ratio": 0.695
   },
   {
     "delivery_id": 409,
-    "timestamp": 14162.18,
-    "hms": "03:56:02",
+    "timestamp": 14160.68,
+    "hms": "03:56:00",
     "motion_score": 0.1858,
     "green_ratio": 0.491
   },
   {
     "delivery_id": 410,
-    "timestamp": 14218.6,
-    "hms": "03:56:58",
+    "timestamp": 14217.1,
+    "hms": "03:56:57",
     "motion_score": 0.2101,
     "green_ratio": 0.723
   },
   {
     "delivery_id": 411,
-    "timestamp": 14242.36,
-    "hms": "03:57:22",
+    "timestamp": 14240.86,
+    "hms": "03:57:20",
     "motion_score": 0.2128,
     "green_ratio": 0.569
   },
   {
     "delivery_id": 412,
-    "timestamp": 14280.97,
-    "hms": "03:58:00",
+    "timestamp": 14279.47,
+    "hms": "03:57:59",
     "motion_score": 0.1854,
     "green_ratio": 0.776
   },
   {
     "delivery_id": 413,
-    "timestamp": 14304.72,
-    "hms": "03:58:24",
+    "timestamp": 14303.22,
+    "hms": "03:58:23",
     "motion_score": 0.0878,
     "green_ratio": 0.919
   },
   {
     "delivery_id": 414,
-    "timestamp": 14334.42,
-    "hms": "03:58:54",
+    "timestamp": 14332.92,
+    "hms": "03:58:52",
     "motion_score": 0.1929,
     "green_ratio": 0.904
   },
   {
     "delivery_id": 415,
-    "timestamp": 14375.99,
-    "hms": "03:59:35",
+    "timestamp": 14374.49,
+    "hms": "03:59:34",
     "motion_score": 0.1938,
     "green_ratio": 0.708
   },
   {
     "delivery_id": 416,
-    "timestamp": 14426.48,
-    "hms": "04:00:26",
+    "timestamp": 14424.98,
+    "hms": "04:00:24",
     "motion_score": 0.3018,
     "green_ratio": 0.796
   },
   {
     "delivery_id": 417,
-    "timestamp": 14456.18,
-    "hms": "04:00:56",
+    "timestamp": 14454.68,
+    "hms": "04:00:54",
     "motion_score": 0.2227,
     "green_ratio": 0.699
   },
   {
     "delivery_id": 418,
-    "timestamp": 14497.75,
-    "hms": "04:01:37",
+    "timestamp": 14496.25,
+    "hms": "04:01:36",
     "motion_score": 0.2284,
     "green_ratio": 0.697
   },
   {
     "delivery_id": 419,
-    "timestamp": 14530.42,
-    "hms": "04:02:10",
+    "timestamp": 14528.92,
+    "hms": "04:02:08",
     "motion_score": 0.1011,
     "green_ratio": 0.809
   },
   {
     "delivery_id": 420,
-    "timestamp": 14560.11,
-    "hms": "04:02:40",
+    "timestamp": 14558.61,
+    "hms": "04:02:38",
     "motion_score": 0.2067,
     "green_ratio": 0.84
   },
   {
     "delivery_id": 421,
-    "timestamp": 14598.72,
-    "hms": "04:03:18",
+    "timestamp": 14597.22,
+    "hms": "04:03:17",
     "motion_score": 0.1861,
     "green_ratio": 0.741
   },
   {
     "delivery_id": 422,
-    "timestamp": 14619.5,
-    "hms": "04:03:39",
+    "timestamp": 14618.0,
+    "hms": "04:03:38",
     "motion_score": 0.0736,
     "green_ratio": 0.811
   },
   {
     "delivery_id": 423,
-    "timestamp": 14649.2,
-    "hms": "04:04:09",
+    "timestamp": 14647.7,
+    "hms": "04:04:07",
     "motion_score": 0.1507,
     "green_ratio": 0.85
   },
   {
     "delivery_id": 424,
-    "timestamp": 14678.9,
-    "hms": "04:04:38",
+    "timestamp": 14677.4,
+    "hms": "04:04:37",
     "motion_score": 0.2207,
     "green_ratio": 0.833
   },
   {
     "delivery_id": 425,
-    "timestamp": 14711.56,
-    "hms": "04:05:11",
+    "timestamp": 14710.06,
+    "hms": "04:05:10",
     "motion_score": 0.2778,
     "green_ratio": 0.786
   },
   {
     "delivery_id": 426,
-    "timestamp": 14756.11,
-    "hms": "04:05:56",
+    "timestamp": 14754.61,
+    "hms": "04:05:54",
     "motion_score": 0.2684,
     "green_ratio": 0.851
   },
   {
     "delivery_id": 427,
-    "timestamp": 14776.9,
-    "hms": "04:06:16",
+    "timestamp": 14775.4,
+    "hms": "04:06:15",
     "motion_score": 0.1605,
     "green_ratio": 0.535
   },
   {
     "delivery_id": 428,
-    "timestamp": 14800.65,
-    "hms": "04:06:40",
+    "timestamp": 14799.15,
+    "hms": "04:06:39",
     "motion_score": 0.2663,
     "green_ratio": 0.8
   },
   {
     "delivery_id": 429,
-    "timestamp": 14824.41,
-    "hms": "04:07:04",
+    "timestamp": 14822.91,
+    "hms": "04:07:02",
     "motion_score": 0.1659,
     "green_ratio": 0.724
   },
   {
     "delivery_id": 430,
-    "timestamp": 14883.8,
-    "hms": "04:08:03",
+    "timestamp": 14882.3,
+    "hms": "04:08:02",
     "motion_score": 0.1613,
     "green_ratio": 0.814
   },
   {
     "delivery_id": 431,
-    "timestamp": 14934.29,
-    "hms": "04:08:54",
+    "timestamp": 14932.79,
+    "hms": "04:08:52",
     "motion_score": 0.192,
     "green_ratio": 0.855
   },
   {
     "delivery_id": 432,
-    "timestamp": 14955.07,
-    "hms": "04:09:15",
+    "timestamp": 14953.57,
+    "hms": "04:09:13",
     "motion_score": 0.1196,
     "green_ratio": 0.859
   },
   {
     "delivery_id": 433,
-    "timestamp": 14975.86,
-    "hms": "04:09:35",
+    "timestamp": 14974.36,
+    "hms": "04:09:34",
     "motion_score": 0.1198,
     "green_ratio": 0.808
   },
   {
     "delivery_id": 434,
-    "timestamp": 15002.59,
-    "hms": "04:10:02",
+    "timestamp": 15001.09,
+    "hms": "04:10:01",
     "motion_score": 0.1962,
     "green_ratio": 0.838
   },
   {
     "delivery_id": 435,
-    "timestamp": 15029.31,
-    "hms": "04:10:29",
+    "timestamp": 15027.81,
+    "hms": "04:10:27",
     "motion_score": 0.1234,
     "green_ratio": 0.839
   },
   {
     "delivery_id": 436,
-    "timestamp": 15050.1,
-    "hms": "04:10:50",
+    "timestamp": 15048.6,
+    "hms": "04:10:48",
     "motion_score": 0.124,
     "green_ratio": 0.906
   },
   {
     "delivery_id": 437,
-    "timestamp": 15085.74,
-    "hms": "04:11:25",
+    "timestamp": 15084.24,
+    "hms": "04:11:24",
     "motion_score": 0.1826,
     "green_ratio": 0.926
   },
   {
     "delivery_id": 438,
-    "timestamp": 15115.43,
-    "hms": "04:11:55",
+    "timestamp": 15113.93,
+    "hms": "04:11:53",
     "motion_score": 0.1728,
     "green_ratio": 0.887
   },
   {
     "delivery_id": 439,
-    "timestamp": 15142.16,
-    "hms": "04:12:22",
+    "timestamp": 15140.66,
+    "hms": "04:12:20",
     "motion_score": 0.1716,
     "green_ratio": 0.678
   },
   {
     "delivery_id": 440,
-    "timestamp": 15162.95,
-    "hms": "04:12:42",
+    "timestamp": 15161.45,
+    "hms": "04:12:41",
     "motion_score": 0.081,
     "green_ratio": 0.696
   },
   {
     "delivery_id": 441,
-    "timestamp": 15210.46,
-    "hms": "04:13:30",
+    "timestamp": 15208.96,
+    "hms": "04:13:28",
     "motion_score": 0.066,
     "green_ratio": 0.591
   },
   {
     "delivery_id": 442,
-    "timestamp": 15240.16,
-    "hms": "04:14:00",
+    "timestamp": 15238.66,
+    "hms": "04:13:58",
     "motion_score": 0.2225,
     "green_ratio": 0.843
   },
   {
     "delivery_id": 443,
-    "timestamp": 15266.88,
-    "hms": "04:14:26",
+    "timestamp": 15265.38,
+    "hms": "04:14:25",
     "motion_score": 0.1996,
     "green_ratio": 0.75
   },
   {
     "delivery_id": 444,
-    "timestamp": 15299.55,
-    "hms": "04:14:59",
+    "timestamp": 15298.05,
+    "hms": "04:14:58",
     "motion_score": 0.2589,
     "green_ratio": 0.705
   },
   {
     "delivery_id": 445,
-    "timestamp": 15358.94,
-    "hms": "04:15:58",
+    "timestamp": 15357.44,
+    "hms": "04:15:57",
     "motion_score": 0.1681,
     "green_ratio": 0.773
   },
   {
     "delivery_id": 446,
-    "timestamp": 15394.58,
-    "hms": "04:16:34",
+    "timestamp": 15393.08,
+    "hms": "04:16:33",
     "motion_score": 0.2248,
     "green_ratio": 0.797
   },
   {
     "delivery_id": 447,
-    "timestamp": 15427.25,
-    "hms": "04:17:07",
+    "timestamp": 15425.75,
+    "hms": "04:17:05",
     "motion_score": 0.1882,
     "green_ratio": 0.778
   },
   {
     "delivery_id": 448,
-    "timestamp": 15448.03,
-    "hms": "04:17:28",
+    "timestamp": 15446.53,
+    "hms": "04:17:26",
     "motion_score": 0.0761,
     "green_ratio": 0.863
   },
   {
     "delivery_id": 449,
-    "timestamp": 15489.61,
-    "hms": "04:18:09",
+    "timestamp": 15488.11,
+    "hms": "04:18:08",
     "motion_score": 0.0648,
     "green_ratio": 0.853
   },
   {
     "delivery_id": 450,
-    "timestamp": 15531.18,
-    "hms": "04:18:51",
+    "timestamp": 15529.68,
+    "hms": "04:18:49",
     "motion_score": 0.1687,
     "green_ratio": 0.813
   },
   {
     "delivery_id": 451,
-    "timestamp": 15658.88,
-    "hms": "04:20:58",
+    "timestamp": 15657.38,
+    "hms": "04:20:57",
     "motion_score": 0.2325,
     "green_ratio": 0.496
   },
   {
     "delivery_id": 452,
-    "timestamp": 15679.66,
-    "hms": "04:21:19",
+    "timestamp": 15678.16,
+    "hms": "04:21:18",
     "motion_score": 0.141,
     "green_ratio": 0.752
   },
   {
     "delivery_id": 453,
-    "timestamp": 15700.45,
-    "hms": "04:21:40",
+    "timestamp": 15698.95,
+    "hms": "04:21:38",
     "motion_score": 0.1246,
     "green_ratio": 0.781
   },
   {
     "delivery_id": 454,
-    "timestamp": 15739.06,
-    "hms": "04:22:19",
+    "timestamp": 15737.56,
+    "hms": "04:22:17",
     "motion_score": 0.1552,
     "green_ratio": 0.753
   },
   {
     "delivery_id": 455,
-    "timestamp": 15783.6,
-    "hms": "04:23:03",
+    "timestamp": 15782.1,
+    "hms": "04:23:02",
     "motion_score": 0.1575,
     "green_ratio": 0.652
   },
   {
     "delivery_id": 456,
-    "timestamp": 15825.18,
-    "hms": "04:23:45",
+    "timestamp": 15823.68,
+    "hms": "04:23:43",
     "motion_score": 0.1402,
     "green_ratio": 0.811
   },
   {
     "delivery_id": 457,
-    "timestamp": 15845.96,
-    "hms": "04:24:05",
+    "timestamp": 15844.46,
+    "hms": "04:24:04",
     "motion_score": 0.1264,
     "green_ratio": 0.839
   },
   {
     "delivery_id": 458,
-    "timestamp": 15872.69,
-    "hms": "04:24:32",
+    "timestamp": 15871.19,
+    "hms": "04:24:31",
     "motion_score": 0.0455,
     "green_ratio": 0.911
   },
   {
     "delivery_id": 459,
-    "timestamp": 15902.39,
-    "hms": "04:25:02",
+    "timestamp": 15900.89,
+    "hms": "04:25:00",
     "motion_score": 0.1554,
     "green_ratio": 0.753
   },
   {
     "delivery_id": 460,
-    "timestamp": 15952.87,
-    "hms": "04:25:52",
+    "timestamp": 15951.37,
+    "hms": "04:25:51",
     "motion_score": 0.2114,
     "green_ratio": 0.822
   },
   {
     "delivery_id": 461,
-    "timestamp": 15976.63,
-    "hms": "04:26:16",
+    "timestamp": 15975.13,
+    "hms": "04:26:15",
     "motion_score": 0.0603,
     "green_ratio": 0.885
   },
   {
     "delivery_id": 462,
-    "timestamp": 15997.41,
-    "hms": "04:26:37",
+    "timestamp": 15995.91,
+    "hms": "04:26:35",
     "motion_score": 0.1464,
     "green_ratio": 0.843
   },
   {
     "delivery_id": 463,
-    "timestamp": 16018.2,
-    "hms": "04:26:58",
+    "timestamp": 16016.7,
+    "hms": "04:26:56",
     "motion_score": 0.1126,
     "green_ratio": 0.781
   },
   {
     "delivery_id": 464,
-    "timestamp": 16038.99,
-    "hms": "04:27:18",
+    "timestamp": 16037.49,
+    "hms": "04:27:17",
     "motion_score": 0.142,
     "green_ratio": 0.747
   },
   {
     "delivery_id": 465,
-    "timestamp": 16062.75,
-    "hms": "04:27:42",
+    "timestamp": 16061.25,
+    "hms": "04:27:41",
     "motion_score": 0.2488,
     "green_ratio": 0.763
   },
   {
     "delivery_id": 466,
-    "timestamp": 16125.11,
-    "hms": "04:28:45",
+    "timestamp": 16123.61,
+    "hms": "04:28:43",
     "motion_score": 0.3232,
     "green_ratio": 0.87
   },
   {
     "delivery_id": 467,
-    "timestamp": 16163.71,
-    "hms": "04:29:23",
+    "timestamp": 16162.21,
+    "hms": "04:29:22",
     "motion_score": 0.1422,
     "green_ratio": 0.714
   },
   {
     "delivery_id": 468,
-    "timestamp": 16184.5,
-    "hms": "04:29:44",
+    "timestamp": 16183.0,
+    "hms": "04:29:43",
     "motion_score": 0.1154,
     "green_ratio": 0.869
   },
   {
     "delivery_id": 469,
-    "timestamp": 16229.05,
-    "hms": "04:30:29",
+    "timestamp": 16227.55,
+    "hms": "04:30:27",
     "motion_score": 0.1594,
     "green_ratio": 0.785
   },
   {
     "delivery_id": 470,
-    "timestamp": 16252.8,
-    "hms": "04:30:52",
+    "timestamp": 16251.3,
+    "hms": "04:30:51",
     "motion_score": 0.1544,
     "green_ratio": 0.609
   },
   {
     "delivery_id": 471,
-    "timestamp": 16321.1,
-    "hms": "04:32:01",
+    "timestamp": 16319.6,
+    "hms": "04:31:59",
     "motion_score": 0.1586,
     "green_ratio": 0.81
   },
   {
     "delivery_id": 472,
-    "timestamp": 16344.86,
-    "hms": "04:32:24",
+    "timestamp": 16343.36,
+    "hms": "04:32:23",
     "motion_score": 0.1235,
     "green_ratio": 0.874
   },
   {
     "delivery_id": 473,
-    "timestamp": 16365.65,
-    "hms": "04:32:45",
+    "timestamp": 16364.15,
+    "hms": "04:32:44",
     "motion_score": 0.1323,
     "green_ratio": 0.74
   },
   {
     "delivery_id": 474,
-    "timestamp": 16469.59,
-    "hms": "04:34:29",
+    "timestamp": 16468.09,
+    "hms": "04:34:28",
     "motion_score": 0.1646,
     "green_ratio": 0.726
   },
   {
     "delivery_id": 475,
-    "timestamp": 16496.31,
-    "hms": "04:34:56",
+    "timestamp": 16494.81,
+    "hms": "04:34:54",
     "motion_score": 0.215,
     "green_ratio": 0.589
   },
   {
     "delivery_id": 476,
-    "timestamp": 16552.74,
-    "hms": "04:35:52",
+    "timestamp": 16551.24,
+    "hms": "04:35:51",
     "motion_score": 0.1901,
     "green_ratio": 0.911
   },
   {
     "delivery_id": 477,
-    "timestamp": 16573.52,
-    "hms": "04:36:13",
+    "timestamp": 16572.02,
+    "hms": "04:36:12",
     "motion_score": 0.0523,
     "green_ratio": 0.82
   },
   {
     "delivery_id": 478,
-    "timestamp": 16594.31,
-    "hms": "04:36:34",
+    "timestamp": 16592.81,
+    "hms": "04:36:32",
     "motion_score": 0.0617,
     "green_ratio": 0.923
   },
   {
     "delivery_id": 479,
-    "timestamp": 16624.01,
-    "hms": "04:37:04",
+    "timestamp": 16622.51,
+    "hms": "04:37:02",
     "motion_score": 0.1199,
     "green_ratio": 0.698
   },
   {
     "delivery_id": 480,
-    "timestamp": 16647.76,
-    "hms": "04:37:27",
+    "timestamp": 16646.26,
+    "hms": "04:37:26",
     "motion_score": 0.2317,
     "green_ratio": 0.76
   },
   {
     "delivery_id": 481,
-    "timestamp": 16674.49,
-    "hms": "04:37:54",
+    "timestamp": 16672.99,
+    "hms": "04:37:52",
     "motion_score": 0.1357,
     "green_ratio": 0.556
   },
   {
     "delivery_id": 482,
-    "timestamp": 16701.22,
-    "hms": "04:38:21",
+    "timestamp": 16699.72,
+    "hms": "04:38:19",
     "motion_score": 0.1149,
     "green_ratio": 0.853
   },
   {
     "delivery_id": 483,
-    "timestamp": 16724.97,
-    "hms": "04:38:44",
+    "timestamp": 16723.47,
+    "hms": "04:38:43",
     "motion_score": 0.2136,
     "green_ratio": 0.724
   },
   {
     "delivery_id": 484,
-    "timestamp": 16760.61,
-    "hms": "04:39:20",
+    "timestamp": 16759.11,
+    "hms": "04:39:19",
     "motion_score": 0.2264,
     "green_ratio": 0.794
   },
   {
     "delivery_id": 485,
-    "timestamp": 16790.31,
-    "hms": "04:39:50",
+    "timestamp": 16788.81,
+    "hms": "04:39:48",
     "motion_score": 0.237,
     "green_ratio": 0.888
   },
   {
     "delivery_id": 486,
-    "timestamp": 16828.91,
-    "hms": "04:40:28",
+    "timestamp": 16827.41,
+    "hms": "04:40:27",
     "motion_score": 0.2195,
     "green_ratio": 0.779
   },
   {
     "delivery_id": 487,
-    "timestamp": 16849.7,
-    "hms": "04:40:49",
+    "timestamp": 16848.2,
+    "hms": "04:40:48",
     "motion_score": 0.093,
     "green_ratio": 0.689
   },
   {
     "delivery_id": 488,
-    "timestamp": 16873.46,
-    "hms": "04:41:13",
+    "timestamp": 16871.96,
+    "hms": "04:41:11",
     "motion_score": 0.0748,
     "green_ratio": 0.842
   },
   {
     "delivery_id": 489,
-    "timestamp": 16909.09,
-    "hms": "04:41:49",
+    "timestamp": 16907.59,
+    "hms": "04:41:47",
     "motion_score": 0.1491,
     "green_ratio": 0.758
   },
   {
     "delivery_id": 490,
-    "timestamp": 16938.79,
-    "hms": "04:42:18",
+    "timestamp": 16937.29,
+    "hms": "04:42:17",
     "motion_score": 0.2242,
     "green_ratio": 0.802
   },
   {
     "delivery_id": 491,
-    "timestamp": 16965.52,
-    "hms": "04:42:45",
+    "timestamp": 16964.02,
+    "hms": "04:42:44",
     "motion_score": 0.2005,
     "green_ratio": 0.818
   },
   {
     "delivery_id": 492,
-    "timestamp": 16992.24,
-    "hms": "04:43:12",
+    "timestamp": 16990.74,
+    "hms": "04:43:10",
     "motion_score": 0.1639,
     "green_ratio": 0.911
   },
   {
     "delivery_id": 493,
-    "timestamp": 17039.76,
-    "hms": "04:43:59",
+    "timestamp": 17038.26,
+    "hms": "04:43:58",
     "motion_score": 0.2778,
     "green_ratio": 0.836
   },
   {
     "delivery_id": 494,
-    "timestamp": 17078.36,
-    "hms": "04:44:38",
+    "timestamp": 17076.86,
+    "hms": "04:44:36",
     "motion_score": 0.1789,
     "green_ratio": 0.868
   },
   {
     "delivery_id": 495,
-    "timestamp": 17105.09,
-    "hms": "04:45:05",
+    "timestamp": 17103.59,
+    "hms": "04:45:03",
     "motion_score": 0.1825,
     "green_ratio": 0.737
   },
   {
     "delivery_id": 496,
-    "timestamp": 17140.72,
-    "hms": "04:45:40",
+    "timestamp": 17139.22,
+    "hms": "04:45:39",
     "motion_score": 0.1398,
     "green_ratio": 0.91
   },
   {
     "delivery_id": 497,
-    "timestamp": 17197.15,
-    "hms": "04:46:37",
+    "timestamp": 17195.65,
+    "hms": "04:46:35",
     "motion_score": 0.2104,
     "green_ratio": 0.809
   },
   {
     "delivery_id": 498,
-    "timestamp": 17229.81,
-    "hms": "04:47:09",
+    "timestamp": 17228.31,
+    "hms": "04:47:08",
     "motion_score": 0.2672,
     "green_ratio": 0.811
   },
   {
     "delivery_id": 499,
-    "timestamp": 17253.57,
-    "hms": "04:47:33",
+    "timestamp": 17252.07,
+    "hms": "04:47:32",
     "motion_score": 0.1742,
     "green_ratio": 0.91
   },
   {
     "delivery_id": 500,
-    "timestamp": 17298.11,
-    "hms": "04:48:18",
+    "timestamp": 17296.61,
+    "hms": "04:48:16",
     "motion_score": 0.1577,
     "green_ratio": 0.818
   },
   {
     "delivery_id": 501,
-    "timestamp": 17318.9,
-    "hms": "04:48:38",
+    "timestamp": 17317.4,
+    "hms": "04:48:37",
     "motion_score": 0.0654,
     "green_ratio": 0.771
   },
   {
     "delivery_id": 502,
-    "timestamp": 17339.69,
-    "hms": "04:48:59",
+    "timestamp": 17338.19,
+    "hms": "04:48:58",
     "motion_score": 0.0639,
     "green_ratio": 0.827
   },
   {
     "delivery_id": 503,
-    "timestamp": 17366.42,
-    "hms": "04:49:26",
+    "timestamp": 17364.92,
+    "hms": "04:49:24",
     "motion_score": 0.2093,
     "green_ratio": 0.717
   },
   {
     "delivery_id": 504,
-    "timestamp": 17437.69,
-    "hms": "04:50:37",
+    "timestamp": 17436.19,
+    "hms": "04:50:36",
     "motion_score": 0.2288,
     "green_ratio": 0.755
   },
   {
     "delivery_id": 505,
-    "timestamp": 17494.11,
-    "hms": "04:51:34",
+    "timestamp": 17492.61,
+    "hms": "04:51:32",
     "motion_score": 0.1663,
     "green_ratio": 0.769
   },
   {
     "delivery_id": 506,
-    "timestamp": 17535.68,
-    "hms": "04:52:15",
+    "timestamp": 17534.18,
+    "hms": "04:52:14",
     "motion_score": 0.0968,
     "green_ratio": 0.748
   },
   {
     "delivery_id": 507,
-    "timestamp": 17559.44,
-    "hms": "04:52:39",
+    "timestamp": 17557.94,
+    "hms": "04:52:37",
     "motion_score": 0.1477,
     "green_ratio": 0.852
   },
   {
     "delivery_id": 508,
-    "timestamp": 17580.23,
-    "hms": "04:53:00",
+    "timestamp": 17578.73,
+    "hms": "04:52:58",
     "motion_score": 0.175,
     "green_ratio": 0.609
   },
   {
     "delivery_id": 509,
-    "timestamp": 17633.68,
-    "hms": "04:53:53",
+    "timestamp": 17632.18,
+    "hms": "04:53:52",
     "motion_score": 0.1728,
     "green_ratio": 0.842
   },
   {
     "delivery_id": 510,
-    "timestamp": 17666.35,
-    "hms": "04:54:26",
+    "timestamp": 17664.85,
+    "hms": "04:54:24",
     "motion_score": 0.2074,
     "green_ratio": 0.786
   },
   {
     "delivery_id": 511,
-    "timestamp": 17699.01,
-    "hms": "04:54:59",
+    "timestamp": 17697.51,
+    "hms": "04:54:57",
     "motion_score": 0.1749,
     "green_ratio": 0.809
   },
   {
     "delivery_id": 512,
-    "timestamp": 17734.65,
-    "hms": "04:55:34",
+    "timestamp": 17733.15,
+    "hms": "04:55:33",
     "motion_score": 0.1381,
     "green_ratio": 0.827
   },
   {
     "delivery_id": 513,
-    "timestamp": 17758.41,
-    "hms": "04:55:58",
+    "timestamp": 17756.91,
+    "hms": "04:55:56",
     "motion_score": 0.0573,
     "green_ratio": 0.806
   },
   {
     "delivery_id": 514,
-    "timestamp": 17832.65,
-    "hms": "04:57:12",
+    "timestamp": 17831.15,
+    "hms": "04:57:11",
     "motion_score": 0.1101,
     "green_ratio": 0.722
   },
   {
     "delivery_id": 515,
-    "timestamp": 17865.31,
-    "hms": "04:57:45",
+    "timestamp": 17863.81,
+    "hms": "04:57:43",
     "motion_score": 0.2802,
     "green_ratio": 0.804
   },
   {
     "delivery_id": 516,
-    "timestamp": 17912.83,
-    "hms": "04:58:32",
+    "timestamp": 17911.33,
+    "hms": "04:58:31",
     "motion_score": 0.1811,
     "green_ratio": 0.832
   },
   {
     "delivery_id": 517,
-    "timestamp": 17933.62,
-    "hms": "04:58:53",
+    "timestamp": 17932.12,
+    "hms": "04:58:52",
     "motion_score": 0.0713,
     "green_ratio": 0.82
   },
   {
     "delivery_id": 518,
-    "timestamp": 17972.22,
-    "hms": "04:59:32",
+    "timestamp": 17970.72,
+    "hms": "04:59:30",
     "motion_score": 0.1674,
     "green_ratio": 0.849
   },
   {
     "delivery_id": 519,
-    "timestamp": 17993.01,
-    "hms": "04:59:53",
+    "timestamp": 17991.51,
+    "hms": "04:59:51",
     "motion_score": 0.1402,
     "green_ratio": 0.694
   },
   {
     "delivery_id": 520,
-    "timestamp": 18013.8,
-    "hms": "05:00:13",
+    "timestamp": 18012.3,
+    "hms": "05:00:12",
     "motion_score": 0.1612,
     "green_ratio": 0.818
   },
   {
     "delivery_id": 521,
-    "timestamp": 18037.55,
-    "hms": "05:00:37",
+    "timestamp": 18036.05,
+    "hms": "05:00:36",
     "motion_score": 0.2335,
     "green_ratio": 0.722
   },
   {
     "delivery_id": 522,
-    "timestamp": 18064.28,
-    "hms": "05:01:04",
+    "timestamp": 18062.78,
+    "hms": "05:01:02",
     "motion_score": 0.2904,
     "green_ratio": 0.877
   },
   {
     "delivery_id": 523,
-    "timestamp": 18085.07,
-    "hms": "05:01:25",
+    "timestamp": 18083.57,
+    "hms": "05:01:23",
     "motion_score": 0.1174,
     "green_ratio": 0.77
   },
   {
     "delivery_id": 524,
-    "timestamp": 18108.82,
-    "hms": "05:01:48",
+    "timestamp": 18107.32,
+    "hms": "05:01:47",
     "motion_score": 0.1958,
     "green_ratio": 0.777
   },
   {
     "delivery_id": 525,
-    "timestamp": 18141.49,
-    "hms": "05:02:21",
+    "timestamp": 18139.99,
+    "hms": "05:02:19",
     "motion_score": 0.1624,
     "green_ratio": 0.77
   },
   {
     "delivery_id": 526,
-    "timestamp": 18186.03,
-    "hms": "05:03:06",
+    "timestamp": 18184.53,
+    "hms": "05:03:04",
     "motion_score": 0.2388,
     "green_ratio": 0.729
   },
   {
     "delivery_id": 527,
-    "timestamp": 18206.82,
-    "hms": "05:03:26",
+    "timestamp": 18205.32,
+    "hms": "05:03:25",
     "motion_score": 0.1185,
     "green_ratio": 0.824
   },
   {
     "delivery_id": 528,
-    "timestamp": 18227.61,
-    "hms": "05:03:47",
+    "timestamp": 18226.11,
+    "hms": "05:03:46",
     "motion_score": 0.1678,
     "green_ratio": 0.669
   },
   {
     "delivery_id": 529,
-    "timestamp": 18248.4,
-    "hms": "05:04:08",
+    "timestamp": 18246.9,
+    "hms": "05:04:06",
     "motion_score": 0.0965,
     "green_ratio": 0.778
   },
   {
     "delivery_id": 530,
-    "timestamp": 18316.7,
-    "hms": "05:05:16",
+    "timestamp": 18315.2,
+    "hms": "05:05:15",
     "motion_score": 0.2146,
     "green_ratio": 0.738
   },
   {
     "delivery_id": 531,
-    "timestamp": 18349.36,
-    "hms": "05:05:49",
+    "timestamp": 18347.86,
+    "hms": "05:05:47",
     "motion_score": 0.1261,
     "green_ratio": 0.639
   },
   {
     "delivery_id": 532,
-    "timestamp": 18370.15,
-    "hms": "05:06:10",
+    "timestamp": 18368.65,
+    "hms": "05:06:08",
     "motion_score": 0.1021,
     "green_ratio": 0.834
   },
   {
     "delivery_id": 533,
-    "timestamp": 18393.91,
-    "hms": "05:06:33",
+    "timestamp": 18392.41,
+    "hms": "05:06:32",
     "motion_score": 0.1085,
     "green_ratio": 0.775
   },
   {
     "delivery_id": 534,
-    "timestamp": 18447.36,
-    "hms": "05:07:27",
+    "timestamp": 18445.86,
+    "hms": "05:07:25",
     "motion_score": 0.1381,
     "green_ratio": 0.772
   },
   {
     "delivery_id": 535,
-    "timestamp": 18512.69,
-    "hms": "05:08:32",
+    "timestamp": 18511.19,
+    "hms": "05:08:31",
     "motion_score": 0.0511,
     "green_ratio": 0.843
   },
   {
     "delivery_id": 536,
-    "timestamp": 18548.33,
-    "hms": "05:09:08",
+    "timestamp": 18546.83,
+    "hms": "05:09:06",
     "motion_score": 0.1948,
     "green_ratio": 0.795
   },
   {
     "delivery_id": 537,
-    "timestamp": 18578.03,
-    "hms": "05:09:38",
+    "timestamp": 18576.53,
+    "hms": "05:09:36",
     "motion_score": 0.2188,
     "green_ratio": 0.565
   },
   {
     "delivery_id": 538,
-    "timestamp": 18598.81,
-    "hms": "05:09:58",
+    "timestamp": 18597.31,
+    "hms": "05:09:57",
     "motion_score": 0.1426,
     "green_ratio": 0.753
   },
   {
     "delivery_id": 539,
-    "timestamp": 18628.51,
-    "hms": "05:10:28",
+    "timestamp": 18627.01,
+    "hms": "05:10:27",
     "motion_score": 0.2151,
     "green_ratio": 0.627
   },
   {
     "delivery_id": 540,
-    "timestamp": 18655.24,
-    "hms": "05:10:55",
+    "timestamp": 18653.74,
+    "hms": "05:10:53",
     "motion_score": 0.128,
     "green_ratio": 0.822
   },
   {
     "delivery_id": 541,
-    "timestamp": 18676.02,
-    "hms": "05:11:16",
+    "timestamp": 18674.52,
+    "hms": "05:11:14",
     "motion_score": 0.0925,
     "green_ratio": 0.781
   },
   {
     "delivery_id": 542,
-    "timestamp": 18702.75,
-    "hms": "05:11:42",
+    "timestamp": 18701.25,
+    "hms": "05:11:41",
     "motion_score": 0.2088,
     "green_ratio": 0.792
   },
   {
     "delivery_id": 543,
-    "timestamp": 18723.54,
-    "hms": "05:12:03",
+    "timestamp": 18722.04,
+    "hms": "05:12:02",
     "motion_score": 0.0796,
     "green_ratio": 0.789
   },
   {
     "delivery_id": 544,
-    "timestamp": 18753.23,
-    "hms": "05:12:33",
+    "timestamp": 18751.73,
+    "hms": "05:12:31",
     "motion_score": 0.2002,
     "green_ratio": 0.762
   },
   {
     "delivery_id": 545,
-    "timestamp": 18797.78,
-    "hms": "05:13:17",
+    "timestamp": 18796.28,
+    "hms": "05:13:16",
     "motion_score": 0.1904,
     "green_ratio": 0.796
   },
   {
     "delivery_id": 546,
-    "timestamp": 18827.48,
-    "hms": "05:13:47",
+    "timestamp": 18825.98,
+    "hms": "05:13:45",
     "motion_score": 0.239,
     "green_ratio": 0.791
   },
   {
     "delivery_id": 547,
-    "timestamp": 18857.17,
-    "hms": "05:14:17",
+    "timestamp": 18855.67,
+    "hms": "05:14:15",
     "motion_score": 0.2512,
     "green_ratio": 0.825
   },
   {
     "delivery_id": 548,
-    "timestamp": 18895.78,
-    "hms": "05:14:55",
+    "timestamp": 18894.28,
+    "hms": "05:14:54",
     "motion_score": 0.2116,
     "green_ratio": 0.794
   },
   {
     "delivery_id": 549,
-    "timestamp": 18922.5,
-    "hms": "05:15:22",
+    "timestamp": 18921.0,
+    "hms": "05:15:21",
     "motion_score": 0.0792,
     "green_ratio": 0.76
   },
   {
     "delivery_id": 550,
-    "timestamp": 18975.96,
-    "hms": "05:16:15",
+    "timestamp": 18974.46,
+    "hms": "05:16:14",
     "motion_score": 0.2637,
     "green_ratio": 0.859
   },
   {
     "delivery_id": 551,
-    "timestamp": 19002.68,
-    "hms": "05:16:42",
+    "timestamp": 19001.18,
+    "hms": "05:16:41",
     "motion_score": 0.138,
     "green_ratio": 0.75
   },
   {
     "delivery_id": 552,
-    "timestamp": 19029.41,
-    "hms": "05:17:09",
+    "timestamp": 19027.91,
+    "hms": "05:17:07",
     "motion_score": 0.1122,
     "green_ratio": 0.711
   },
   {
     "delivery_id": 553,
-    "timestamp": 19050.2,
-    "hms": "05:17:30",
+    "timestamp": 19048.7,
+    "hms": "05:17:28",
     "motion_score": 0.0737,
     "green_ratio": 0.804
   },
   {
     "delivery_id": 554,
-    "timestamp": 19079.89,
-    "hms": "05:17:59",
+    "timestamp": 19078.39,
+    "hms": "05:17:58",
     "motion_score": 0.2023,
     "green_ratio": 0.738
   },
   {
     "delivery_id": 555,
-    "timestamp": 19100.68,
-    "hms": "05:18:20",
+    "timestamp": 19099.18,
+    "hms": "05:18:19",
     "motion_score": 0.1687,
     "green_ratio": 0.493
   },
   {
     "delivery_id": 556,
-    "timestamp": 19139.29,
-    "hms": "05:18:59",
+    "timestamp": 19137.79,
+    "hms": "05:18:57",
     "motion_score": 0.2421,
     "green_ratio": 0.779
   },
   {
     "delivery_id": 557,
-    "timestamp": 19160.07,
-    "hms": "05:19:20",
+    "timestamp": 19158.57,
+    "hms": "05:19:18",
     "motion_score": 0.1607,
     "green_ratio": 0.629
   },
   {
     "delivery_id": 558,
-    "timestamp": 19180.86,
-    "hms": "05:19:40",
+    "timestamp": 19179.36,
+    "hms": "05:19:39",
     "motion_score": 0.1927,
     "green_ratio": 0.666
   },
   {
     "delivery_id": 559,
-    "timestamp": 19201.65,
-    "hms": "05:20:01",
+    "timestamp": 19200.15,
+    "hms": "05:20:00",
     "motion_score": 0.148,
     "green_ratio": 0.742
   },
   {
     "delivery_id": 560,
-    "timestamp": 19237.28,
-    "hms": "05:20:37",
+    "timestamp": 19235.78,
+    "hms": "05:20:35",
     "motion_score": 0.2066,
     "green_ratio": 0.912
   },
   {
     "delivery_id": 561,
-    "timestamp": 19261.04,
-    "hms": "05:21:01",
+    "timestamp": 19259.54,
+    "hms": "05:20:59",
     "motion_score": 0.2477,
     "green_ratio": 0.821
   },
   {
     "delivery_id": 562,
-    "timestamp": 19299.65,
-    "hms": "05:21:39",
+    "timestamp": 19298.15,
+    "hms": "05:21:38",
     "motion_score": 0.2108,
     "green_ratio": 0.788
   },
   {
     "delivery_id": 563,
-    "timestamp": 19350.13,
-    "hms": "05:22:30",
+    "timestamp": 19348.63,
+    "hms": "05:22:28",
     "motion_score": 0.2923,
     "green_ratio": 0.768
   },
   {
     "delivery_id": 564,
-    "timestamp": 19370.92,
-    "hms": "05:22:50",
+    "timestamp": 19369.42,
+    "hms": "05:22:49",
     "motion_score": 0.1221,
     "green_ratio": 0.786
   },
   {
     "delivery_id": 565,
-    "timestamp": 19391.71,
-    "hms": "05:23:11",
+    "timestamp": 19390.21,
+    "hms": "05:23:10",
     "motion_score": 0.1173,
     "green_ratio": 0.854
   },
   {
     "delivery_id": 566,
-    "timestamp": 19448.13,
-    "hms": "05:24:08",
+    "timestamp": 19446.63,
+    "hms": "05:24:06",
     "motion_score": 0.2343,
     "green_ratio": 0.907
   },
   {
     "delivery_id": 567,
-    "timestamp": 19468.92,
-    "hms": "05:24:28",
+    "timestamp": 19467.42,
+    "hms": "05:24:27",
     "motion_score": 0.0774,
     "green_ratio": 0.876
   },
   {
     "delivery_id": 568,
-    "timestamp": 19504.55,
-    "hms": "05:25:04",
+    "timestamp": 19503.05,
+    "hms": "05:25:03",
     "motion_score": 0.2354,
     "green_ratio": 0.908
   },
   {
     "delivery_id": 569,
-    "timestamp": 19552.07,
-    "hms": "05:25:52",
+    "timestamp": 19550.57,
+    "hms": "05:25:50",
     "motion_score": 0.1319,
     "green_ratio": 0.499
   },
   {
     "delivery_id": 570,
-    "timestamp": 19578.79,
-    "hms": "05:26:18",
+    "timestamp": 19577.29,
+    "hms": "05:26:17",
     "motion_score": 0.2106,
     "green_ratio": 0.825
   },
   {
     "delivery_id": 571,
-    "timestamp": 19599.58,
-    "hms": "05:26:39",
+    "timestamp": 19598.08,
+    "hms": "05:26:38",
     "motion_score": 0.1455,
     "green_ratio": 0.921
   },
   {
     "delivery_id": 572,
-    "timestamp": 19623.34,
-    "hms": "05:27:03",
+    "timestamp": 19621.84,
+    "hms": "05:27:01",
     "motion_score": 0.1903,
     "green_ratio": 0.68
   },
   {
     "delivery_id": 573,
-    "timestamp": 19644.12,
-    "hms": "05:27:24",
+    "timestamp": 19642.62,
+    "hms": "05:27:22",
     "motion_score": 0.1608,
     "green_ratio": 0.581
   },
   {
     "delivery_id": 574,
-    "timestamp": 19706.49,
-    "hms": "05:28:26",
+    "timestamp": 19704.99,
+    "hms": "05:28:24",
     "motion_score": 0.2746,
     "green_ratio": 0.823
   },
   {
     "delivery_id": 575,
-    "timestamp": 19736.18,
-    "hms": "05:28:56",
+    "timestamp": 19734.68,
+    "hms": "05:28:54",
     "motion_score": 0.1808,
     "green_ratio": 0.742
   },
   {
     "delivery_id": 576,
-    "timestamp": 19756.97,
-    "hms": "05:29:16",
+    "timestamp": 19755.47,
+    "hms": "05:29:15",
     "motion_score": 0.1176,
     "green_ratio": 0.86
   },
   {
     "delivery_id": 577,
-    "timestamp": 19777.76,
-    "hms": "05:29:37",
+    "timestamp": 19776.26,
+    "hms": "05:29:36",
     "motion_score": 0.0996,
     "green_ratio": 0.682
   },
   {
     "delivery_id": 578,
-    "timestamp": 19801.52,
-    "hms": "05:30:01",
+    "timestamp": 19800.02,
+    "hms": "05:30:00",
     "motion_score": 0.1693,
     "green_ratio": 0.731
   },
   {
     "delivery_id": 579,
-    "timestamp": 19822.3,
-    "hms": "05:30:22",
+    "timestamp": 19820.8,
+    "hms": "05:30:20",
     "motion_score": 0.1096,
     "green_ratio": 0.852
   },
   {
     "delivery_id": 580,
-    "timestamp": 19875.76,
-    "hms": "05:31:15",
+    "timestamp": 19874.26,
+    "hms": "05:31:14",
     "motion_score": 0.1476,
     "green_ratio": 0.809
   },
   {
     "delivery_id": 581,
-    "timestamp": 19917.33,
-    "hms": "05:31:57",
+    "timestamp": 19915.83,
+    "hms": "05:31:55",
     "motion_score": 0.1479,
     "green_ratio": 0.77
   },
   {
     "delivery_id": 582,
-    "timestamp": 19947.03,
-    "hms": "05:32:27",
+    "timestamp": 19945.53,
+    "hms": "05:32:25",
     "motion_score": 0.1585,
     "green_ratio": 0.83
   },
   {
     "delivery_id": 583,
-    "timestamp": 19985.63,
-    "hms": "05:33:05",
+    "timestamp": 19984.13,
+    "hms": "05:33:04",
     "motion_score": 0.1595,
     "green_ratio": 0.755
   },
   {
     "delivery_id": 584,
-    "timestamp": 20021.27,
-    "hms": "05:33:41",
+    "timestamp": 20019.77,
+    "hms": "05:33:39",
     "motion_score": 0.2163,
     "green_ratio": 0.694
   },
   {
     "delivery_id": 585,
-    "timestamp": 20053.93,
-    "hms": "05:34:13",
+    "timestamp": 20052.43,
+    "hms": "05:34:12",
     "motion_score": 0.1246,
     "green_ratio": 0.686
   },
   {
     "delivery_id": 586,
-    "timestamp": 20080.66,
-    "hms": "05:34:40",
+    "timestamp": 20079.16,
+    "hms": "05:34:39",
     "motion_score": 0.1291,
     "green_ratio": 0.712
   },
   {
     "delivery_id": 587,
-    "timestamp": 20107.39,
-    "hms": "05:35:07",
+    "timestamp": 20105.89,
+    "hms": "05:35:05",
     "motion_score": 0.2235,
     "green_ratio": 0.815
   },
   {
     "delivery_id": 588,
-    "timestamp": 20131.14,
-    "hms": "05:35:31",
+    "timestamp": 20129.64,
+    "hms": "05:35:29",
     "motion_score": 0.2282,
     "green_ratio": 0.564
   },
   {
     "delivery_id": 589,
-    "timestamp": 20151.93,
-    "hms": "05:35:51",
+    "timestamp": 20150.43,
+    "hms": "05:35:50",
     "motion_score": 0.1775,
     "green_ratio": 0.896
   },
   {
     "delivery_id": 590,
-    "timestamp": 20252.9,
-    "hms": "05:37:32",
+    "timestamp": 20251.4,
+    "hms": "05:37:31",
     "motion_score": 0.2085,
     "green_ratio": 0.918
   },
   {
     "delivery_id": 591,
-    "timestamp": 20285.57,
-    "hms": "05:38:05",
+    "timestamp": 20284.07,
+    "hms": "05:38:04",
     "motion_score": 0.1264,
     "green_ratio": 0.575
   },
   {
     "delivery_id": 592,
-    "timestamp": 20306.35,
-    "hms": "05:38:26",
+    "timestamp": 20304.85,
+    "hms": "05:38:24",
     "motion_score": 0.1777,
     "green_ratio": 0.598
   },
   {
     "delivery_id": 593,
-    "timestamp": 20330.11,
-    "hms": "05:38:50",
+    "timestamp": 20328.61,
+    "hms": "05:38:48",
     "motion_score": 0.2171,
     "green_ratio": 0.813
   },
   {
     "delivery_id": 594,
-    "timestamp": 20350.9,
-    "hms": "05:39:10",
+    "timestamp": 20349.4,
+    "hms": "05:39:09",
     "motion_score": 0.1052,
     "green_ratio": 0.695
   },
   {
     "delivery_id": 595,
-    "timestamp": 20422.17,
-    "hms": "05:40:22",
+    "timestamp": 20420.67,
+    "hms": "05:40:20",
     "motion_score": 0.1932,
     "green_ratio": 0.816
   },
   {
     "delivery_id": 596,
-    "timestamp": 20457.8,
-    "hms": "05:40:57",
+    "timestamp": 20456.3,
+    "hms": "05:40:56",
     "motion_score": 0.1686,
     "green_ratio": 0.79
   },
   {
     "delivery_id": 597,
-    "timestamp": 20490.47,
-    "hms": "05:41:30",
+    "timestamp": 20488.97,
+    "hms": "05:41:28",
     "motion_score": 0.1174,
     "green_ratio": 0.76
   },
   {
     "delivery_id": 598,
-    "timestamp": 20511.26,
-    "hms": "05:41:51",
+    "timestamp": 20509.76,
+    "hms": "05:41:49",
     "motion_score": 0.1657,
     "green_ratio": 0.869
   },
   {
     "delivery_id": 599,
-    "timestamp": 20558.77,
-    "hms": "05:42:38",
+    "timestamp": 20557.27,
+    "hms": "05:42:37",
     "motion_score": 0.2222,
     "green_ratio": 0.885
   },
   {
     "delivery_id": 600,
-    "timestamp": 20579.56,
-    "hms": "05:42:59",
+    "timestamp": 20578.06,
+    "hms": "05:42:58",
     "motion_score": 0.1812,
     "green_ratio": 0.633
   },
   {
     "delivery_id": 601,
-    "timestamp": 20603.32,
-    "hms": "05:43:23",
+    "timestamp": 20601.82,
+    "hms": "05:43:21",
     "motion_score": 0.2564,
     "green_ratio": 0.822
   },
   {
     "delivery_id": 602,
-    "timestamp": 20656.77,
-    "hms": "05:44:16",
+    "timestamp": 20655.27,
+    "hms": "05:44:15",
     "motion_score": 0.1798,
     "green_ratio": 0.819
   },
   {
     "delivery_id": 603,
-    "timestamp": 20686.47,
-    "hms": "05:44:46",
+    "timestamp": 20684.97,
+    "hms": "05:44:44",
     "motion_score": 0.178,
     "green_ratio": 0.837
   },
   {
     "delivery_id": 604,
-    "timestamp": 20719.13,
-    "hms": "05:45:19",
+    "timestamp": 20717.63,
+    "hms": "05:45:17",
     "motion_score": 0.1524,
     "green_ratio": 0.902
   },
   {
     "delivery_id": 605,
-    "timestamp": 20739.92,
-    "hms": "05:45:39",
+    "timestamp": 20738.42,
+    "hms": "05:45:38",
     "motion_score": 0.1171,
     "green_ratio": 0.806
   },
   {
     "delivery_id": 606,
-    "timestamp": 20778.52,
-    "hms": "05:46:18",
+    "timestamp": 20777.02,
+    "hms": "05:46:17",
     "motion_score": 0.2059,
     "green_ratio": 0.792
   },
   {
     "delivery_id": 607,
-    "timestamp": 20811.19,
-    "hms": "05:46:51",
+    "timestamp": 20809.69,
+    "hms": "05:46:49",
     "motion_score": 0.1945,
     "green_ratio": 0.698
   },
   {
     "delivery_id": 608,
-    "timestamp": 20834.95,
-    "hms": "05:47:14",
+    "timestamp": 20833.45,
+    "hms": "05:47:13",
     "motion_score": 0.0611,
     "green_ratio": 0.91
   },
   {
     "delivery_id": 609,
-    "timestamp": 20861.67,
-    "hms": "05:47:41",
+    "timestamp": 20860.17,
+    "hms": "05:47:40",
     "motion_score": 0.2329,
     "green_ratio": 0.778
   },
   {
     "delivery_id": 610,
-    "timestamp": 20882.46,
-    "hms": "05:48:02",
+    "timestamp": 20880.96,
+    "hms": "05:48:00",
     "motion_score": 0.1506,
     "green_ratio": 0.896
   },
   {
     "delivery_id": 611,
-    "timestamp": 20906.22,
-    "hms": "05:48:26",
+    "timestamp": 20904.72,
+    "hms": "05:48:24",
     "motion_score": 0.0493,
     "green_ratio": 0.867
   },
   {
     "delivery_id": 612,
-    "timestamp": 20929.98,
-    "hms": "05:48:49",
+    "timestamp": 20928.48,
+    "hms": "05:48:48",
     "motion_score": 0.2023,
     "green_ratio": 0.727
   },
   {
     "delivery_id": 613,
-    "timestamp": 20968.58,
-    "hms": "05:49:28",
+    "timestamp": 20967.08,
+    "hms": "05:49:27",
     "motion_score": 0.2572,
     "green_ratio": 0.825
   },
   {
     "delivery_id": 614,
-    "timestamp": 21004.22,
-    "hms": "05:50:04",
+    "timestamp": 21002.72,
+    "hms": "05:50:02",
     "motion_score": 0.1754,
     "green_ratio": 0.778
   },
   {
     "delivery_id": 615,
-    "timestamp": 21039.85,
-    "hms": "05:50:39",
+    "timestamp": 21038.35,
+    "hms": "05:50:38",
     "motion_score": 0.267,
     "green_ratio": 0.805
   },
   {
     "delivery_id": 616,
-    "timestamp": 21093.31,
-    "hms": "05:51:33",
+    "timestamp": 21091.81,
+    "hms": "05:51:31",
     "motion_score": 0.123,
     "green_ratio": 0.882
   },
   {
     "delivery_id": 617,
-    "timestamp": 21114.09,
-    "hms": "05:51:54",
+    "timestamp": 21112.59,
+    "hms": "05:51:52",
     "motion_score": 0.0943,
     "green_ratio": 0.884
   },
   {
     "delivery_id": 618,
-    "timestamp": 21143.79,
-    "hms": "05:52:23",
+    "timestamp": 21142.29,
+    "hms": "05:52:22",
     "motion_score": 0.2096,
     "green_ratio": 0.747
   },
   {
     "delivery_id": 619,
-    "timestamp": 21176.46,
-    "hms": "05:52:56",
+    "timestamp": 21174.96,
+    "hms": "05:52:54",
     "motion_score": 0.1881,
     "green_ratio": 0.752
   },
   {
     "delivery_id": 620,
-    "timestamp": 21197.24,
-    "hms": "05:53:17",
+    "timestamp": 21195.74,
+    "hms": "05:53:15",
     "motion_score": 0.1195,
     "green_ratio": 0.857
   },
   {
     "delivery_id": 621,
-    "timestamp": 21218.03,
-    "hms": "05:53:38",
+    "timestamp": 21216.53,
+    "hms": "05:53:36",
     "motion_score": 0.1214,
     "green_ratio": 0.751
   },
   {
     "delivery_id": 622,
-    "timestamp": 21244.76,
-    "hms": "05:54:04",
+    "timestamp": 21243.26,
+    "hms": "05:54:03",
     "motion_score": 0.0849,
     "green_ratio": 0.558
   },
   {
     "delivery_id": 623,
-    "timestamp": 21265.54,
-    "hms": "05:54:25",
+    "timestamp": 21264.04,
+    "hms": "05:54:24",
     "motion_score": 0.1837,
     "green_ratio": 0.731
   },
   {
     "delivery_id": 624,
-    "timestamp": 21351.66,
-    "hms": "05:55:51",
+    "timestamp": 21350.16,
+    "hms": "05:55:50",
     "motion_score": 0.0889,
     "green_ratio": 0.702
   },
   {
     "delivery_id": 625,
-    "timestamp": 21372.45,
-    "hms": "05:56:12",
+    "timestamp": 21370.95,
+    "hms": "05:56:10",
     "motion_score": 0.085,
     "green_ratio": 0.908
   },
   {
     "delivery_id": 626,
-    "timestamp": 21411.06,
-    "hms": "05:56:51",
+    "timestamp": 21409.56,
+    "hms": "05:56:49",
     "motion_score": 0.1753,
     "green_ratio": 0.911
   },
   {
     "delivery_id": 627,
-    "timestamp": 21455.6,
-    "hms": "05:57:35",
+    "timestamp": 21454.1,
+    "hms": "05:57:34",
     "motion_score": 0.2279,
     "green_ratio": 0.813
   },
   {
     "delivery_id": 628,
-    "timestamp": 21476.39,
-    "hms": "05:57:56",
+    "timestamp": 21474.89,
+    "hms": "05:57:54",
     "motion_score": 0.1089,
     "green_ratio": 0.73
   },
   {
     "delivery_id": 629,
-    "timestamp": 21497.18,
-    "hms": "05:58:17",
+    "timestamp": 21495.68,
+    "hms": "05:58:15",
     "motion_score": 0.119,
     "green_ratio": 0.821
   },
   {
     "delivery_id": 630,
-    "timestamp": 21523.9,
-    "hms": "05:58:43",
+    "timestamp": 21522.4,
+    "hms": "05:58:42",
     "motion_score": 0.2772,
     "green_ratio": 0.797
   },
   {
     "delivery_id": 631,
-    "timestamp": 21544.69,
-    "hms": "05:59:04",
+    "timestamp": 21543.19,
+    "hms": "05:59:03",
     "motion_score": 0.1157,
     "green_ratio": 0.633
   },
   {
     "delivery_id": 632,
-    "timestamp": 21565.48,
-    "hms": "05:59:25",
+    "timestamp": 21563.98,
+    "hms": "05:59:23",
     "motion_score": 0.1158,
     "green_ratio": 0.894
   },
   {
     "delivery_id": 633,
-    "timestamp": 21615.96,
-    "hms": "06:00:15",
+    "timestamp": 21614.46,
+    "hms": "06:00:14",
     "motion_score": 0.19,
     "green_ratio": 0.864
   },
   {
     "delivery_id": 634,
-    "timestamp": 21636.75,
-    "hms": "06:00:36",
+    "timestamp": 21635.25,
+    "hms": "06:00:35",
     "motion_score": 0.0992,
     "green_ratio": 0.772
   },
   {
     "delivery_id": 635,
-    "timestamp": 21663.48,
-    "hms": "06:01:03",
+    "timestamp": 21661.98,
+    "hms": "06:01:01",
     "motion_score": 0.1662,
     "green_ratio": 0.834
   },
   {
     "delivery_id": 636,
-    "timestamp": 21684.26,
-    "hms": "06:01:24",
+    "timestamp": 21682.76,
+    "hms": "06:01:22",
     "motion_score": 0.0898,
     "green_ratio": 0.806
   },
   {
     "delivery_id": 637,
-    "timestamp": 21719.9,
-    "hms": "06:01:59",
+    "timestamp": 21718.4,
+    "hms": "06:01:58",
     "motion_score": 0.1388,
     "green_ratio": 0.751
   },
   {
     "delivery_id": 638,
-    "timestamp": 21749.59,
-    "hms": "06:02:29",
+    "timestamp": 21748.09,
+    "hms": "06:02:28",
     "motion_score": 0.1217,
     "green_ratio": 0.738
   },
   {
     "delivery_id": 639,
-    "timestamp": 21785.23,
-    "hms": "06:03:05",
+    "timestamp": 21783.73,
+    "hms": "06:03:03",
     "motion_score": 0.1568,
     "green_ratio": 0.477
   },
   {
     "delivery_id": 640,
-    "timestamp": 21817.9,
-    "hms": "06:03:37",
+    "timestamp": 21816.4,
+    "hms": "06:03:36",
     "motion_score": 0.2083,
     "green_ratio": 0.744
   },
   {
     "delivery_id": 641,
-    "timestamp": 21847.59,
-    "hms": "06:04:07",
+    "timestamp": 21846.09,
+    "hms": "06:04:06",
     "motion_score": 0.1994,
     "green_ratio": 0.702
   },
   {
     "delivery_id": 642,
-    "timestamp": 21892.14,
-    "hms": "06:04:52",
+    "timestamp": 21890.64,
+    "hms": "06:04:50",
     "motion_score": 0.1647,
     "green_ratio": 0.694
   },
   {
     "delivery_id": 643,
-    "timestamp": 21918.86,
-    "hms": "06:05:18",
+    "timestamp": 21917.36,
+    "hms": "06:05:17",
     "motion_score": 0.0792,
     "green_ratio": 0.787
   },
   {
     "delivery_id": 644,
-    "timestamp": 21945.59,
-    "hms": "06:05:45",
+    "timestamp": 21944.09,
+    "hms": "06:05:44",
     "motion_score": 0.1717,
     "green_ratio": 0.913
   },
   {
     "delivery_id": 645,
-    "timestamp": 21990.13,
-    "hms": "06:06:30",
+    "timestamp": 21988.63,
+    "hms": "06:06:28",
     "motion_score": 0.0894,
     "green_ratio": 0.839
   },
   {
     "delivery_id": 646,
-    "timestamp": 22010.92,
-    "hms": "06:06:50",
+    "timestamp": 22009.42,
+    "hms": "06:06:49",
     "motion_score": 0.072,
     "green_ratio": 0.724
   },
   {
     "delivery_id": 647,
-    "timestamp": 22049.53,
-    "hms": "06:07:29",
+    "timestamp": 22048.03,
+    "hms": "06:07:28",
     "motion_score": 0.1632,
     "green_ratio": 0.856
   },
   {
     "delivery_id": 648,
-    "timestamp": 22076.25,
-    "hms": "06:07:56",
+    "timestamp": 22074.75,
+    "hms": "06:07:54",
     "motion_score": 0.1591,
     "green_ratio": 0.627
   },
   {
     "delivery_id": 649,
-    "timestamp": 22114.86,
-    "hms": "06:08:34",
+    "timestamp": 22113.36,
+    "hms": "06:08:33",
     "motion_score": 0.2216,
     "green_ratio": 0.761
   },
   {
     "delivery_id": 650,
-    "timestamp": 22138.62,
-    "hms": "06:08:58",
+    "timestamp": 22137.12,
+    "hms": "06:08:57",
     "motion_score": 0.0399,
     "green_ratio": 0.9
   },
   {
     "delivery_id": 651,
-    "timestamp": 22159.4,
-    "hms": "06:09:19",
+    "timestamp": 22157.9,
+    "hms": "06:09:17",
     "motion_score": 0.1274,
     "green_ratio": 0.612
   },
   {
     "delivery_id": 652,
-    "timestamp": 22206.92,
-    "hms": "06:10:06",
+    "timestamp": 22205.42,
+    "hms": "06:10:05",
     "motion_score": 0.227,
     "green_ratio": 0.701
   },
   {
     "delivery_id": 653,
-    "timestamp": 22227.71,
-    "hms": "06:10:27",
+    "timestamp": 22226.21,
+    "hms": "06:10:26",
     "motion_score": 0.1053,
     "green_ratio": 0.818
   },
   {
     "delivery_id": 654,
-    "timestamp": 22254.43,
-    "hms": "06:10:54",
+    "timestamp": 22252.93,
+    "hms": "06:10:52",
     "motion_score": 0.1781,
     "green_ratio": 0.676
   },
   {
     "delivery_id": 655,
-    "timestamp": 22275.22,
-    "hms": "06:11:15",
+    "timestamp": 22273.72,
+    "hms": "06:11:13",
     "motion_score": 0.1349,
     "green_ratio": 0.848
   },
   {
     "delivery_id": 656,
-    "timestamp": 22307.89,
-    "hms": "06:11:47",
+    "timestamp": 22306.39,
+    "hms": "06:11:46",
     "motion_score": 0.0393,
     "green_ratio": 0.871
   },
   {
     "delivery_id": 657,
-    "timestamp": 22349.46,
-    "hms": "06:12:29",
+    "timestamp": 22347.96,
+    "hms": "06:12:27",
     "motion_score": 0.2837,
     "green_ratio": 0.723
   },
   {
     "delivery_id": 658,
-    "timestamp": 22376.19,
-    "hms": "06:12:56",
+    "timestamp": 22374.69,
+    "hms": "06:12:54",
     "motion_score": 0.3192,
     "green_ratio": 0.707
   },
   {
     "delivery_id": 659,
-    "timestamp": 22396.97,
-    "hms": "06:13:16",
+    "timestamp": 22395.47,
+    "hms": "06:13:15",
     "motion_score": 0.1072,
     "green_ratio": 0.858
   },
   {
     "delivery_id": 660,
-    "timestamp": 22423.7,
-    "hms": "06:13:43",
+    "timestamp": 22422.2,
+    "hms": "06:13:42",
     "motion_score": 0.0324,
     "green_ratio": 0.918
   },
   {
     "delivery_id": 661,
-    "timestamp": 22468.25,
-    "hms": "06:14:28",
+    "timestamp": 22466.75,
+    "hms": "06:14:26",
     "motion_score": 0.127,
     "green_ratio": 0.83
   },
   {
     "delivery_id": 662,
-    "timestamp": 22492.0,
-    "hms": "06:14:52",
+    "timestamp": 22490.5,
+    "hms": "06:14:50",
     "motion_score": 0.1153,
     "green_ratio": 0.562
   },
   {
     "delivery_id": 663,
-    "timestamp": 22515.76,
-    "hms": "06:15:15",
+    "timestamp": 22514.26,
+    "hms": "06:15:14",
     "motion_score": 0.0905,
     "green_ratio": 0.793
   },
   {
     "delivery_id": 664,
-    "timestamp": 22536.55,
-    "hms": "06:15:36",
+    "timestamp": 22535.05,
+    "hms": "06:15:35",
     "motion_score": 0.1219,
     "green_ratio": 0.693
   },
   {
     "delivery_id": 665,
-    "timestamp": 22557.33,
-    "hms": "06:15:57",
+    "timestamp": 22555.83,
+    "hms": "06:15:55",
     "motion_score": 0.1241,
     "green_ratio": 0.896
   },
   {
     "delivery_id": 666,
-    "timestamp": 22578.12,
-    "hms": "06:16:18",
+    "timestamp": 22576.62,
+    "hms": "06:16:16",
     "motion_score": 0.0367,
     "green_ratio": 0.916
   },
   {
     "delivery_id": 667,
-    "timestamp": 22604.85,
-    "hms": "06:16:44",
+    "timestamp": 22603.35,
+    "hms": "06:16:43",
     "motion_score": 0.3003,
     "green_ratio": 0.795
   },
   {
     "delivery_id": 668,
-    "timestamp": 22625.64,
-    "hms": "06:17:05",
+    "timestamp": 22624.14,
+    "hms": "06:17:04",
     "motion_score": 0.0904,
     "green_ratio": 0.914
   },
   {
     "delivery_id": 669,
-    "timestamp": 22649.39,
-    "hms": "06:17:29",
+    "timestamp": 22647.89,
+    "hms": "06:17:27",
     "motion_score": 0.2455,
     "green_ratio": 0.686
   },
   {
     "delivery_id": 670,
-    "timestamp": 22693.94,
-    "hms": "06:18:13",
+    "timestamp": 22692.44,
+    "hms": "06:18:12",
     "motion_score": 0.1486,
     "green_ratio": 0.74
   },
   {
     "delivery_id": 671,
-    "timestamp": 22720.66,
-    "hms": "06:18:40",
+    "timestamp": 22719.16,
+    "hms": "06:18:39",
     "motion_score": 0.0638,
     "green_ratio": 0.732
   },
   {
     "delivery_id": 672,
-    "timestamp": 22741.45,
-    "hms": "06:19:01",
+    "timestamp": 22739.95,
+    "hms": "06:18:59",
     "motion_score": 0.0959,
     "green_ratio": 0.698
   },
   {
     "delivery_id": 673,
-    "timestamp": 22777.09,
-    "hms": "06:19:37",
+    "timestamp": 22775.59,
+    "hms": "06:19:35",
     "motion_score": 0.1569,
     "green_ratio": 0.877
   },
   {
     "delivery_id": 674,
-    "timestamp": 22809.75,
-    "hms": "06:20:09",
+    "timestamp": 22808.25,
+    "hms": "06:20:08",
     "motion_score": 0.1691,
     "green_ratio": 0.647
   },
   {
     "delivery_id": 675,
-    "timestamp": 22851.33,
-    "hms": "06:20:51",
+    "timestamp": 22849.83,
+    "hms": "06:20:49",
     "motion_score": 0.121,
     "green_ratio": 0.751
   }

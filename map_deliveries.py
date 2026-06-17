@@ -66,5 +66,11 @@ def map_deliveries_to_highlights(deliveries_path="data/deliveries.json", highlig
         print(f"{dh['delivery_id']:>4} | {dh['delivery_hms']:<8} | {dh['clip_start_hms']} - {dh['clip_end_hms']} | {ev_str:<30} | {dh['max_rms']:.2f} | {rs_str}")
 
 if __name__ == "__main__":
-    map_deliveries_to_highlights()
+    import os
+    data_dir = os.environ.get("DATA_DIR", "data")
+    map_deliveries_to_highlights(
+        deliveries_path=f"{data_dir}/deliveries.json",
+        highlights_path=f"{data_dir}/highlights.json",
+        out_path=f"{data_dir}/delivery_highlights.json"
+    )
 

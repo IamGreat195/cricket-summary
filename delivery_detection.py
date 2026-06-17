@@ -4,7 +4,7 @@ import json
 import os
 from tqdm import tqdm
 
-def detect_deliveries_fast(video_path, out_json="data/deliveries.json", sample_every=1, min_gap=18, motion_threshold=0.015, green_threshold=0.30, onset_offset_secs=1.5):
+def detect_deliveries_fast(video_path, out_json="data/deliveries.json", sample_every=3, min_gap=18, motion_threshold=0.015, green_threshold=0.30, onset_offset_secs=1.5):
     cap = cv2.VideoCapture(video_path)
     fps = cap.get(cv2.CAP_PROP_FPS)
     total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
@@ -86,4 +86,7 @@ def detect_deliveries_fast(video_path, out_json="data/deliveries.json", sample_e
     return deliveries
 
 if __name__ == "__main__":
-    detect_deliveries_fast("match1_h264.mp4")
+    import os
+    video = os.environ.get("VIDEO_PATH", "match1_h264.mp4")
+    data_dir = os.environ.get("DATA_DIR", "data")
+    detect_deliveries_fast(video, out_json=f"{data_dir}/deliveries.json")
