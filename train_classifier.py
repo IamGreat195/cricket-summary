@@ -1,4 +1,5 @@
 import json
+import os
 import numpy as np
 import joblib
 from sklearn.decomposition import PCA
@@ -72,6 +73,9 @@ def train_model(features_path="data/delivery_features.json", model_out="highligh
     for i, cls in enumerate(le.classes_):
         print(f"  {cls:<12}: {np.sum(y_encoded == i)}")
 
+    from sklearn.model_selection import train_test_split
+    X_train, X_test, y_train, y_test = train_test_split(X_final, y_encoded, test_size=0.2, random_state=42)
+
     print("\nTraining XGBoost mapping PCA + Metadata to Highlights...")
     clf = xgb.XGBClassifier(
         n_estimators=100,
@@ -83,11 +87,35 @@ def train_model(features_path="data/delivery_features.json", model_out="highligh
         random_state=42
     )
 
-    clf.fit(X_final, y_encoded)
+    clf.fit(X_train, y_train)
     
-    y_pred = clf.predict(X_final)
-    print("\nClassification Report (On Train Set):")
-    print(classification_report(y_encoded, y_pred, target_names=le.classes_, zero_division=0))
+    from sklearn.metrics import classification_report, accuracy_score, precision_score, recall_score, f1_score
+    y_pred = clf.predict(X_test)
+    
+    acc = accuracy_score(y_test, y_pred)
+    prec = precision_score(y_test, y_pred, average='weighted', zero_division=0)
+    rec = recall_score(y_test, y_pred, average='weighted', zero_division=0)
+    f1 = f1_score(y_test, y_pred, average='weighted', zero_division=0)
+    
+    print(f"\n--- Classification Metrics ---")
+    print(f"Accuracy:  {acc:.4f}")
+    print(f"Precision: {prec:.4f}")
+    print(f"Recall:    {rec:.4f}")
+    print(f"F1 Score:  {f1:.4f}")
+    
+    print("\nClassification Report (On Test Set):")
+    print(classification_report(y_test, y_pred, labels=range(len(le.classes_)), target_names=le.classes_, zero_division=0))
+
+    data_dir = os.environ.get("DATA_DIR", "data")
+    metrics_path = f"{data_dir}/metrics_output.json"
+    with open(metrics_path, "w") as f:
+        json.dump({
+            "accuracy": acc,
+            "precision": prec,
+            "recall": rec,
+            "f1_score": f1
+        }, f, indent=2)
+    print(f"\nMetrics saved to '{metrics_path}'")
 
     pipeline = {
         "pca_vid": pca_vid,
@@ -97,6 +125,10 @@ def train_model(features_path="data/delivery_features.json", model_out="highligh
         "dim_vid": 768,
         "dim_txt": 384
     }
+    
+    print("\nRetraining on full dataset for final deployment...")
+    clf.fit(X_final, y_encoded)
+    pipeline["model"] = clf
     
     joblib.dump(pipeline, model_out)
     print(f"\nPipeline (PCA + XGBoost) saved to '{model_out}'")

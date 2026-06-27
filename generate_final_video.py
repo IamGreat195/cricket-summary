@@ -56,6 +56,7 @@ def generate_video(features_path="data/delivery_features.json",
 
     last_six_time = -9999
     last_four_time = -9999
+    last_wicket_time = -9999
     
     for i, (pred, d) in enumerate(zip(predictions, valid_deliveries)):
         if i == 0:
@@ -63,14 +64,23 @@ def generate_video(features_path="data/delivery_features.json",
             
         t_stamp = d.get('delivery_timestamp', d.get('clip_start', 0))
         
-        # Include all wickets, milestones, run-outs, and opening balls
-        if pred in ["wicket", "run-out", "milestone", "win"]:
+        # 'milestone', 'win' are always included
+        if pred in ["milestone", "win"]:
             highlight_clips.append(d)
             print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Always Include)")
             
+        elif pred in ["wicket", "run-out"]:
+            # Wickets take time. If multiple are predicted close together, it's OCR jitter. Space by 3 mins.
+            if t_stamp - last_wicket_time >= 180:
+                highlight_clips.append(d)
+                last_wicket_time = t_stamp
+                print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Spaced Wicket)")
+            else:
+                print(f"  Skipped Delivery  {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (OCR Noise / Duplicate)")
+
         elif pred == "six":
-            # Only include a six if it's been at least 180 seconds (3 mins) since the last one
-            if t_stamp - last_six_time >= 180:
+            # Only include a six if it's been at least 600 seconds (10 mins) since the last one
+            if t_stamp - last_six_time >= 600:
                 highlight_clips.append(d)
                 last_six_time = t_stamp
                 print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Spaced)")
@@ -78,8 +88,8 @@ def generate_video(features_path="data/delivery_features.json",
                 print(f"  Skipped Delivery  {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Too close to last six)")
                 
         elif pred == "four":
-            # Only include a four if it's been at least 600 seconds (10 mins) since the last one
-            if t_stamp - last_four_time >= 600:
+            # Only include a four if it's been at least 1200 seconds (20 mins) since the last one
+            if t_stamp - last_four_time >= 1200:
                 highlight_clips.append(d)
                 last_four_time = t_stamp
                 print(f"  Selected Delivery {d.get('delivery_id', '?'):>3} {d.get('hms', '?')} -> Predicted: {pred} (Spaced)")

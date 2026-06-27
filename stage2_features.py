@@ -182,12 +182,13 @@ if __name__ == "__main__":
         deliveries = json.load(f)
 
     whisper_segments = []
-    if os.path.exists("data/transcript.json"):
-        with open("data/transcript.json") as f:
+    transcript_path = f"{data_dir}/transcript.json"
+    if os.path.exists(transcript_path):
+        with open(transcript_path) as f:
             whisper_segments = json.load(f)
         print(f"Loaded {len(whisper_segments)} whisper segments")
     else:
-        print("No data/transcript.json found — commentary score will be 0")
+        print(f"No {transcript_path} found — commentary score will be 0")
 
     results = []
 
